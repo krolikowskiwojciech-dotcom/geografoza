@@ -45,7 +45,7 @@ Pełne nagranie i ekstrakcja są blisko tekstu podręcznika — **nigdy** nie tr
 
 Wygląd i kod jak w Biologozie — zmiany w Biologozie przenoś tutaj (wspólne pliki: `js/app.js`, `js/gra.js`, `js/store.js`,
 `js/dzwieki.js`, `styles.css`). Rogi mniejsze niż w Lingozie (`--r: 14px`, sekcja „zaokrąglenia” na końcu `styles.css`).
-Strona główna jak spis treści podręcznika (zwijane działy 3D, lekcje po kolei ze stronami, przyszłe „wkrótce”).
+Strona główna jak spis treści podręcznika (zwijane działy 3D — po otwarciu wszystkie zwinięte, lekcje po kolei ze stronami, przyszłe „wkrótce”).
 Ekran pytania: karta jak z talii, odpowiedzi 3D z literami A/B/C. Wyciszone dźwięki: lista `WYCISZONE` w `js/dzwieki.js`.
 
 Reszta jak w Lingozie:

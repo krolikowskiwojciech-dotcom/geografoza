@@ -113,7 +113,7 @@ function ekranListy() {
   let dzialTeraz = null; // wiersz lekcji potrzebuje numeru działu do ścieżki ilustracji
   const blokDzialu = (d) => {
     dzialTeraz = d.nr;
-    if (!rozwiniete.has(d.nr)) rozwiniete.set(d.nr, d.gotowe > 0);
+    if (!rozwiniete.has(d.nr)) rozwiniete.set(d.nr, false); // Wojtek 2026-10-12: po otwarciu aplikacji wszystkie działy zwinięte
     const sek = h('section', { class: `dzial ${d.kolor}` + (rozwiniete.get(d.nr) ? ' otwarty' : '') });
     const gora = h('button', { class: 'dzial-gora', type: 'button', 'aria-expanded': String(rozwiniete.get(d.nr)),
       onclick: () => { const o = !rozwiniete.get(d.nr); rozwiniete.set(d.nr, o); sek.classList.toggle('otwarty', o); gora.setAttribute('aria-expanded', String(o)); } },
