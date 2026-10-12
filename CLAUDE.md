@@ -58,7 +58,8 @@ Reszta jak w Lingozie:
 - Żadnych `confirm()`/`alert()` — tylko `okno()`.
 - **Bez maskotki** (Wojtek 2026-10-12: grafiki dla 11–13 lat — zasada w `~/CLAUDE.md`; styl „atlas geograficzny”: tusz + akwarela, jak atlas przyrodniczy w Biologozie);
   `maskotka()` nic nie pokazuje, bo plików `obrazy/maskotka-*.png` nie ma. Prompty na ikony działów i lekcji (ChatGPT) oraz ilustracje do ściąg (Gemini): `ILUSTRACJE.md` (źródło `narzedzia/prompty.json`).
-  Arkusze tnie `narzedzia/tnij_arkusz.py` z Lingozy.
+  Ilustracje leżą w `obrazy/ilustracje/` (`dzial-<n>.webp`, `dz<n>-l<m>.webp`, `podsumowanie.webp`, `test.webp`; brak pliku = numer bez obrazka),
+  arkusze źródłowe w `obrazy/zrodla/`. Cięcie: `narzedzia/tnij_arkusz.py` (z Biologozy; venv z Pillow, numpy, scipy w scratchpadzie), potem `cwebp -q 86 -alpha_q 100`.
 - Zmiany wizualne sprawdzaj renderem na 127.0.0.1 przed pushem.
 
 ## Kod
