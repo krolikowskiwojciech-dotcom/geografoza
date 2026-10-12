@@ -1,71 +1,165 @@
 {
-  "styl": "Style: cute 3D clay icons — smooth matte plasticine, soft rounded shapes, soft pastel palette (lilac, mint, butter yellow, peach, sky blue, pink) with natural accents only where geography needs them (blue sea, green lowlands, white snow, orange lava). Soft studio light from the top left and a gentle soft shadow under each object. Friendly for a 12-year-old, not babyish. Geographically correct details (Earth's axis is tilted, the Sun is in the middle of the planets' orbits, a volcano has a crater, a compass has four main directions). Do not draw real country borders or real map outlines — use simple generic land shapes instead. No text, no letters, no numbers, no labels, no flags with writing, no frames, no background scene. Transparent background (PNG).",
+  "styl": "Style: a set of editorial scientific icons in the style of a modern school atlas and a science magazine infographic — precise fine ink linework, subtle cross-hatching, flat muted colour fills, three-quarter or isometric view, each object drawn with technical accuracy like a small textbook illustration. Palette: deep teal #1D7A5F, warm orange #F5A524 as the single accent, ink #1F1B17, soft grey-blue, sand beige and muted green. Mature look for 11–13 year olds: no cartoon style, no cute faces, no eyes on objects, no mascots, no characters, no confetti, no clay or plasticine look, no glossy 3D, no photographic realism. Geographically correct details (Earth's axis is tilted, the Sun is in the middle of the planets' orbits, a volcano has a crater). Do not draw real country borders or real map outlines — use simple generic land shapes instead. No text, no letters, no numbers, no labels, no flags with writing, no frames, no background scene. Transparent background (PNG). Any text, letters, numbers or labels are strictly forbidden.",
   "arkusze": [
     {
-      "plik": "arkusz-01-maskotka", "tytul": "Maskotka (4 pozy)", "kolumny": 2, "wiersze": 2,
-      "nazwy": ["maskotka-czesc", "maskotka-ok", "maskotka-brawo", "maskotka-mysli"],
-      "prompt": "Create one square image (1:1) with a grid of 2 columns × 2 rows: the same mascot character in 4 different poses, each pose centered in its own cell with clear empty space between cells; nothing crosses cell borders. The character: a cute 3D clay mascot for a geography learning app — a small sea turtle explorer whose rounded shell looks like a tiny globe (sky-blue oceans, mint-green continents as simple blobs, thin grid lines of meridians and parallels), big friendly eyes, tiny pink cheeks and a small peach explorer satchel. Keep the same character, proportions and colors in all four poses. Row 1: (1) waving hello with one flipper, smiling; (2) giving a cheerful thumbs-up with a flipper and nodding. Row 2: (3) jumping with joy, flippers up, a few small pastel confetti pieces and stars around; (4) thinking, holding a small compass near its chin, eyes looking up, with a tiny empty thought bubble. "
+      "plik": "arkusz-01-dzialy",
+      "tytul": "Działy podręcznika",
+      "kolumny": 3,
+      "wiersze": 2,
+      "nazwy": [
+        "dzial-1",
+        "dzial-2",
+        "dzial-3",
+        "dzial-4",
+        "dzial-5",
+        "geografia"
+      ],
+      "prompt": "Create one square image (1:1) with a grid of 3 columns × 2 rows = 6 separate icons for chapters of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) a globe with clearly drawn meridians and parallels as a grid, with a small red map pin stuck into it — geographic coordinates; (2) a small Earth tilted on its axis circling the Sun on a thin orbit ring, with a tiny moon — how the Earth moves; (3) a small piece of land with snowy mountains, a volcano, green lowlands, a lake and a few tiny houses — nature and people of a continent. Row 2: (4) a small factory with a chimney, a wind turbine and a beach umbrella grouped together — economy: industry, energy and tourism; (5) a cluster of six small houses with different colored roofs standing around one central house, connected by little paths — neighbouring countries; (6) a globe on a stand next to a compass and a magnifying glass — geography in general. "
     },
     {
-      "plik": "arkusz-02-dzialy", "tytul": "Działy podręcznika", "kolumny": 3, "wiersze": 2,
-      "nazwy": ["dzial-1", "dzial-2", "dzial-3", "dzial-4", "dzial-5", "geografia"],
-      "prompt": "Create one square image (1:1) with a grid of 3 columns × 2 rows = 6 separate icons for chapters of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) a globe with clearly drawn meridians and parallels as a grid, with a small red map pin stuck into it — geographic coordinates; (2) a small Earth tilted on its axis circling a warm sun on a thin orbit ring, with a tiny moon — how the Earth moves; (3) a small piece of land with snowy mountains, a volcano, green lowlands, a lake and a few tiny houses — nature and people of a continent. Row 2: (4) a small factory with a chimney, a wind turbine and a beach umbrella grouped together — economy: industry, energy and tourism; (5) a cluster of six small houses with different colored roofs standing around one central house, connected by little paths — neighbouring countries; (6) a globe on a stand next to a compass and a magnifying glass — geography in general. "
+      "plik": "arkusz-02-lekcje-1",
+      "tytul": "Lekcje: działy I–III",
+      "kolumny": 4,
+      "wiersze": 3,
+      "nazwy": [
+        "dz1-l1",
+        "dz1-l2",
+        "dz2-l1",
+        "dz2-l2",
+        "dz2-l3",
+        "dz2-l4",
+        "dz3-l1",
+        "dz3-l2",
+        "dz3-l3",
+        "dz3-l4",
+        "dz3-l5",
+        "dz3-l6"
+      ],
+      "prompt": "Create one square image (1:1) with a grid of 4 columns × 3 rows = 12 separate icons for lessons of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) a globe with a clear grid of meridians and parallels, the equator thicker, a small red pin on one crossing point; (2) a folded paper map with a grid of lines (no writing), a compass and a ruler lying on it; (3) the Sun in the middle with small planets on thin orbit rings around it, the blue-green Earth among them; (4) the Earth tilted on its axis with a curved arrow showing it spinning, one half bright (day) and the other half dark blue with tiny stars (night). Row 2: (5) the Earth on an oval orbit around the sun, shown four times, with a tiny tree next to each one: blossoming, green, orange and snowy — the four seasons; (6) the Earth lit by sun rays from one side, with a warm yellow band around its middle and white icy caps at both poles — zones of light; (7) a small piece of land with a long, jagged coastline full of bays, a narrow peninsula, a few islands and a deep narrow fjord, with green lowlands and snowy mountains; (8) an erupting volcano with orange lava next to a geyser shooting a column of steam and water, on dark lava rock. Row 3: (9) a thermometer standing between a sun on one side and a snowflake with a rain cloud on the other — climates; (10) colorful jigsaw puzzle pieces fitting together into one shape, next to a small blue flag with a circle of yellow stars — countries and their union; (11) a small group of human figures drawn as simple neutral silhouettes: several elderly people, one with a walking cane, and only two children, standing in front of a row of houses — population and an ageing society; (12) a suitcase and a backpack next to a signpost with arrows pointing in different directions and a small train — migration. "
     },
     {
-      "plik": "arkusz-03-lekcje-1", "tytul": "Lekcje: działy I–III", "kolumny": 4, "wiersze": 3,
-      "nazwy": ["dz1-l1", "dz1-l2", "dz2-l1", "dz2-l2", "dz2-l3", "dz2-l4", "dz3-l1", "dz3-l2", "dz3-l3", "dz3-l4", "dz3-l5", "dz3-l6"],
-      "prompt": "Create one square image (1:1) with a grid of 4 columns × 3 rows = 12 separate icons for lessons of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) a globe with a clear grid of meridians and parallels, the equator thicker, a small red pin on one crossing point; (2) a folded paper map with a grid of lines (no writing), a compass and a ruler lying on it; (3) a warm sun in the middle with small planets on thin orbit rings around it, the blue-green Earth among them; (4) the Earth tilted on its axis with a curved arrow showing it spinning, one half bright (day) and the other half dark blue with tiny stars (night). Row 2: (5) the Earth on an oval orbit around the sun, shown four times, with a tiny tree next to each one: blossoming, green, orange and snowy — the four seasons; (6) the Earth lit by sun rays from one side, with a warm yellow band around its middle and white icy caps at both poles — zones of light; (7) a small piece of land with a long, jagged coastline full of bays, a narrow peninsula, a few islands and a deep narrow fjord, with green lowlands and snowy mountains; (8) an erupting volcano with orange lava next to a geyser shooting a column of steam and water, on dark lava rock. Row 3: (9) a thermometer standing between a sun on one side and a snowflake with a rain cloud on the other — climates; (10) colorful jigsaw puzzle pieces fitting together into one shape, next to a small blue flag with a circle of yellow stars — countries and their union; (11) a group of small clay people: several grey-haired grandparents, one with a walking cane, and only two children, standing in front of tiny houses — population and an ageing society; (12) a suitcase and a backpack next to a signpost with arrows pointing in different directions and a small train — migration. "
-    },
-    {
-      "plik": "arkusz-04-lekcje-2", "tytul": "Lekcje: działy III–V, podsumowanie i test", "kolumny": 4, "wiersze": 3,
-      "nazwy": ["dz3-l7", "dz4-l1", "dz4-l2", "dz4-l3", "dz5-l1", "dz5-l2", "dz5-l3", "dz5-l4", "dz5-l5", "dz5-l6", "podsumowanie", "test"],
-      "prompt": "Create one square image (1:1) with a grid of 4 columns × 3 rows = 12 separate icons for lessons of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) the Eiffel Tower next to the Big Ben clock tower (clock face without numbers) and a small red double-decker bus — two great European cities; (2) a small factory next to a passenger airplane and a shopping bag — industry and services; (3) a wind turbine, a solar panel and a small power plant with a cooling tower, with a glowing light bulb — energy; (4) a striped beach umbrella on sand by turquoise sea waves, a warm sun and an ancient white stone column — tourism in the south. Row 2: (5) a modern car next to big gears and a small robotic arm — modern industry; (6) green mountains with a small castle on a hill and a hiking backpack — tourism in the mountains; (7) a wooden forest with a big European bison (wisent) and a small red brick castle on a lake island — nature and heritage; (8) a golden wheat field with a tall sunflower under a clear blue sky — farmland; (9) a snowy taiga forest of dark green spruces with a brown bear and a deep blue lake — wild nature of the north; (10) two small houses side by side connected by a little bridge, with a friendly handshake above them — good neighbours. Row 3: (11) an open notebook with a small globe and a pencil — a chapter summary; (12) a clipboard with a checklist of ticks and a pencil — an end-of-chapter test. "
+      "plik": "arkusz-03-lekcje-2",
+      "tytul": "Lekcje: działy III–V, podsumowanie i test",
+      "kolumny": 4,
+      "wiersze": 3,
+      "nazwy": [
+        "dz3-l7",
+        "dz4-l1",
+        "dz4-l2",
+        "dz4-l3",
+        "dz5-l1",
+        "dz5-l2",
+        "dz5-l3",
+        "dz5-l4",
+        "dz5-l5",
+        "dz5-l6",
+        "podsumowanie",
+        "test"
+      ],
+      "prompt": "Create one square image (1:1) with a grid of 4 columns × 3 rows = 12 separate icons for lessons of a 6th-grade geography textbook, each icon centered in its own cell with clear empty space between cells; nothing crosses cell borders. Row 1: (1) the Eiffel Tower next to the Big Ben clock tower (clock face without numbers) and a small red double-decker bus — two great European cities; (2) a small factory next to a passenger airplane and a shopping bag — industry and services; (3) a wind turbine, a solar panel and a small power plant with a cooling tower, with a glowing light bulb — energy; (4) a striped beach umbrella on sand by turquoise sea waves, the Sun and an ancient white stone column — tourism in the south. Row 2: (5) a modern car next to big gears and a small robotic arm — modern industry; (6) green mountains with a small castle on a hill and a hiking backpack — tourism in the mountains; (7) a wooden forest with a European bison (wisent) and a small red brick castle on a lake island — nature and heritage; (8) a golden wheat field with a tall sunflower under a clear blue sky — farmland; (9) a snowy taiga forest of dark green spruces with a brown bear and a deep blue lake — wild nature of the north; (10) two small houses side by side connected by a little bridge, with two hands shaking above them — good neighbours. Row 3: (11) an open notebook with a small globe and a pencil — a chapter summary; (12) a clipboard with a checklist of ticks and a pencil — an end-of-chapter test. "
     }
   ],
   "sciaga_styl": "Clean, precise, slightly technical: fine ink linework, subtle cross-hatching, flat muted colour fills, three-quarter view. Palette: cream paper #FBF7EF, deep teal #1D7A5F, warm orange #F5A524 as the single accent, ink #1F1B17, soft grey-blue. No cartoon faces, no mascots, no smiling objects, no glossy 3D, no photographic realism. Plain cream background. Portrait 3:4, subject centred with margin. Any text, letters, numbers or labels are strictly forbidden.",
   "sciaga_wstep": "Editorial educational illustration for a learning website for 10–12 year olds, in the style of a modern science magazine infographic mixed with a field notebook. ",
   "sciaga": [
-    { "plik": "geo5-wybrzeze", "lekcja": "geo_dz3_l01_polozenie-i-uksztaltowanie-powierzchni-europy_J", "po": 15,
+    {
+      "plik": "geo5-wybrzeze",
+      "lekcja": "geo_dz3_l01_polozenie-i-uksztaltowanie-powierzchni-europy_J",
+      "po": 15,
       "podpis": "Poszarpany brzeg: półwyspy, wyspy, zatoki i fiord wcinający się daleko w ląd.",
-      "tresc": "A bird's-eye three-quarter view of a stretch of a rugged northern coastline: a long narrow fjord cutting deep inland between steep rocky cliffs, a peninsula reaching into the sea, a row of many small rocky islands along the shore and several small bays, deep blue-grey sea, a tiny ship in the fjord for scale" },
-    { "plik": "geo5-rzezba", "lekcja": "geo_dz3_l01_polozenie-i-uksztaltowanie-powierzchni-europy_J", "po": 19,
+      "tresc": "A bird's-eye three-quarter view of a stretch of a rugged northern coastline: a long narrow fjord cutting deep inland between steep rocky cliffs, a peninsula reaching into the sea, a row of many small rocky islands along the shore and several small bays, deep blue-grey sea, a tiny ship in the fjord for scale"
+    },
+    {
+      "plik": "geo5-rzezba",
+      "lekcja": "geo_dz3_l01_polozenie-i-uksztaltowanie-powierzchni-europy_J",
+      "po": 19,
       "podpis": "Od nizin do gór: wysokość terenu rośnie od rozległej równiny po ośnieżone szczyty.",
-      "tresc": "A cross-section landscape block, like a geology textbook diagram: on the left a wide flat green lowland with a meandering river, in the middle gentle rolling uplands with fields, on the right high jagged snow-capped mountains with a glacier on the highest peak; the layers of the block visible on the cut side; the highest peak marked only by a tiny orange flag" },
-    { "plik": "geo6-plyty", "lekcja": "geo_dz3_l02_wulkany-i-trzesienia-ziemi-na-islandii_J", "po": 9,
+      "tresc": "A cross-section landscape block, like a geology textbook diagram: on the left a wide flat green lowland with a meandering river, in the middle gentle rolling uplands with fields, on the right high jagged snow-capped mountains with a glacier on the highest peak; the layers of the block visible on the cut side; the highest peak marked only by a tiny orange flag"
+    },
+    {
+      "plik": "geo6-plyty",
+      "lekcja": "geo_dz3_l02_wulkany-i-trzesienia-ziemi-na-islandii_J",
+      "po": 9,
       "podpis": "Płyty litosfery się rozsuwają, a magma wypełnia szczelinę — tak rośnie Islandia.",
-      "tresc": "A cutaway block diagram of the Earth's crust under an island in the ocean: two rigid rock plates moving apart (shown by two thick teal arrows pointing away from each other), a crack between them filled with rising orange magma that comes up from a glowing layer below, a small volcano on the island above the crack, sea water on both sides" },
-    { "plik": "geo6-wulkan", "lekcja": "geo_dz3_l02_wulkany-i-trzesienia-ziemi-na-islandii_J", "po": 13,
+      "tresc": "A cutaway block diagram of the Earth's crust under an island in the ocean: two rigid rock plates moving apart (shown by two thick teal arrows pointing away from each other), a crack between them filled with rising orange magma that comes up from a glowing layer below, a small volcano on the island above the crack, sea water on both sides"
+    },
+    {
+      "plik": "geo6-wulkan",
+      "lekcja": "geo_dz3_l02_wulkany-i-trzesienia-ziemi-na-islandii_J",
+      "po": 13,
       "podpis": "Wulkan w przekroju: magma pod ziemią, lawa na powierzchni, stożek z warstw dawnych wybuchów.",
-      "tresc": "A cross-section of a cone volcano during an eruption: a magma chamber deep below, a narrow vent leading up to the crater, orange lava flowing down one slope, a dark cloud of ash and rock fragments above the crater, the cone built of visible layers of old lava and ash, a small geyser with a column of steam at the foot of the volcano" },
-    { "plik": "geo7-strefy", "lekcja": "geo_dz3_l03_zroznicowanie-klimatyczne-europy_J", "po": 4,
+      "tresc": "A cross-section of a cone volcano during an eruption: a magma chamber deep below, a narrow vent leading up to the crater, orange lava flowing down one slope, a dark cloud of ash and rock fragments above the crater, the cone built of visible layers of old lava and ash, a small geyser with a column of steam at the foot of the volcano"
+    },
+    {
+      "plik": "geo7-strefy",
+      "lekcja": "geo_dz3_l03_zroznicowanie-klimatyczne-europy_J",
+      "po": 4,
       "podpis": "Im dalej od równika, tym mniej energii ze Słońca — stąd strefy klimatyczne.",
-      "tresc": "A large Earth globe seen from the side with parallel sun rays coming from the left: near the equator the rays hit the surface straight on and the band is tinted warm orange, at middle latitudes the rays hit at an angle and the bands are pale teal, near the poles the rays only graze the surface and the caps are white with ice; thin lines show how the same bundle of rays spreads over a bigger area near the poles" },
-    { "plik": "geo7-prad", "lekcja": "geo_dz3_l03_zroznicowanie-klimatyczne-europy_J", "po": 18,
+      "tresc": "A large Earth globe seen from the side with parallel sun rays coming from the left: near the equator the rays hit the surface straight on and the band is tinted warm orange, at middle latitudes the rays hit at an angle and the bands are pale teal, near the poles the rays only graze the surface and the caps are white with ice; thin lines show how the same bundle of rays spreads over a bigger area near the poles"
+    },
+    {
+      "plik": "geo7-prad",
+      "lekcja": "geo_dz3_l03_zroznicowanie-klimatyczne-europy_J",
+      "po": 18,
       "podpis": "Ciepły prąd morski płynie przez ocean i ogrzewa zachodnie wybrzeża.",
-      "tresc": "An abstract ocean scene seen from above, without any real map outlines: a wide ocean between two generic coastlines, a broad orange curved arrow of a warm current flowing from the warm south across the ocean to the northeast coast, a thin teal arrow of a cold current flowing south along the other coast; on the warm-current side a green coast with leafy trees, on the cold side an icy coast with snow" },
-    { "plik": "geo8-unia", "lekcja": "geo_dz3_l04_podzial-polityczny-europy_J", "po": 20,
+      "tresc": "An abstract ocean scene seen from above, without any real map outlines: a wide ocean between two generic coastlines, a broad orange curved arrow of a warm current flowing from the warm south across the ocean to the northeast coast, a thin teal arrow of a cold current flowing south along the other coast; on the warm-current side a green coast with leafy trees, on the cold side an icy coast with snow"
+    },
+    {
+      "plik": "geo8-unia",
+      "lekcja": "geo_dz3_l04_podzial-polityczny-europy_J",
+      "po": 20,
       "podpis": "Wspólna waluta i swobodne przekraczanie granic — tak działa Unia Europejska.",
-      "tresc": "A still life of symbols of a union of countries: a stack of generic euro-style coins and a banknote with only abstract patterns, an open border barrier gate raised up on an empty road, a small blue flag with a circle of yellow stars on a pole, and a parliament-like modern glass building in the background" },
-    { "plik": "geo8-wielkosc", "lekcja": "geo_dz3_l04_podzial-polityczny-europy_J", "po": 7,
+      "tresc": "A still life of symbols of a union of countries: a stack of generic euro-style coins and a banknote with only abstract patterns, an open border barrier gate raised up on an empty road, a small blue flag with a circle of yellow stars on a pole, and a parliament-like modern glass building in the background"
+    },
+    {
+      "plik": "geo8-wielkosc",
+      "lekcja": "geo_dz3_l04_podzial-polityczny-europy_J",
+      "po": 7,
       "podpis": "Największy i najmniejszy: ogromny kraj i maleńkie państwo-miasto mieszczące się w jednym mieście.",
-      "tresc": "A playful scale comparison drawn like an infographic: a huge plain teal land shape stretching across the whole width of the picture, and next to it, magnified in a round inset circle, a tiny walled city-state consisting only of a domed basilica, a square with colonnades and a small garden, with an orange outline around its border" },
-    { "plik": "geo9-gestosc", "lekcja": "geo_dz3_l05_rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw_J", "po": 6,
+      "tresc": "A playful scale comparison drawn like an infographic: a huge plain teal land shape stretching across the whole width of the picture, and next to it, magnified in a round inset circle, a tiny walled city-state consisting only of a domed basilica, a square with colonnades and a small garden, with an orange outline around its border"
+    },
+    {
+      "plik": "geo9-gestosc",
+      "lekcja": "geo_dz3_l05_rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw_J",
+      "po": 6,
       "podpis": "Ludzie osiedlają się chętnie na nizinach, a rzadko w wysokich górach i na mroźnej północy.",
-      "tresc": "A landscape block in three-quarter view showing where people live: a fertile green lowland with a river densely packed with small houses, roads and a town, gentle hills with scattered villages, high snowy mountains on one side with only one lonely hut, and a cold snowy northern edge with almost no houses" },
-    { "plik": "geo9-piramida", "lekcja": "geo_dz3_l05_rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw_J", "po": 21,
+      "tresc": "A landscape block in three-quarter view showing where people live: a fertile green lowland with a river densely packed with small houses, roads and a town, gentle hills with scattered villages, high snowy mountains on one side with only one lonely hut, and a cold snowy northern edge with almost no houses"
+    },
+    {
+      "plik": "geo9-piramida",
+      "lekcja": "geo_dz3_l05_rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw_J",
+      "po": 21,
       "podpis": "Dwie piramidy: społeczeństwo młode (szeroka podstawa) i starzejące się (szersza góra).",
-      "tresc": "Two simple population pyramid shapes side by side drawn as stacks of horizontal bars without any numbers: the left one wide at the bottom and narrow at the top, like a triangle, with small child figures at its base; the right one narrow at the bottom and widest near the top, like an urn, with small grey-haired figures at its top; bars on the left half of each pyramid teal, on the right half orange" },
-    { "plik": "geo10-przyczyny", "lekcja": "geo_dz3_l06_migracje-w-europie_J", "po": 6,
+      "tresc": "Two simple population pyramid shapes side by side drawn as stacks of horizontal bars without any numbers: the left one wide at the bottom and narrow at the top, like a triangle, with small child figures at its base; the right one narrow at the bottom and widest near the top, like an urn, with small grey-haired figures at its top; bars on the left half of each pyramid teal, on the right half orange"
+    },
+    {
+      "plik": "geo10-przyczyny",
+      "lekcja": "geo_dz3_l06_migracje-w-europie_J",
+      "po": 6,
       "podpis": "Czynniki wypychające i przyciągające: od złych warunków do lepszego życia.",
-      "tresc": "A two-part diagram: on the left a grey, dry landscape with a closed factory and a cracked road, on the right a green landscape with a busy workshop, a school and a hospital; a family with suitcases walking along a path from left to right; a big teal arrow pushing away from the left side and a big orange arrow pulling towards the right side" },
-    { "plik": "geo10-skutki", "lekcja": "geo_dz3_l06_migracje-w-europie_J", "po": 22,
+      "tresc": "A two-part diagram: on the left a grey, dry landscape with a closed factory and a cracked road, on the right a green landscape with a busy workshop, a school and a hospital; a family with suitcases walking along a path from left to right; a big teal arrow pushing away from the left side and a big orange arrow pulling towards the right side"
+    },
+    {
+      "plik": "geo10-skutki",
+      "lekcja": "geo_dz3_l06_migracje-w-europie_J",
+      "po": 22,
       "podpis": "Skutki migracji: nowe ręce do pracy i bogatsza kultura, ale też trudności we wspólnym życiu.",
-      "tresc": "A balanced scale with two pans: on one pan a pile of work tools (a wrench, a laptop, a stethoscope) and a cradle, on the other pan a small stack of coins and a tangled knot of string; in the background a city street with shops of different cultures, drawn with neutral calm figures seen from behind" },
-    { "plik": "geo11-miasta", "lekcja": "geo_dz3_l07_wielkie-miasta-europy-paryz-i-londyn_J", "po": 12,
+      "tresc": "A balanced scale with two pans: on one pan a pile of work tools (a wrench, a laptop, a stethoscope) and a cradle, on the other pan a small stack of coins and a tangled knot of string; in the background a city street with shops of different cultures, drawn with neutral calm figures seen from behind"
+    },
+    {
+      "plik": "geo11-miasta",
+      "lekcja": "geo_dz3_l07_wielkie-miasta-europy-paryz-i-londyn_J",
+      "po": 12,
       "podpis": "Dwie metropolie nad rzekami: Paryż nad Sekwaną i Londyn nad Tamizą.",
-      "tresc": "Two city skylines facing each other across a narrow strip of sea: on the left a river city with an iron lattice tower, a domed palace and a cluster of modern glass skyscrapers in a business district; on the right a river city with a gothic clock tower, a bascule bridge with two towers over the river and modern office towers; a high-speed train entering a tunnel under the sea between them" },
-    { "plik": "geo11-funkcje", "lekcja": "geo_dz3_l07_wielkie-miasta-europy-paryz-i-londyn_J", "po": 14,
+      "tresc": "Two city skylines facing each other across a narrow strip of sea: on the left a river city with an iron lattice tower, a domed palace and a cluster of modern glass skyscrapers in a business district; on the right a river city with a gothic clock tower, a bascule bridge with two towers over the river and modern office towers; a high-speed train entering a tunnel under the sea between them"
+    },
+    {
+      "plik": "geo11-funkcje",
+      "lekcja": "geo_dz3_l07_wielkie-miasta-europy-paryz-i-londyn_J",
+      "po": 14,
       "podpis": "Za co znamy te miasta: finanse i handel, kultura i moda, transport i turystyka.",
-      "tresc": "An isometric still life of what makes a world city: a stock exchange building with columns, a stack of generic newspapers without readable text, an artist's easel with a painting, a glass museum pyramid, a dress form with a fashionable dress, an airplane taking off over an airport terminal and a tourist camera" }
-  ]
+      "tresc": "An isometric still life of what makes a world city: a stock exchange building with columns, a stack of generic newspapers without readable text, an artist's easel with a painting, a glass museum pyramid, a dress form with a fashionable dress, an airplane taking off over an airport terminal and a tourist camera"
+    }
+  ],
+  "_zasada": "Wojtek 2026-10-12: grafiki dla 11–13 lat — bez maskotek, plasteliny, słodkich buziek i konfetti; styl naukowy i edytorski jak w atlasie. Nowy styl najpierw na próbce (arkusz działów)."
 }
