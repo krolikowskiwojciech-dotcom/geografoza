@@ -11,7 +11,8 @@ popraw JSON lekcji w `lekcje-audio` i zaimportuj jeszcze raz. Ręcznie piszesz t
   "opis": "Szerokość i długość geograficzna, odczytywanie położenia z mapy.",
   "termin": "2026-10-21",                    // dzień kartkówki (opcjonalnie) — karta trafi do „Przed kartkówką”
   "dodano": "2026-10-19",
-  "dzial": "III", "dzialTytul": "…", "lekcja": 2, "strony": "55–58",   // opcjonalnie: miejsce w podręczniku
+  "dzial": "III", "lekcja": 2, "strony": "55–61",   // miejsce w podręczniku — musi trafić w lekcję z zestawy/spis.json
+  "typ": "podsumowanie",                     // zamiast „lekcja” dla podsumowania działu albo testu („test”)
   "ikona": "globus",                         // globus kompas mapa pinezka gory slonce ksiezyc planeta zegar fala drzewo wulkan termometr ludzie walizka miasto
   "kolor": "zolty",                          // lila | mietowy | zolty | brzoskwinia | niebieski | rozowy | krem
   "ocena": true,                             // pokaż przybliżoną ocenę szkolną w podsumowaniu
@@ -22,6 +23,12 @@ popraw JSON lekcji w `lekcje-audio` i zaimportuj jeszcze raz. Ręcznie piszesz t
   "bloki": [ { … } ]                         // jeden typ zadań = jeden blok
 }
 ```
+
+## Spis podręcznika (`zestawy/spis.json`)
+
+Działy i lekcje „Planeta Nowa 6” ze stronami — z niego strona główna buduje działy. Lekcja jest „gotowa”, gdy istnieje zestaw
+z tym samym `dzial` i `lekcja` (albo `typ`); pozostałe są „wkrótce”. Nazwy działów własne (jak `dzial_tytul` w lekcje-audio),
+tematy skrócone. `katalog` zgłasza błąd, gdy zestaw z działem nie trafia w żadną pozycję spisu.
 
 ## Blok
 

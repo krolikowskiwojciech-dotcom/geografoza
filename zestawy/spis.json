@@ -1,0 +1,47 @@
+{
+  "_opis": "Układ podręcznika „Planeta Nowa 6” (Nowa Era): działy i lekcje ze stronami. Lekcja jest gotowa, gdy jest zestaw z tym samym „dzial” i „lekcja” (albo „typ”: podsumowanie | test). Nazwy działów własne (jak „dzial_tytul” w lekcje-audio), tematy skrócone.",
+  "dzialy": [
+    { "nr": "I", "tytul": "Współrzędne na mapie i globusie", "lekcje": [
+      { "nr": 1, "temat": "Czym są współrzędne geograficzne", "strony": "6–11" },
+      { "nr": 2, "temat": "Współrzędne geograficzne w ćwiczeniach", "strony": "12–17" },
+      { "typ": "podsumowanie", "temat": "Podsumowanie działu", "strony": "18" },
+      { "typ": "test", "temat": "Test na koniec działu", "strony": "19–20" }
+    ] },
+    { "nr": "II", "tytul": "Jak porusza się Ziemia", "lekcje": [
+      { "nr": 1, "temat": "Ziemia w Układzie Słonecznym", "strony": "22–26" },
+      { "nr": 2, "temat": "Ruch obrotowy Ziemi", "strony": "27–33" },
+      { "nr": 3, "temat": "Ruch obiegowy Ziemi", "strony": "34–38" },
+      { "nr": 4, "temat": "Strefy oświetlenia Ziemi", "strony": "39–43" },
+      { "typ": "podsumowanie", "temat": "Podsumowanie działu", "strony": "44" },
+      { "typ": "test", "temat": "Test na koniec działu", "strony": "45" }
+    ] },
+    { "nr": "III", "tytul": "Przyroda i mieszkańcy Europy", "lekcje": [
+      { "nr": 1, "temat": "Położenie i rzeźba Europy", "strony": "50–54" },
+      { "nr": 2, "temat": "Wulkany i trzęsienia ziemi na Islandii", "strony": "55–61" },
+      { "nr": 3, "temat": "Klimaty Europy", "strony": "62–67" },
+      { "nr": 4, "temat": "Mapa polityczna Europy", "strony": "68–72" },
+      { "nr": 5, "temat": "Ludność Europy i starzenie się społeczeństw", "strony": "73–77" },
+      { "nr": 6, "temat": "Migracje w Europie", "strony": "78–82" },
+      { "nr": 7, "temat": "Paryż i Londyn", "strony": "83–88" },
+      { "typ": "podsumowanie", "temat": "Podsumowanie działu", "strony": "89–90" },
+      { "typ": "test", "temat": "Test na koniec działu", "strony": "91–92" }
+    ] },
+    { "nr": "IV", "tytul": "Europa przy pracy: przemysł, energia, turystyka", "lekcje": [
+      { "nr": 1, "temat": "Przemysł i usługi we Francji", "strony": "95–101" },
+      { "nr": 2, "temat": "Energetyka w Europie", "strony": "102–107" },
+      { "nr": 3, "temat": "Turystyka na południu Europy", "strony": "108–113" },
+      { "typ": "podsumowanie", "temat": "Podsumowanie działu", "strony": "114" },
+      { "typ": "test", "temat": "Test na koniec działu", "strony": "115" }
+    ] },
+    { "nr": "V", "tytul": "Kraje wokół Polski", "lekcje": [
+      { "nr": 1, "temat": "Przemysł Niemiec — co się zmieniło", "strony": "119–127" },
+      { "nr": 2, "temat": "Czechy i Słowacja dla turysty", "strony": "128–134" },
+      { "nr": 3, "temat": "Przyroda i zabytki Litwy i Białorusi", "strony": "135–140" },
+      { "nr": 4, "temat": "Ukraina i jej problemy dziś", "strony": "141–150" },
+      { "nr": 5, "temat": "Przyroda Rosji", "strony": "151–155" },
+      { "nr": 6, "temat": "Polska i jej sąsiedzi", "strony": "156–160" },
+      { "typ": "podsumowanie", "temat": "Podsumowanie działu", "strony": "161–162" },
+      { "typ": "test", "temat": "Test na koniec działu", "strony": "163–164" }
+    ] }
+  ]
+}

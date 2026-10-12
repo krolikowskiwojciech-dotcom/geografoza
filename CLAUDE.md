@@ -41,7 +41,14 @@ Pełne nagranie i ekstrakcja są blisko tekstu podręcznika — **nigdy** nie tr
 3. `node narzedzia/geografoza.mjs katalog` — musi przejść bez błędów.
 4. Obejrzyj lokalnie (`python3 -m http.server 8743 --bind 127.0.0.1`, telefon 390 px), potem commit + `git push`.
 
-## Zasady wyglądu (jak w Lingozie i Biologozie)
+## Zasady wyglądu (jak w Biologozie)
+
+Wygląd i kod jak w Biologozie — zmiany w Biologozie przenoś tutaj (wspólne pliki: `js/app.js`, `js/gra.js`, `js/store.js`,
+`js/dzwieki.js`, `styles.css`). Rogi mniejsze niż w Lingozie (`--r: 14px`, sekcja „zaokrąglenia” na końcu `styles.css`).
+Strona główna jak spis treści podręcznika (zwijane działy 3D, lekcje po kolei ze stronami, przyszłe „wkrótce”).
+Ekran pytania: karta jak z talii, odpowiedzi 3D z literami A/B/C. Wyciszone dźwięki: lista `WYCISZONE` w `js/dzwieki.js`.
+
+Reszta jak w Lingozie:
 
 - Kroje: nagłówki Libre Baskerville (`.serif`), tekst Jost. **Zero kursywy.**
 - **Bez emoji w interfejsie** — ikony SVG z `js/dom.js` (`ik('nazwa')`), kreska 2.1, zaokrąglone końce; nowe dopisuj do `IKONY`.
@@ -55,6 +62,7 @@ Pełne nagranie i ekstrakcja są blisko tekstu podręcznika — **nigdy** nie tr
 
 ## Kod
 
+- `zestawy/spis.json` — spis treści „Planeta Nowa 6” (działy, lekcje, strony); strona główna pokazuje działy z niego, lekcje bez zestawu jako „wkrótce”.
 - `index.html`, `styles.css`, `sw.js` (offline; pełne nagrania w osobnej pamięci `geografoza-nagrania`, której SW nie czyści).
 - `js/app.js` (ekrany: lista działami, lekcja z nagraniami i ćwiczeniami, ściąga, ustawienia; odtwarzacz pamięta miejsce),
   `js/gra.js` (przebieg: wybor, pf, wpisz, kolejnosc, pary, otwarte; poprawka po błędzie, podsumowanie, „Wyślij wynik”),
