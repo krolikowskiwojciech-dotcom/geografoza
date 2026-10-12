@@ -14,6 +14,21 @@
   "ikona": "walizka",
   "kolor": "zolty",
   "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz3-l06-migracje-w-europie.mp3",
+      "wersja": "f1f99b9ae0",
+      "minuty": 17
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz3-l06-migracje-w-europie-krotkie.mp3",
+      "minuty": 10
+    }
+  ],
   "sciaga": [
     "Europa wyróżnia się na tle innych kontynentów wysokim rozwojem gospodarczym i dobrą jakością życia, a wiele jej państw to kraje bogate. Dlatego zamieszkać chcą w nich tysiące ludzi, a ostatnio nawet miliony.",
     "Jedni przyjeżdżają do Europy po lepszą pracę i dostęp do leczenia. Inni ratują się ucieczką przed wojną, prześladowaniem z powodu wiary albo głodem.",

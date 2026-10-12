@@ -14,6 +14,21 @@
   "ikona": "pinezka",
   "kolor": "lila",
   "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz3-l04-podzial-polityczny-europy.mp3",
+      "wersja": "086db8e424",
+      "minuty": 16
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz3-l04-podzial-polityczny-europy-krotkie.mp3",
+      "minuty": 9
+    }
+  ],
   "sciaga": [
     "Podział polityczny Europy to po prostu odpowiedź na pytanie, na jakie państwa dzieli się nasz kontynent. Widać go na mapie politycznej, gdzie każdy kraj ma własny kolor i granice.",
     "W przeszłości mapa Europy zmieniała się bardzo często. Przez wojny i konflikty jedne kraje znikały, a w ich miejscu pojawiały się nowe. Wojny skłoniły też państwa do łączenia się w organizacje — taką jest Unia Europejska.",

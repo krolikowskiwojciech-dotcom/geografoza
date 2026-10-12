@@ -19,7 +19,14 @@
       "tytul": "Lekcja z podręcznikiem",
       "opis": "Słuchaj i patrz do książki",
       "prywatne": "nagrania/geo-dz3-l03-zroznicowanie-klimatyczne-europy.mp3",
+      "wersja": "630f9693d6",
       "minuty": 15
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz3-l03-zroznicowanie-klimatyczne-europy-krotkie.mp3",
+      "minuty": 9
     }
   ],
   "sciaga": [

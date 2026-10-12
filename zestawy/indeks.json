@@ -68,7 +68,7 @@
       "kolor": "krem",
       "bloki": 5,
       "zadan": 39,
-      "nagrania": 1,
+      "nagrania": 2,
       "sciaga": true
     },
     {
@@ -89,7 +89,7 @@
       "kolor": "lila",
       "bloki": 5,
       "zadan": 38,
-      "nagrania": 0,
+      "nagrania": 2,
       "sciaga": true
     },
     {
@@ -110,7 +110,7 @@
       "kolor": "mietowy",
       "bloki": 5,
       "zadan": 39,
-      "nagrania": 0,
+      "nagrania": 2,
       "sciaga": true
     },
     {
@@ -131,7 +131,7 @@
       "kolor": "zolty",
       "bloki": 5,
       "zadan": 39,
-      "nagrania": 0,
+      "nagrania": 2,
       "sciaga": true
     },
     {

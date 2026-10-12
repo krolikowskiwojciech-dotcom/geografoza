@@ -14,6 +14,21 @@
   "ikona": "ludzie",
   "kolor": "mietowy",
   "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz3-l05-rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw.mp3",
+      "wersja": "63701c56c0",
+      "minuty": 16
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz3-l05-rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw-krotkie.mp3",
+      "minuty": 9
+    }
+  ],
   "sciaga": [
     "O tym, gdzie ludzie się osiedlają, w dużej mierze decyduje przyroda. Wysokie góry i pustynie mają mało mieszkańców, a niziny z łagodnym klimatem – wielu.",
     "Europę zamieszkuje około 745 mln osób. Przy Azji (ok. 4,8 mld) i Afryce (1,5 mld) to niewiele – na wykresie liczby ludności z 2023 r. najwyższy słupek ma Azja, a drugi Afryka.",
