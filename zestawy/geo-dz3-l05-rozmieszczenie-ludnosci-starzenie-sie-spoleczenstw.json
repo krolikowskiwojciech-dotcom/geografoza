@@ -1,0 +1,625 @@
+{
+  "id": "geo-dz3-l05-rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Ludność Europy: gdzie mieszka i dlaczego się starzeje",
+  "dzial": "III",
+  "dzialTytul": "Przyroda i mieszkańcy Europy",
+  "lekcja": 5,
+  "strony": "73–77",
+  "dodano": "2026-10-12",
+  "termin": null,
+  "ikona": "ludzie",
+  "kolor": "mietowy",
+  "ocena": true,
+  "sciaga": [
+    "O tym, gdzie ludzie się osiedlają, w dużej mierze decyduje przyroda. Wysokie góry i pustynie mają mało mieszkańców, a niziny z łagodnym klimatem – wielu.",
+    "Europę zamieszkuje około 745 mln osób. Przy Azji (ok. 4,8 mld) i Afryce (1,5 mld) to niewiele – na wykresie liczby ludności z 2023 r. najwyższy słupek ma Azja, a drugi Afryka.",
+    "Gęstość zaludnienia mówi, ilu mieszkańców wypada średnio na jednostkę powierzchni, i podajemy ją w os./km². Przykład: kwadratowa wyspa o boku 1 km ma 1 km², więc gdy żyje na niej 25 osób, gęstość wynosi 25 os./km².",
+    "Gęstość to średnia dla całego terenu, więc obok miejsc zatłoczonych mogą leżeć prawie puste. Średnio w Europie, licząc całą Rosję razem z jej azjatycką częścią, wypada 34 os./km².",
+    "Gdy porównamy mieszkańców z powierzchnią, Europa okazuje się dość ludna: pod względem gęstości zaludnienia jest trzecia, za Azją i Afryką, a przed obiema Amerykami. Ostatnia jest Australia.",
+    "Na tle innych kontynentów ludzie w Europie są rozłożeni dość równo. Powód: brakuje tu rozległych terenów, gdzie trudno się osiedlić, takich jak pustynie czy obszary pod lądolodem.",
+    "Najgęściej zaludnione są niziny oraz tereny z surowcami mineralnymi, bo właśnie przy nich wyrósł przemysł.",
+    "Najmniej ludzi żyje tam, gdzie klimat jest niekorzystny: na północy kontynentu i na Nizinie Nadkaspijskiej. Uwaga: ta druga to nizina, a mimo to jest pusta – decyduje klimat.",
+    "W górach też mieszka mniej osób. Dwa powody: surowy klimat i urozmaicona rzeźba terenu.",
+    "Ponad 1000 os./km² mają małe kraje, które są właściwie miastami: Monako, Watykan i Malta. W Monako to aż ponad 25 tys. os./km², bo prawie cały kraj pokrywa gęsta, wielopiętrowa zabudowa.",
+    "Wysoka gęstość jest też w Holandii i Belgii (ponad 350 os./km²). Najrzadziej zaludnione są kraje północy: Finlandia, Norwegia i Islandia – poniżej 20 os./km².",
+    "Na mapie gęstości zaludnienia ciemniejszy kolor znaczy więcej ludzi na km², a biały – teren niezamieszkany. Najciemniej jest w zachodniej i środkowej części Europy, najjaśniej na dalekiej północy.",
+    "Czy ludności przybywa, czy ubywa, zależy głównie od urodzeń i zgonów. Przewaga narodzin – ludzi jest więcej, przewaga zgonów – mniej.",
+    "Na świecie ludzi szybko przybywa: w 2000 r. było ich nieco ponad 6 mld, dziś ok. 8 mld. Europa to wyjątek – od początku XXI w. jej ludność rosła bardzo wolno, a ostatnio lekko spadła, bo dzieci rodzi się mało.",
+    "Dzieci przychodzi na świat mało, bo zmieniają się gospodarka i społeczeństwo, a także styl życia wielu Europejczyków. Europejczycy stawiają na pracę i własne pasje, a dzieci planują później albo wcale; w rodzinach z dziećmi najczęściej jest jedno dziecko.",
+    "Społeczeństwo się starzeje, gdy wśród mieszkańców rośnie część osób starszych, a maleje część młodych. Chodzi o proporcje grup wieku, a nie o to, że ludzi jest mniej.",
+    "Starzenie ma dwie główne przyczyny. Po pierwsze młodzi coraz rzadziej i coraz później decydują się na dzieci, zwłaszcza na wiele dzieci. Po drugie wysoka jakość życia i coraz lepsza opieka medyczna sprawiają, że przybywa ludzi w sędziwym wieku.",
+    "Dane z krajów Unii Europejskiej z lat 2001–2022 pokazują, że osób przed trzydziestką powoli ubywało, a ludzi po 65. roku życia przybywało. Młodych wciąż jest więcej, ale różnica się zmniejsza.",
+    "Piramida płci i wieku to dwa wykresy słupkowe zestawione bokiem: mężczyźni po lewej, kobiety po prawej, w środku grupy wieku co 5 lat (od 0–4 do 80 i więcej), a z osi poziomej odczytujesz liczbę osób.",
+    "Na piramidzie Polski chłopców w wieku 0–4 lata jest niecały milion, a w grupie 70–74 lata kobiet jest wyraźnie więcej niż mężczyzn. Na świat przychodzi w Europie więcej chłopców, a mimo to kobiety przeważają liczebnie, bo przeciętnie żyją dłużej.",
+    "Piramida społeczeństwa starzejącego się jest szersza u góry niż u podstawy – tak wygląda większość krajów Europy, na przykład Włochy. Społeczeństwo młode ma piramidę odwrotną; do niedawna miało je Kosowo, ale i tam dół piramidy się zwęża.",
+    "Skutki starzenia: pracuje coraz mniej osób, a emeryturę dostaje coraz więcej. Państwo ma więc mniejsze wpływy z podatków i większe wydatki – na emerytury, służbę zdrowia, leki i opiekę nad starszymi."
+  ],
+  "definicje": {
+    "gęstość zaludnienia": "Pokazuje, ilu mieszkańców przypada średnio na jeden kilometr kwadratowy danego terenu. To średnia, więc w jednym miejscu może być tłok, a obok pustka.",
+    "os./km²": "Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+    "rozmieszczenie ludności": "To, jak mieszkańcy są rozłożeni na danym terenie: gdzie żyje ich dużo, a gdzie mało. W Europie ten rozkład jest dość równy.",
+    "Nizina Nadkaspijska": "Nizina na wschodnim skraju Europy. Choć jest płaska, mieszka tam mało ludzi, bo klimat jest niekorzystny.",
+    "surowce mineralne": "Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej.",
+    "Monako": "Maleńki kraj-miasto, prawie w całości zabudowany wysokimi budynkami. Ma ponad 25 tys. os./km².",
+    "urodzenia i zgony": "Dwie główne rzeczy, od których zależy liczba ludności. Więcej narodzin niż zgonów – ludzi przybywa; więcej zgonów – ubywa.",
+    "społeczeństwo starzejące się": "Społeczeństwo, w którym osób starszych jest wśród mieszkańców coraz więcej, a młodych coraz mniej. Jego piramida płci i wieku jest szersza u góry niż u dołu.",
+    "społeczeństwo młode": "Społeczeństwo z dużą liczbą młodych i małą liczbą starszych. Jego piramida ma szeroki dół i wąską górę; do niedawna takie było Kosowo.",
+    "piramida płci i wieku": "Wykres z dwóch zestawów słupków ustawionych obok siebie: mężczyźni po lewej, kobiety po prawej, grupy wieku w środku. Pokazuje, ile osób jest w każdej grupie.",
+    "przedział wiekowy": "Grupa ludzi w podobnym wieku, na przykład 35–39 lat. Na piramidzie płci i wieku przedziały mają po pięć lat, a najstarszy to 80 lat i więcej.",
+    "opieka medyczna": "Leczenie i dbanie o zdrowie mieszkańców. Gdy jest coraz lepsza, ludzie żyją dłużej, a starszych przybywa.",
+    "emerytura": "Pieniądze, które dostają osoby już niepracujące zawodowo. Gdy starszych przybywa, państwo musi wydawać na nie coraz więcej.",
+    "udział": "Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze."
+  },
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Pokazuje, ilu mieszkańców przypada średnio na jeden kilometr kwadratowy danego terenu. To średnia, więc w jednym miejscu może być tłok, a obok pustka.",
+          "a": "gęstość zaludnienia",
+          "choices": [
+            "gęstość zaludnienia",
+            "opieka medyczna",
+            "surowce mineralne"
+          ],
+          "exp": [
+            "opieka medyczna to coś innego: Leczenie i dbanie o zdrowie mieszkańców. Gdy jest coraz lepsza, ludzie żyją dłużej, a starszych przybywa.",
+            "surowce mineralne to coś innego: Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+          "a": "os./km²",
+          "choices": [
+            "os./km²",
+            "Monako",
+            "surowce mineralne"
+          ],
+          "exp": [
+            "Monako to coś innego: Maleńki kraj-miasto, prawie w całości zabudowany wysokimi budynkami. Ma ponad 25 tys. os./km².",
+            "surowce mineralne to coś innego: Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "To, jak mieszkańcy są rozłożeni na danym terenie: gdzie żyje ich dużo, a gdzie mało. W Europie ten rozkład jest dość równy.",
+          "a": "rozmieszczenie ludności",
+          "choices": [
+            "rozmieszczenie ludności",
+            "os./km²",
+            "surowce mineralne"
+          ],
+          "exp": [
+            "os./km² to coś innego: Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+            "surowce mineralne to coś innego: Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "… na wschodnim skraju Europy. Choć jest płaska, mieszka tam mało ludzi, bo klimat jest niekorzystny.",
+          "a": "Nizina Nadkaspijska",
+          "choices": [
+            "Nizina Nadkaspijska",
+            "przedział wiekowy",
+            "udział"
+          ],
+          "exp": [
+            "przedział wiekowy to coś innego: Grupa ludzi w podobnym wieku, na przykład 35–39 lat. Na piramidzie płci i wieku przedziały mają po pięć lat, a najstarszy to 80 lat i więcej.",
+            "udział to coś innego: Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej.",
+          "a": "surowce mineralne",
+          "choices": [
+            "surowce mineralne",
+            "opieka medyczna",
+            "urodzenia i zgony"
+          ],
+          "exp": [
+            "opieka medyczna to coś innego: Leczenie i dbanie o zdrowie mieszkańców. Gdy jest coraz lepsza, ludzie żyją dłużej, a starszych przybywa.",
+            "urodzenia i zgony to coś innego: Dwie główne rzeczy, od których zależy liczba ludności. Więcej narodzin niż zgonów – ludzi przybywa; więcej zgonów – ubywa."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Maleńki kraj-miasto, prawie w całości zabudowany wysokimi budynkami. Ma ponad 25 tys. os./km².",
+          "a": "Monako",
+          "choices": [
+            "Monako",
+            "rozmieszczenie ludności",
+            "piramida płci i wieku"
+          ],
+          "exp": [
+            "rozmieszczenie ludności to coś innego: To, jak mieszkańcy są rozłożeni na danym terenie: gdzie żyje ich dużo, a gdzie mało. W Europie ten rozkład jest dość równy.",
+            "piramida płci i wieku to coś innego: Wykres z dwóch zestawów słupków ustawionych obok siebie: mężczyźni po lewej, kobiety po prawej, grupy wieku w środku. Pokazuje, ile osób jest w każdej grupie."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Dwie główne rzeczy, od których zależy liczba ludności. Więcej narodzin niż … – ludzi przybywa; więcej … – ubywa.",
+          "a": "urodzenia i zgony",
+          "choices": [
+            "urodzenia i zgony",
+            "os./km²",
+            "Nizina Nadkaspijska"
+          ],
+          "exp": [
+            "os./km² to coś innego: Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+            "Nizina Nadkaspijska to coś innego: Nizina na wschodnim skraju Europy. Choć jest płaska, mieszka tam mało ludzi, bo klimat jest niekorzystny."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "…, w którym osób starszych jest wśród mieszkańców coraz więcej, a młodych coraz mniej. Jego piramida płci i wieku jest szersza u góry niż u dołu.",
+          "a": "społeczeństwo starzejące się",
+          "choices": [
+            "społeczeństwo starzejące się",
+            "przedział wiekowy",
+            "Nizina Nadkaspijska"
+          ],
+          "exp": [
+            "przedział wiekowy to coś innego: Grupa ludzi w podobnym wieku, na przykład 35–39 lat. Na piramidzie płci i wieku przedziały mają po pięć lat, a najstarszy to 80 lat i więcej.",
+            "Nizina Nadkaspijska to coś innego: Nizina na wschodnim skraju Europy. Choć jest płaska, mieszka tam mało ludzi, bo klimat jest niekorzystny."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "… z dużą liczbą … i małą liczbą starszych. Jego piramida ma szeroki dół i wąską górę; do niedawna takie było Kosowo.",
+          "a": "społeczeństwo młode",
+          "choices": [
+            "społeczeństwo młode",
+            "os./km²",
+            "piramida płci i wieku"
+          ],
+          "exp": [
+            "os./km² to coś innego: Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+            "piramida płci i wieku to coś innego: Wykres z dwóch zestawów słupków ustawionych obok siebie: mężczyźni po lewej, kobiety po prawej, grupy wieku w środku. Pokazuje, ile osób jest w każdej grupie."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Wykres z dwóch zestawów słupków ustawionych obok siebie: mężczyźni po lewej, kobiety po prawej, grupy … w środku. Pokazuje, ile osób jest w każdej grupie.",
+          "a": "piramida płci i wieku",
+          "choices": [
+            "piramida płci i wieku",
+            "społeczeństwo młode",
+            "udział"
+          ],
+          "exp": [
+            "społeczeństwo młode to coś innego: Społeczeństwo z dużą liczbą młodych i małą liczbą starszych. Jego piramida ma szeroki dół i wąską górę; do niedawna takie było Kosowo.",
+            "udział to coś innego: Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Grupa ludzi w podobnym …, na przykład 35–39 lat. Na piramidzie płci i … … mają po pięć lat, a najstarszy to 80 lat i więcej.",
+          "a": "przedział wiekowy",
+          "choices": [
+            "przedział wiekowy",
+            "os./km²",
+            "udział"
+          ],
+          "exp": [
+            "os./km² to coś innego: Jednostka gęstości zaludnienia: liczba osób na jeden kilometr kwadratowy. Czytamy ją „osób na kilometr kwadratowy”.",
+            "udział to coś innego: Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Leczenie i dbanie o zdrowie mieszkańców. Gdy jest coraz lepsza, ludzie żyją dłużej, a starszych przybywa.",
+          "a": "opieka medyczna",
+          "choices": [
+            "opieka medyczna",
+            "surowce mineralne",
+            "Nizina Nadkaspijska"
+          ],
+          "exp": [
+            "surowce mineralne to coś innego: Bogactwa wydobywane z ziemi. Tam, gdzie występują, rozwinął się przemysł, więc ludzi mieszka więcej.",
+            "Nizina Nadkaspijska to coś innego: Nizina na wschodnim skraju Europy. Choć jest płaska, mieszka tam mało ludzi, bo klimat jest niekorzystny."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Pieniądze, które dostają osoby już niepracujące zawodowo. Gdy starszych przybywa, państwo musi wydawać na nie coraz więcej.",
+          "a": "emerytura",
+          "choices": [
+            "emerytura",
+            "przedział wiekowy",
+            "udział"
+          ],
+          "exp": [
+            "przedział wiekowy to coś innego: Grupa ludzi w podobnym wieku, na przykład 35–39 lat. Na piramidzie płci i wieku przedziały mają po pięć lat, a najstarszy to 80 lat i więcej.",
+            "udział to coś innego: Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Część całości. Gdy mówimy o starzeniu się społeczeństwa, chodzi o to, jaką część wszystkich mieszkańców stanowią osoby starsze.",
+          "a": "udział",
+          "choices": [
+            "udział",
+            "Monako",
+            "urodzenia i zgony"
+          ],
+          "exp": [
+            "Monako to coś innego: Maleńki kraj-miasto, prawie w całości zabudowany wysokimi budynkami. Ma ponad 25 tys. os./km².",
+            "urodzenia i zgony to coś innego: Dwie główne rzeczy, od których zależy liczba ludności. Więcej narodzin niż zgonów – ludzi przybywa; więcej zgonów – ubywa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Ile osób mniej więcej mieszka w Europie?",
+          "a": "745 milionów",
+          "choices": [
+            "745 tysięcy",
+            "745 milionów",
+            "7,45 miliarda"
+          ],
+          "exp": [
+            "Około 745 mln. Dla porównania na całym świecie żyje ok. 8 mld ludzi.",
+            "Częsty błąd: Pomylenie milionów z miliardami – 745 mld to więcej niż ludzi na całej Ziemi."
+          ],
+          "zrodlo": "str. 73; „To najważniejsze!” pkt 1"
+        },
+        {
+          "kind": "wybor",
+          "e": "Jaka jest średnia gęstość zaludnienia Europy, gdy liczymy całą Rosję?",
+          "a": "34 os./km²",
+          "choices": [
+            "34 os./km²",
+            "350 os./km²",
+            "1000 os./km²"
+          ],
+          "exp": [
+            "34 os./km². Ponad 350 mają Belgia i Holandia, a ponad 1000 – małe kraje-miasta.",
+            "Częsty błąd: Wzięcie wartości jednego gęsto zaludnionego kraju za średnią całego kontynentu."
+          ],
+          "zrodlo": "str. 73, ostatnie zdanie sekcji; str. 74"
+        },
+        {
+          "kind": "wybor",
+          "e": "W której trójce są państwa z najmniejszą gęstością zaludnienia w Europie?",
+          "a": "Finlandia, Norwegia, Islandia",
+          "choices": [
+            "Monako, Watykan, Malta",
+            "Finlandia, Norwegia, Islandia",
+            "Belgia, Holandia, Malta"
+          ],
+          "exp": [
+            "Kraje północy mają poniżej 20 os./km² przez niekorzystny klimat.",
+            "Częsty błąd: Mylenie małej powierzchni kraju z małą liczbą mieszkańców na km² – małe kraje-miasta są zaludnione najgęściej."
+          ],
+          "zrodlo": "str. 74, drugi akapit"
+        },
+        {
+          "kind": "wybor",
+          "e": "Co głównie sprawia, że na Nizinie Nadkaspijskiej mieszka mało ludzi?",
+          "a": "niekorzystny klimat",
+          "choices": [
+            "niekorzystny klimat",
+            "wysokie góry",
+            "brak nizin"
+          ],
+          "exp": [
+            "To nizina, więc teren jej nie przeszkadza – decyduje klimat.",
+            "Częsty błąd: Myślenie, że skoro to nizina, to musi być gęsto zaludniona."
+          ],
+          "zrodlo": "str. 74, pierwszy akapit"
+        },
+        {
+          "kind": "wybor",
+          "e": "Jak wygląda piramida płci i wieku społeczeństwa starzejącego się?",
+          "a": "szersza u góry niż u dołu",
+          "choices": [
+            "szeroka u dołu, wąska u góry",
+            "szersza u góry niż u dołu",
+            "wszystkie słupki tej samej długości"
+          ],
+          "exp": [
+            "Górne słupki (starsi) są dłuższe niż dolne (dzieci), bo starszych jest więcej.",
+            "Częsty błąd: Wzięcie kształtu klasycznej piramidy (szeroki dół) za obraz starzenia – to cecha społeczeństwa młodego."
+          ],
+          "zrodlo": "str. 76, drugi akapit; piramida Włoch (str. 77)"
+        },
+        {
+          "kind": "wybor",
+          "e": "Które państwo jeszcze niedawno miało społeczeństwo młode, choć teraz i tam ubywa młodych?",
+          "a": "Kosowo",
+          "choices": [
+            "Włochy",
+            "Kosowo",
+            "Polska"
+          ],
+          "exp": [
+            "Kosowo – jego piramida ma szerokie słupki u nastolatków i młodych dorosłych, ale dół już się zwęża.",
+            "Częsty błąd: Wskazanie Włoch, które są przykładem społeczeństwa starzejącego się."
+          ],
+          "zrodlo": "str. 76, drugi akapit; piramida Kosowa (str. 77)"
+        },
+        {
+          "kind": "wybor",
+          "e": "Który z tych skutków wynika ze starzenia się społeczeństwa?",
+          "a": "państwo ma mniejsze wpływy z podatków",
+          "choices": [
+            "przybywa osób pracujących",
+            "państwo ma mniejsze wpływy z podatków",
+            "spadają wydatki na służbę zdrowia"
+          ],
+          "exp": [
+            "Mniej osób pracuje, więc do budżetu trafia mniej podatków, a wydatki rosną.",
+            "Częsty błąd: Odwrócenie skutków – pracujących ubywa, a wydatki na zdrowie i opiekę rosną."
+          ],
+          "zrodlo": "str. 77, sekcja „Konsekwencje starzenia się społeczeństwa”"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Gęstość zaludnienia to łączna liczba mieszkańców danego kraju.",
+          "a": false,
+          "exp": [
+            "Nie – to liczba mieszkańców przeliczona na jeden kilometr kwadratowy powierzchni.",
+            "Częsty błąd: Pominięcie powierzchni w definicji."
+          ],
+          "zrodlo": "str. 73"
+        },
+        {
+          "kind": "pf",
+          "e": "Ludność Europy jest rozłożona nierówno, bo duże obszary zajmują tu pustynie.",
+          "a": false,
+          "exp": [
+            "Nie – w Europie brak dużych pustyń i terenów pod lądolodem, dlatego ludzie są rozmieszczeni dość równo.",
+            "Częsty błąd: Przenoszenie na Europę cech innych kontynentów."
+          ],
+          "zrodlo": "str. 74, pierwszy akapit"
+        },
+        {
+          "kind": "pf",
+          "e": "Od początku XXI wieku liczba ludności Europy rosła bardzo powoli, a w ostatnich latach lekko spadła.",
+          "a": true,
+          "exp": [
+            "Tak – główna przyczyna to mała liczba rodzących się dzieci. Na świecie w tym czasie ludzi szybko przybywało.",
+            "Częsty błąd: Uznanie, że Europa rośnie tak szybko jak cały świat."
+          ],
+          "zrodlo": "str. 75, drugi akapit"
+        },
+        {
+          "kind": "pf",
+          "e": "Starzenie się społeczeństwa oznacza, że wśród mieszkańców rośnie udział osób starszych.",
+          "a": true,
+          "exp": [
+            "Tak – starszych jest coraz większa część, a młodych coraz mniejsza.",
+            "Częsty błąd: Mylenie starzenia się społeczeństwa ze spadkiem liczby ludności."
+          ],
+          "zrodlo": "str. 75; „To najważniejsze!” pkt 2"
+        },
+        {
+          "kind": "pf",
+          "e": "W najstarszych grupach wieku zwykle jest więcej mężczyzn niż kobiet.",
+          "a": false,
+          "exp": [
+            "Nie – kobiety żyją średnio dłużej, więc w starszych grupach jest ich więcej, choć chłopców rodzi się więcej niż dziewczynek.",
+            "Częsty błąd: Wnioskowanie z tego, że rodzi się więcej chłopców, bez uwzględnienia długości życia."
+          ],
+          "zrodlo": "str. 76, ramka „A to ciekawe...”; pytajnik (grupa 70–74); „Sprawdź się!” zad. 4 D (str. 92)"
+        },
+        {
+          "kind": "pf",
+          "e": "Na piramidzie płci i wieku słupki kobiet rysuje się po lewej stronie.",
+          "a": false,
+          "exp": [
+            "Nie – po lewej są mężczyźni, a kobiety po prawej.",
+            "Częsty błąd: Zamiana stron wykresu."
+          ],
+          "zrodlo": "str. 76, żółte pole „Piramida płci i wieku”"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Gęstość zaludnienia podajemy w osobach na ___ kwadratowy.",
+          "a": "kilometr",
+          "inne": [
+            "km"
+          ],
+          "exp": [
+            "Jednostka to os./km², czyli osoby na kilometr kwadratowy.",
+            "Częsty błąd: Wpisanie „metr” – gęstość ludności liczymy na kilometry."
+          ],
+          "zrodlo": "str. 73"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Najwięcej ludzi w Europie mieszka na ___ oraz tam, gdzie są surowce mineralne.",
+          "a": "nizinach",
+          "inne": [
+            "niziny"
+          ],
+          "exp": [
+            "Niziny są wygodne do życia, a przy surowcach rozwinął się przemysł.",
+            "Częsty błąd: Wpisanie „górach” – w górach ludzi jest mniej."
+          ],
+          "zrodlo": "str. 74"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Ludności przybywa, gdy urodzeń jest więcej niż ___.",
+          "a": "zgonów",
+          "inne": [
+            "zgonow",
+            "zgony"
+          ],
+          "exp": [
+            "Liczba ludności zależy głównie od bilansu narodzin i zgonów.",
+            "Częsty błąd: Wpisanie migracji – w tej lekcji głównym czynnikiem jest różnica między narodzinami a zgonami."
+          ],
+          "zrodlo": "str. 75"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Na całym świecie żyje dziś około ___ miliardów ludzi.",
+          "a": "8",
+          "inne": [
+            "osiem"
+          ],
+          "exp": [
+            "W 2000 r. było nieco ponad 6 mld, a dziś ok. 8 mld – ludzi szybko przybywa.",
+            "Częsty błąd: Wpisanie 6 – tyle było w 2000 roku."
+          ],
+          "zrodlo": "str. 75, drugi akapit"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Wykres pokazujący, ilu jest kobiet i mężczyzn w kolejnych grupach wieku, to piramida ___ i wieku.",
+          "a": "płci",
+          "inne": [
+            "plci"
+          ],
+          "exp": [
+            "Piramida płci i wieku zestawia słupki obu płci obok siebie.",
+            "Częsty błąd: Wpisanie „ludności” – nazwa wykresu mówi o płci i wieku."
+          ],
+          "zrodlo": "str. 76"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Jako przykład europejskiego kraju ze starzejącym się społeczeństwem, z piramidą szerszą u góry, podaje się ___.",
+          "a": "Włochy",
+          "inne": [
+            "wlochy"
+          ],
+          "exp": [
+            "Włochy mają wąską podstawę piramidy i bardzo długie słupki w starszych grupach.",
+            "Częsty błąd: Wpisanie Kosowa – to przykład społeczeństwa, które do niedawna było młode."
+          ],
+          "zrodlo": "str. 76–77"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Gdy pracujących jest coraz mniej, państwo ma mniejsze wpływy z ___.",
+          "a": "podatków",
+          "inne": [
+            "podatkow"
+          ],
+          "exp": [
+            "Podatki płacą głównie osoby pracujące, więc gdy ich ubywa, dochody państwa maleją.",
+            "Częsty błąd: Wpisanie „emerytur” – emerytury to wydatek państwa, nie wpływ."
+          ],
+          "zrodlo": "str. 77"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Co to jest gęstość zaludnienia i w jakich jednostkach się ją podaje?",
+          "a": "To średnia liczba mieszkańców wypadająca na jednostkę powierzchni terenu; zapisujemy ją jako os./km², czyli liczbę ludzi na jednym kilometrze kwadratowym.",
+          "blad": "Pomylenie gęstości zaludnienia z samą liczbą mieszkańców, która nic nie mówi o powierzchni.",
+          "zrodlo": "str. 73, podświetlone zdanie pod śródtytułem „Czy w Europie mieszka dużo ludzi?”; ramka „A to ciekawe...” (wyspa 1 km²)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Europa ma znacznie mniej mieszkańców niż Azja czy Afryka. Dlaczego mimo to uważa się ją za kontynent dość ludny?",
+          "a": "Bo liczy się nie tylko liczba ludzi, ale też powierzchnia; w przeliczeniu na km² Europa ma średnio 34 os./km² i pod względem gęstości wyprzedza obie Ameryki i Australię.",
+          "blad": "Patrzenie tylko na liczbę mieszkańców bez uwzględnienia wielkości kontynentu.",
+          "zrodlo": "str. 73, akapit pod śródtytułem i wykresy „Liczba ludności kontynentów w 2023 r.” oraz „Gęstość zaludnienia kontynentów w 2023 r.”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego ludność Europy jest rozmieszczona dość równomiernie?",
+          "a": "Bo w Europie nie ma rozległych terenów, na których trudno się osiedlić, takich jak pustynie czy obszary pokryte lądolodem.",
+          "blad": "Wyjaśnianie tego tym, że Europa jest mała – rozmiar kontynentu nie decyduje o równym rozkładzie ludzi.",
+          "zrodlo": "str. 74, pierwszy akapit; „To najważniejsze!” pkt 1 (str. 77)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Porównaj, gdzie w Europie mieszka dużo ludzi, a gdzie mało, i wyjaśnij, skąd ta różnica.",
+          "a": "Dużo ludzi mieszka na nizinach i przy złożach surowców mineralnych, gdzie rozwinął się przemysł; mało – na północy i na Nizinie Nadkaspijskiej przez niekorzystny klimat oraz w górach.",
+          "blad": "Przekonanie, że każda nizina jest gęsto zaludniona – Nizina Nadkaspijska pokazuje, że klimat może to zmienić.",
+          "zrodlo": "str. 74, pierwszy akapit; Ćwiczenia 1 (str. 77); „Podsumowanie” pkt 8 (str. 90)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego w górach mieszka mniej ludzi niż na nizinach?",
+          "a": "Bo w górach jest surowy klimat, a teren jest pocięty zboczami i dolinami, czyli ma urozmaiconą rzeźbę.",
+          "blad": "Podanie tylko jednego z dwóch powodów, na przykład samego klimatu.",
+          "zrodlo": "str. 74, pierwszy akapit, ostatnie zdanie"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Od czego głównie zależy, czy ludności przybywa, czy ubywa?",
+          "a": "Od tego, ile osób się rodzi, a ile umiera: gdy narodzin jest więcej niż zgonów, ludzi przybywa, a w odwrotnej sytuacji ubywa.",
+          "blad": "Wskazanie udziału osób starszych jako czynnika – to skutek zmian w liczbie urodzeń i długości życia, a nie ich przyczyna.",
+          "zrodlo": "str. 75, pierwszy akapit; „Sprawdź się!” zad. 5 (str. 92)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego w Europie rodzi się mało dzieci?",
+          "a": "Bo zmienia się gospodarka, społeczeństwo i sposób życia: ludzie stawiają na pracę i swoje pasje, więc dzieci planują później albo rezygnują z nich.",
+          "blad": "Odpowiedź, że Europejczycy żyją krócej – to nieprawda, żyją coraz dłużej.",
+          "zrodlo": "str. 75, trzeci akapit i podpis pod zdjęciem rodziny"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Co znaczy, że społeczeństwo się starzeje, i jakie są dwie główne przyczyny tego zjawiska?",
+          "a": "Wśród mieszkańców rośnie część osób starszych, a maleje część młodych; przyczyny to rzadsze i późniejsze decyzje o dzieciach oraz dłuższe życie dzięki wysokiej jakości życia i lepszej opiece medycznej.",
+          "blad": "Podanie skutków (np. większe wydatki na emerytury) zamiast przyczyn albo wymienienie tylko jednej przyczyny.",
+          "zrodlo": "str. 75, sekcja „Co to znaczy, że społeczeństwo Europy się starzeje?”; „To najważniejsze!” pkt 2 i 3 (str. 77)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Jak czytać piramidę płci i wieku – co jest po lewej, co po prawej, co w środku, a co na osi poziomej?",
+          "a": "Po lewej są słupki mężczyzn, po prawej kobiet, w środku przedziały wieku od najmłodszych na dole do najstarszych na górze, a oś pozioma pokazuje liczbę osób w każdej grupie.",
+          "blad": "Zamiana stron – kobiety są po prawej, mężczyźni po lewej.",
+          "zrodlo": "str. 76, żółte pole „Piramida płci i wieku” z objaśnieniami"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Czym różni się kształt piramidy społeczeństwa starzejącego się od piramidy społeczeństwa młodego? Podaj przykład państwa dla każdej.",
+          "a": "Piramida starzejącego się społeczeństwa jest szersza u góry niż u dołu (Włochy), a młodego – szeroka u dołu i wąska u góry (do niedawna Kosowo).",
+          "blad": "Odwrócenie kształtów – szeroka podstawa oznacza dużo dzieci, czyli społeczeństwo młode.",
+          "zrodlo": "str. 76, drugi akapit; piramidy Włoch i Kosowa (str. 77)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Jakie kłopoty dla państwa wynikają ze starzenia się społeczeństwa?",
+          "a": "Pracuje mniej osób, a emerytury pobiera więcej, więc wpływy z podatków maleją, a wydatki na emerytury, służbę zdrowia, leki i opiekę nad starszymi rosną.",
+          "blad": "Twierdzenie, że państwo wydaje mniej, bo starsi nie chodzą do szkoły – w rzeczywistości wydatki rosną.",
+          "zrodlo": "str. 77, sekcja „Konsekwencje starzenia się społeczeństwa”; „Podsumowanie” pkt 9 (str. 90)"
+        }
+      ]
+    }
+  ]
+}

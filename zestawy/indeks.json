@@ -9,6 +9,146 @@
   ],
   "zestawy": [
     {
+      "id": "geo-dz3-l01-polozenie-i-uksztaltowanie-powierzchni-europy",
+      "tytul": "Europa na mapie: położenie, granice i rzeźba terenu",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 1,
+      "strony": "50–54",
+      "ikona": "mapa",
+      "kolor": "niebieski",
+      "bloki": 5,
+      "zadan": 38,
+      "nagrania": 2,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l02-wulkany-i-trzesienia-ziemi-na-islandii",
+      "tytul": "Islandia — wyspa wulkanów i trzęsień ziemi",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 2,
+      "strony": "55–61",
+      "ikona": "wulkan",
+      "kolor": "rozowy",
+      "bloki": 5,
+      "zadan": 39,
+      "nagrania": 2,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l03-zroznicowanie-klimatyczne-europy",
+      "tytul": "Klimaty Europy — skąd biorą się różnice",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 3,
+      "strony": "62–67",
+      "ikona": "termometr",
+      "kolor": "krem",
+      "bloki": 5,
+      "zadan": 39,
+      "nagrania": 1,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l04-podzial-polityczny-europy",
+      "tytul": "Państwa Europy i Unia Europejska",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 4,
+      "strony": "68–72",
+      "ikona": "pinezka",
+      "kolor": "lila",
+      "bloki": 5,
+      "zadan": 38,
+      "nagrania": 0,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l05-rozmieszczenie-ludnosci-starzenie-sie-spoleczenstw",
+      "tytul": "Ludność Europy: gdzie mieszka i dlaczego się starzeje",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 5,
+      "strony": "73–77",
+      "ikona": "ludzie",
+      "kolor": "mietowy",
+      "bloki": 5,
+      "zadan": 39,
+      "nagrania": 0,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l06-migracje-w-europie",
+      "tytul": "Europejczycy w drodze — migracje i ich skutki",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 6,
+      "strony": "78–82",
+      "ikona": "walizka",
+      "kolor": "zolty",
+      "bloki": 5,
+      "zadan": 39,
+      "nagrania": 0,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz3-l07-wielkie-miasta-europy-paryz-i-londyn",
+      "tytul": "Paryż i Londyn — dwie europejskie metropolie",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-10-12",
+      "dzial": "III",
+      "dzialTytul": "Przyroda i mieszkańcy Europy",
+      "lekcja": 7,
+      "strony": "83–88",
+      "ikona": "miasto",
+      "kolor": "brzoskwinia",
+      "bloki": 5,
+      "zadan": 38,
+      "nagrania": 2,
+      "sciaga": true
+    },
+    {
       "id": "geo-dz2-l01-ziemia-w-ukladzie-slonecznym",
       "tytul": "Ziemia wśród planet Układu Słonecznego",
       "opis": "",

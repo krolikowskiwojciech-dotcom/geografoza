@@ -12,7 +12,7 @@ popraw JSON lekcji w `lekcje-audio` i zaimportuj jeszcze raz. Ręcznie piszesz t
   "termin": "2026-10-21",                    // dzień kartkówki (opcjonalnie) — karta trafi do „Przed kartkówką”
   "dodano": "2026-10-19",
   "dzial": "III", "dzialTytul": "…", "lekcja": 2, "strony": "55–58",   // opcjonalnie: miejsce w podręczniku
-  "ikona": "globus",                         // globus kompas mapa pinezka gory slonce ksiezyc planeta zegar fala drzewo wulkan
+  "ikona": "globus",                         // globus kompas mapa pinezka gory slonce ksiezyc planeta zegar fala drzewo wulkan termometr ludzie walizka miasto
   "kolor": "zolty",                          // lila | mietowy | zolty | brzoskwinia | niebieski | rozowy | krem
   "ocena": true,                             // pokaż przybliżoną ocenę szkolną w podsumowaniu
   "nagrania": [ { "tytul": "…", "opis": "…", "plik": "nagrania/x.mp3", "minuty": 9 },

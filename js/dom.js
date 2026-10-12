@@ -49,9 +49,13 @@ const IKONY = {
   fala: S('<path d="M2.5 9c2.5-2 4.5-2 7 0s4.5 2 7 0 3.5-1.5 5-.5M2.5 15c2.5-2 4.5-2 7 0s4.5 2 7 0 3.5-1.5 5-.5"/>'),
   drzewo: S('<path d="M12 3l-6 8h3.5l-4 5.5h13l-4-5.5H18z"/><path d="M12 16.5v4.5"/>'),
   wulkan: S('<path d="M3 20.5l5.5-10h7l5.5 10z"/><path d="M10 10.5l1-2.5h2l1 2.5M12 5.5V3M9.2 4.6 7.8 3.2M14.8 4.6l1.4-1.4"/>'),
+  termometr: S('<path d="M10 4.5a2 2 0 0 1 4 0v9.3a4 4 0 1 1-4 0z"/><path d="M12 9v7.5"/><path d="M16.5 6h2M16.5 9.5h2"/>'),
+  ludzie: S('<circle cx="9" cy="8" r="3"/><path d="M3.5 19.5c.4-3.3 2.6-5.3 5.5-5.3s5.1 2 5.5 5.3"/><circle cx="16.5" cy="9" r="2.4"/><path d="M15.6 14.4c2.6-.4 4.6 1.4 4.9 4.6"/>'),
+  walizka: S('<rect x="3.5" y="7.5" width="17" height="12" rx="2.5"/><path d="M9 7.5V5.5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5.5v2M8 7.5v12M16 7.5v12"/>'),
+  miasto: S('<path d="M3 20.5h18M5 20.5V10l4-2.5v13M9 20.5V4.5h6v16M15 20.5V11h4.5v9.5"/><path d="M11.5 8h1M11.5 11.5h1M11.5 15h1"/>'),
 };
 export const ik = (nazwa, klasa = '') => h('span', { class: `ik ik-${nazwa} ${klasa}`, html: IKONY[nazwa] || IKONY.globus });
-export const IKONY_GEO = ['globus', 'kompas', 'mapa', 'pinezka', 'gory', 'slonce', 'ksiezyc', 'planeta', 'zegar', 'fala', 'drzewo', 'wulkan'];
+export const IKONY_GEO = ['globus', 'kompas', 'mapa', 'pinezka', 'gory', 'slonce', 'ksiezyc', 'planeta', 'zegar', 'fala', 'drzewo', 'wulkan', 'termometr', 'ludzie', 'walizka', 'miasto'];
 
 // maskotka 3D (obrazy/maskotka-<poza>.png); dopóki pliku nie ma, element po prostu znika
 export const maskotka = (poza, klasa = '') => h('img', { class: 'maskotka ' + klasa, src: `obrazy/maskotka-${poza}.png`, alt: '', onerror: (e) => e.target.remove() });

@@ -1,0 +1,630 @@
+{
+  "id": "geo-dz3-l02-wulkany-i-trzesienia-ziemi-na-islandii",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Islandia — wyspa wulkanów i trzęsień ziemi",
+  "dzial": "III",
+  "dzialTytul": "Przyroda i mieszkańcy Europy",
+  "lekcja": 2,
+  "strony": "55–61",
+  "dodano": "2026-10-12",
+  "termin": null,
+  "ikona": "wulkan",
+  "kolor": "rozowy",
+  "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz3-l02-wulkany-i-trzesienia-ziemi-na-islandii.mp3",
+      "minuty": 16
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz3-l02-wulkany-i-trzesienia-ziemi-na-islandii-krotkie.mp3",
+      "minuty": 8
+    }
+  ],
+  "sciaga": [
+    "Islandia to wyspa na Oceanie Atlantyckim, na północnym zachodzie Europy. Razem z Grecją i Włochami to miejsce, skąd w Europie najczęściej przychodzą wiadomości o wybuchach wulkanów i drżeniu ziemi.",
+    "Litosfera to twarda skorupa naszej planety, zbudowana ze skał i gruba na kilkadziesiąt kilometrów.",
+    "Powierzchnia Ziemi wygląda na jedną nieruchomą całość, ale litosfera jest pocięta na olbrzymie kawałki — płyty litosfery, na przykład północnoamerykańską, eurazjatycką, afrykańską i pacyficzną.",
+    "Pod litosferą jest tak gorąco, że skały zamieniają się w gęstą ciecz, czyli magmę. Magma płynie strumieniami w różne strony i ciągnie za sobą płyty, które na niej pływają — o kilka centymetrów w ciągu roku.",
+    "Gdy płyty na siebie napierają, jedna zwykle wsuwa się pod drugą i z tego rosną łańcuchy gór, jak Andy w Ameryce Południowej.",
+    "Gdy płyty się od siebie oddalają, między nimi otwiera się szczelina i przez nią magma wydostaje się na zewnątrz.",
+    "Magma, która wyszła na powierzchnię, nazywa się już lawą. Lawa bywa gorętsza niż 1000°C, a kiedy stygnie, powstają z niej nowe skały.",
+    "Przez sam środek Islandii biegnie granica dwóch oddalających się płyt: północnoamerykańskiej i eurazjatyckiej. Przy tej granicy leży większość czynnych wulkanów wyspy.",
+    "Miejsca, w których płyty się oddalają, to zwykle długie pasy na dnie oceanów. Jeden taki pas ciągnie się z północy na południe po dnie Atlantyku, a Islandia jest jego wyjątkowym kawałkiem, który wystaje nad wodę.",
+    "Wyspę tworzy więc głównie lawa, która co jakiś czas na nowo zalepia szczelinę między płytami. Z szybko stygnącej lawy powstaje bazalt — czarna skała magmowa, która pokrywa przeważającą część Islandii.",
+    "Wulkan to miejsce, gdzie magma razem z innymi substancjami wydostaje się na powierzchnię. To wydostawanie się, czyli wybuch, nazywa się erupcją.",
+    "Przy gwałtownej erupcji magma pod wysokim ciśnieniem rozbija skały zastygłe po dawnych wybuchach. Wtedy oprócz lawy z wulkanu wylatują pyły i okruchy skał.",
+    "Po wielu erupcjach z wyrzuconego materiału rośnie góra — stożek wulkaniczny. Stożek Hekli ma prawie 1500 m n.p.m.",
+    "Czynny wulkan to taki, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30. Należą do nich Laki, Hekla, Bárðarbunga, Eyjafjallajökull oraz Sundhnúkur, ostatnio jeden z najaktywniejszych.",
+    "W 2010 roku wybuch Eyjafjallajökull rozpostarł chmurę pyłu prawie nad całą Europą. Przez kilka dni w większości krajów nie latały samoloty, bo pył mógł uszkodzić ich silniki.",
+    "Magma leży na Islandii płytko, więc podgrzewa wodę pod ziemią i powstają gorące źródła. Należą do nich gejzery, które wystrzeliwują wrzącą wodę pod ciśnieniem nawet na kilkadziesiąt metrów; Strokkur robi to co kilka minut, na około 30 m.",
+    "Płyty nie suną równo, tylko co jakiś czas przeskakują. Nagłe przesunięcie sztywnych skał litosfery wywołuje drgania terenu, czyli trzęsienie ziemi.",
+    "Przypomina to pchanie ciężkiego, załadowanego regału: długo nie chce ruszyć, a gdy w końcu drgnie, szarpnięcie zrzuca wszystko z półek.",
+    "Ziemia drży też wtedy, gdy magma przesuwa się we wnętrzu wulkanu. Takie drgania mogą zapowiadać erupcję.",
+    "Wulkany i trzęsienia ziemi pojawiają się i tam, gdzie płyty się oddalają, i tam, gdzie na siebie napierają. Na mapie świata układają się wzdłuż granic płyt; w Europie częste trzęsienia są wokół Morza Śródziemnego (Włochy z Wezuwiuszem i Etną) oraz przy Islandii.",
+    "Etna, najwyższy wulkan Europy, leży we Włoszech, na styku płyty afrykańskiej i eurazjatyckiej.",
+    "Islandia słynie też z krajobrazów: setek wodospadów (jak Seljalandsfoss), ciepłego kąpieliska Błękitna Laguna przy chłodnym lecie, lodowca Vatnajökull, który przykrywa kilka wulkanów, i kolorowych „tęczowych gór” Landmannalaugar."
+  ],
+  "definicje": {
+    "Islandia": "Wyspa na Oceanie Atlantyckim, na północnym zachodzie Europy. Leży dokładnie na styku dwóch płyt litosfery, więc ma wulkany, gejzery i trzęsienia ziemi.",
+    "litosfera": "Twarda, skalna skorupa na zewnątrz Ziemi, gruba na kilkadziesiąt kilometrów. Nie jest jednym kawałkiem, tylko składa się z płyt.",
+    "płyty litosfery": "Olbrzymie kawałki, na które pęka litosfera. Pływają na magmie i bardzo powoli się przesuwają — zbliżają albo oddalają od siebie.",
+    "granica płyt litosfery": "Linia, wzdłuż której stykają się dwie płyty. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi.",
+    "magma": "Skały pod litosferą, roztopione w gęstą, gorącą ciecz. Płynie strumieniami i porusza płytami.",
+    "lawa": "Tak nazywamy magmę, kiedy już wydostanie się na powierzchnię. Bywa gorętsza niż 1000°C, a gdy stygnie, zamienia się w nowe skały.",
+    "bazalt": "Czarna skała magmowa, która tworzy się, gdy lawa szybko stygnie. Pokrywa przeważającą część Islandii.",
+    "wulkan": "Miejsce, przez które magma razem z innymi substancjami wydostaje się na powierzchnię ziemi.",
+    "erupcja": "Samo wydostawanie się magmy i innych substancji z wulkanu, czyli jego wybuch. Gwałtowna erupcja wyrzuca też pyły i okruchy skał.",
+    "stożek wulkaniczny": "Góra usypana z lawy, pyłów i odłamków skał, które wulkan wyrzucał podczas wielu kolejnych wybuchów. Przykład: Hekla.",
+    "czynny wulkan": "Wulkan, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30, na przykład Heklę i Laki.",
+    "gorące źródła": "Wypływy podziemnej wody ogrzanej przez magmę leżącą blisko powierzchni.",
+    "gejzer": "Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów.",
+    "trzęsienie ziemi": "Drgania terenu, gdy sztywne skały litosfery nagle się przesuną. Może też poprzedzać wybuch wulkanu."
+  },
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Wyspa na Oceanie Atlantyckim, na północnym zachodzie Europy. Leży dokładnie na styku dwóch płyt litosfery, więc ma wulkany, gejzery i trzęsienia ziemi.",
+          "a": "Islandia",
+          "choices": [
+            "Islandia",
+            "wulkan",
+            "gejzer"
+          ],
+          "exp": [
+            "wulkan to coś innego: Miejsce, przez które magma razem z innymi substancjami wydostaje się na powierzchnię ziemi.",
+            "gejzer to coś innego: Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Twarda, skalna skorupa na zewnątrz Ziemi, gruba na kilkadziesiąt kilometrów. Nie jest jednym kawałkiem, tylko składa się z płyt.",
+          "a": "litosfera",
+          "choices": [
+            "litosfera",
+            "gorące źródła",
+            "magma"
+          ],
+          "exp": [
+            "gorące źródła to coś innego: Wypływy podziemnej wody ogrzanej przez magmę leżącą blisko powierzchni.",
+            "magma to coś innego: Skały pod litosferą, roztopione w gęstą, gorącą ciecz. Płynie strumieniami i porusza płytami."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Olbrzymie kawałki, na które pęka …. Pływają na magmie i bardzo powoli się przesuwają — zbliżają albo oddalają od siebie.",
+          "a": "płyty litosfery",
+          "choices": [
+            "płyty litosfery",
+            "czynny wulkan",
+            "trzęsienie ziemi"
+          ],
+          "exp": [
+            "czynny wulkan to coś innego: Wulkan, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30, na przykład Heklę i Laki.",
+            "trzęsienie ziemi to coś innego: Drgania terenu, gdy sztywne skały litosfery nagle się przesuną. Może też poprzedzać wybuch wulkanu."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Linia, wzdłuż której stykają się dwie …. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi.",
+          "a": "granica płyt litosfery",
+          "choices": [
+            "granica płyt litosfery",
+            "wulkan",
+            "stożek wulkaniczny"
+          ],
+          "exp": [
+            "wulkan to coś innego: Miejsce, przez które magma razem z innymi substancjami wydostaje się na powierzchnię ziemi.",
+            "stożek wulkaniczny to coś innego: Góra usypana z lawy, pyłów i odłamków skał, które wulkan wyrzucał podczas wielu kolejnych wybuchów. Przykład: Hekla."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Skały pod litosferą, roztopione w gęstą, gorącą ciecz. Płynie strumieniami i porusza płytami.",
+          "a": "magma",
+          "choices": [
+            "magma",
+            "czynny wulkan",
+            "gejzer"
+          ],
+          "exp": [
+            "czynny wulkan to coś innego: Wulkan, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30, na przykład Heklę i Laki.",
+            "gejzer to coś innego: Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Tak nazywamy magmę, kiedy już wydostanie się na powierzchnię. Bywa gorętsza niż 1000°C, a gdy stygnie, zamienia się w nowe skały.",
+          "a": "lawa",
+          "choices": [
+            "lawa",
+            "bazalt",
+            "granica płyt litosfery"
+          ],
+          "exp": [
+            "bazalt to coś innego: Czarna skała magmowa, która tworzy się, gdy lawa szybko stygnie. Pokrywa przeważającą część Islandii.",
+            "granica płyt litosfery to coś innego: Linia, wzdłuż której stykają się dwie płyty. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Czarna skała magmowa, która tworzy się, gdy lawa szybko stygnie. Pokrywa przeważającą część Islandii.",
+          "a": "bazalt",
+          "choices": [
+            "bazalt",
+            "płyty litosfery",
+            "gorące źródła"
+          ],
+          "exp": [
+            "płyty litosfery to coś innego: Olbrzymie kawałki, na które pęka litosfera. Pływają na magmie i bardzo powoli się przesuwają — zbliżają albo oddalają od siebie.",
+            "gorące źródła to coś innego: Wypływy podziemnej wody ogrzanej przez magmę leżącą blisko powierzchni."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Miejsce, przez które magma razem z innymi substancjami wydostaje się na powierzchnię ziemi.",
+          "a": "wulkan",
+          "choices": [
+            "wulkan",
+            "gejzer",
+            "magma"
+          ],
+          "exp": [
+            "gejzer to coś innego: Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów.",
+            "magma to coś innego: Skały pod litosferą, roztopione w gęstą, gorącą ciecz. Płynie strumieniami i porusza płytami."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Samo wydostawanie się magmy i innych substancji z wulkanu, czyli jego wybuch. Gwałtowna … wyrzuca też pyły i okruchy skał.",
+          "a": "erupcja",
+          "choices": [
+            "erupcja",
+            "gorące źródła",
+            "czynny wulkan"
+          ],
+          "exp": [
+            "gorące źródła to coś innego: Wypływy podziemnej wody ogrzanej przez magmę leżącą blisko powierzchni.",
+            "czynny wulkan to coś innego: Wulkan, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30, na przykład Heklę i Laki."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Góra usypana z lawy, pyłów i odłamków skał, które wulkan wyrzucał podczas wielu kolejnych wybuchów. Przykład: Hekla.",
+          "a": "stożek wulkaniczny",
+          "choices": [
+            "stożek wulkaniczny",
+            "lawa",
+            "gejzer"
+          ],
+          "exp": [
+            "lawa to coś innego: Tak nazywamy magmę, kiedy już wydostanie się na powierzchnię. Bywa gorętsza niż 1000°C, a gdy stygnie, zamienia się w nowe skały.",
+            "gejzer to coś innego: Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "…, który wybuchał w ostatnich kilkuset latach. Islandia ma ich około 30, na przykład Heklę i Laki.",
+          "a": "czynny wulkan",
+          "choices": [
+            "czynny wulkan",
+            "bazalt",
+            "lawa"
+          ],
+          "exp": [
+            "bazalt to coś innego: Czarna skała magmowa, która tworzy się, gdy lawa szybko stygnie. Pokrywa przeważającą część Islandii.",
+            "lawa to coś innego: Tak nazywamy magmę, kiedy już wydostanie się na powierzchnię. Bywa gorętsza niż 1000°C, a gdy stygnie, zamienia się w nowe skały."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Wypływy podziemnej wody ogrzanej przez magmę leżącą blisko powierzchni.",
+          "a": "gorące źródła",
+          "choices": [
+            "gorące źródła",
+            "litosfera",
+            "granica płyt litosfery"
+          ],
+          "exp": [
+            "litosfera to coś innego: Twarda, skalna skorupa na zewnątrz Ziemi, gruba na kilkadziesiąt kilometrów. Nie jest jednym kawałkiem, tylko składa się z płyt.",
+            "granica płyt litosfery to coś innego: Linia, wzdłuż której stykają się dwie płyty. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Rodzaj gorącego źródła, które co jakiś czas wystrzeliwuje w górę wrzącą wodę pod ciśnieniem, nawet na kilkadziesiąt metrów.",
+          "a": "gejzer",
+          "choices": [
+            "gejzer",
+            "litosfera",
+            "granica płyt litosfery"
+          ],
+          "exp": [
+            "litosfera to coś innego: Twarda, skalna skorupa na zewnątrz Ziemi, gruba na kilkadziesiąt kilometrów. Nie jest jednym kawałkiem, tylko składa się z płyt.",
+            "granica płyt litosfery to coś innego: Linia, wzdłuż której stykają się dwie płyty. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Drgania terenu, gdy sztywne skały litosfery nagle się przesuną. Może też poprzedzać wybuch wulkanu.",
+          "a": "trzęsienie ziemi",
+          "choices": [
+            "trzęsienie ziemi",
+            "stożek wulkaniczny",
+            "granica płyt litosfery"
+          ],
+          "exp": [
+            "stożek wulkaniczny to coś innego: Góra usypana z lawy, pyłów i odłamków skał, które wulkan wyrzucał podczas wielu kolejnych wybuchów. Przykład: Hekla.",
+            "granica płyt litosfery to coś innego: Linia, wzdłuż której stykają się dwie płyty. Właśnie przy takich liniach skupiają się wulkany i częste trzęsienia ziemi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Jak nazywamy magmę, która wydostała się na powierzchnię?",
+          "a": "lawa",
+          "choices": [
+            "magma",
+            "lawa",
+            "bazalt"
+          ],
+          "exp": [
+            "Po wyjściu na powierzchnię magma dostaje nową nazwę: lawa. Bazalt powstaje dopiero, gdy lawa zastygnie.",
+            "Częsty błąd: Bazalt to już skała ze stygnącej lawy, a nie płynna masa."
+          ],
+          "zrodlo": "str. 56, drugi akapit; str. 57"
+        },
+        {
+          "kind": "wybor",
+          "e": "Między którymi płytami leży Islandia?",
+          "a": "północnoamerykańską i eurazjatycką",
+          "choices": [
+            "afrykańską i eurazjatycką",
+            "północnoamerykańską i eurazjatycką",
+            "pacyficzną i północnoamerykańską"
+          ],
+          "exp": [
+            "Granica płyty północnoamerykańskiej i eurazjatyckiej przecina środek wyspy.",
+            "Częsty błąd: Afrykańska i eurazjatycka stykają się przy Włoszech i Etnie, nie przy Islandii."
+          ],
+          "zrodlo": "str. 56, pole „Położenie Islandii na granicy płyt litosfery”"
+        },
+        {
+          "kind": "wybor",
+          "e": "W jakim tempie przesuwają się płyty litosfery?",
+          "a": "o kilka centymetrów w ciągu roku",
+          "choices": [
+            "o kilka centymetrów w ciągu roku",
+            "o kilka metrów w ciągu dnia",
+            "o kilka kilometrów w ciągu roku"
+          ],
+          "exp": [
+            "Ruch jest bardzo powolny — kilka centymetrów rocznie, więc na co dzień go nie czujemy.",
+            "Częsty błąd: Przesadzanie z prędkością — płyty nie przesuwają się o metry ani kilometry rocznie."
+          ],
+          "zrodlo": "str. 56, pierwszy akapit"
+        },
+        {
+          "kind": "wybor",
+          "e": "Co powstaje, gdy dwie płyty na siebie napierają i jedna wsuwa się pod drugą?",
+          "a": "łańcuch górski",
+          "choices": [
+            "gejzer",
+            "łańcuch górski",
+            "gorące źródło"
+          ],
+          "exp": [
+            "Zderzenie płyt wypiętrza góry, na przykład Andy w Ameryce Południowej.",
+            "Częsty błąd: Gejzery i gorące źródła biorą się z wody podgrzanej przez magmę, nie ze zderzenia płyt."
+          ],
+          "zrodlo": "str. 56, drugi akapit"
+        },
+        {
+          "kind": "wybor",
+          "e": "Jaka skała pokrywa większą część Islandii?",
+          "a": "bazalt",
+          "choices": [
+            "bazalt",
+            "lód",
+            "piasek"
+          ],
+          "exp": [
+            "Bazalt to czarna skała z szybko stygnącej lawy — z niej głównie zbudowana jest wyspa.",
+            "Częsty błąd: Lód tworzy lodowce na szczytach, ale nie jest skałą budującą wyspę."
+          ],
+          "zrodlo": "str. 57, „Dlaczego Islandia jest wyjątkową wyspą?”"
+        },
+        {
+          "kind": "wybor",
+          "e": "Który wulkan wybuchł w 2010 roku i zatrzymał samoloty nad Europą?",
+          "a": "Eyjafjallajökull",
+          "choices": [
+            "Hekla",
+            "Eyjafjallajökull",
+            "Etna"
+          ],
+          "exp": [
+            "Chmura pyłu z wybuchu Eyjafjallajökull rozeszła się nad prawie całą Europą.",
+            "Częsty błąd: Hekla też leży na Islandii, ale z tym wydarzeniem związany jest inny wulkan."
+          ],
+          "zrodlo": "str. 57, „A to ciekawe...”"
+        },
+        {
+          "kind": "wybor",
+          "e": "Ile mniej więcej czynnych wulkanów ma Islandia?",
+          "a": "około 30",
+          "choices": [
+            "około 3",
+            "około 30",
+            "około 300"
+          ],
+          "exp": [
+            "Czynnych wulkanów jest tam około trzydziestu, na przykład Hekla, Laki i Sundhnúkur.",
+            "Częsty błąd: Liczenie tylko pięciu wymienionych z nazwy — to przykłady, a nie wszystkie."
+          ],
+          "zrodlo": "str. 58, tekst pod zdjęciami"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Litosfera jest płynna i gorąca.",
+          "a": false,
+          "exp": [
+            "Litosfera jest sztywna i skalna. Płynna i gorąca jest magma pod nią.",
+            "Częsty błąd: Mieszanie warstwy twardej z tym, co płynie pod spodem."
+          ],
+          "zrodlo": "str. 55–56"
+        },
+        {
+          "kind": "pf",
+          "e": "Pod Islandią dwie płyty zderzają się ze sobą.",
+          "a": false,
+          "exp": [
+            "Pod Islandią płyty się od siebie oddalają, dlatego przez szczelinę wypływa lawa.",
+            "Częsty błąd: Zderzanie płyt dotyczy na przykład Andów, a nie Islandii."
+          ],
+          "zrodlo": "str. 56; „To najważniejsze!” pkt 2"
+        },
+        {
+          "kind": "pf",
+          "e": "Większość miejsc, w których płyty się oddalają, znajduje się na dnie oceanów.",
+          "a": true,
+          "exp": [
+            "Tak — dlatego Islandia, która takie miejsce wynosi ponad wodę, jest wyjątkiem.",
+            "Częsty błąd: Uznanie, że takie miejsca są zwykle na lądzie, jak Islandia."
+          ],
+          "zrodlo": "str. 57, „Dlaczego Islandia jest wyjątkową wyspą?”"
+        },
+        {
+          "kind": "pf",
+          "e": "Za czynny uważa się wulkan, który wybuchał w ostatnich kilkuset latach.",
+          "a": true,
+          "exp": [
+            "Tak — nie musi wybuchać akurat teraz, wystarczy wybuch w ostatnich stuleciach.",
+            "Częsty błąd: Myślenie, że czynny jest tylko wulkan, z którego w tej chwili leci lawa."
+          ],
+          "zrodlo": "str. 58"
+        },
+        {
+          "kind": "pf",
+          "e": "Trzęsienia ziemi zdarzają się wyłącznie tam, gdzie płyty się rozsuwają.",
+          "a": false,
+          "exp": [
+            "Występują też tam, gdzie płyty na siebie napierają — wzdłuż wszystkich granic płyt.",
+            "Częsty błąd: Uogólnianie przykładu Islandii na cały świat."
+          ],
+          "zrodlo": "str. 58, ostatni akapit; mapa str. 59"
+        },
+        {
+          "kind": "pf",
+          "e": "Drgania ziemi mogą zapowiadać wybuch wulkanu.",
+          "a": true,
+          "exp": [
+            "Tak — ziemia drży także wtedy, gdy magma przesuwa się we wnętrzu wulkanu przed erupcją.",
+            "Częsty błąd: Przekonanie, że trzęsienia biorą się wyłącznie z ruchu płyt."
+          ],
+          "zrodlo": "str. 58; „To najważniejsze!” pkt 4"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Twarda, skalna skorupa Ziemi pocięta na płyty to ___.",
+          "a": "litosfera",
+          "inne": [],
+          "exp": [
+            "Litosfera jest sztywna i ma grubość kilkudziesięciu kilometrów.",
+            "Częsty błąd: Wpisanie „magma” — ona jest płynna i leży pod spodem."
+          ],
+          "zrodlo": "str. 55"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Gdy skały pod litosferą zmieniają się w gęstą, gorącą ciecz, nazywamy je ___.",
+          "a": "magma",
+          "inne": [
+            "magmą"
+          ],
+          "exp": [
+            "To magma — dopiero na powierzchni dostaje nazwę lawa.",
+            "Częsty błąd: Wpisanie „lawa”, która jest nazwą dla magmy już na powierzchni."
+          ],
+          "zrodlo": "str. 56"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Wydostawanie się magmy i innych substancji z wulkanu to ___.",
+          "a": "erupcja",
+          "inne": [
+            "erupcja wulkanu",
+            "wybuch",
+            "wybuch wulkanu"
+          ],
+          "exp": [
+            "Ten proces to erupcja, czyli wybuch wulkanu.",
+            "Częsty błąd: Wpisanie „stożek wulkaniczny” — to góra, a nie sam wybuch."
+          ],
+          "zrodlo": "str. 57; „To najważniejsze!” pkt 3"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Szybko stygnąca lawa zamienia się w czarną skałę o nazwie ___.",
+          "a": "bazalt",
+          "inne": [],
+          "exp": [
+            "Bazalt pokrywa większą część Islandii.",
+            "Częsty błąd: Wpisanie „magma” — magma jest płynna, a tu chodzi o skałę."
+          ],
+          "zrodlo": "str. 57"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Góra usypana z materiału wyrzucanego przy wielu wybuchach to stożek ___.",
+          "a": "wulkaniczny",
+          "inne": [],
+          "exp": [
+            "Taką górą jest na przykład Hekla.",
+            "Częsty błąd: Nazywanie samej góry erupcją."
+          ],
+          "zrodlo": "str. 57–58"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Gorące źródło, które co jakiś czas wystrzeliwuje w górę wrzącą wodę, to ___.",
+          "a": "gejzer",
+          "inne": [],
+          "exp": [
+            "Gejzer Strokkur robi to co kilka minut, na około 30 m.",
+            "Częsty błąd: Wpisanie „wulkan” — gejzer wyrzuca wodę, a nie magmę."
+          ],
+          "zrodlo": "str. 58"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Drgania terenu po nagłym przesunięciu skał litosfery to ___ ziemi.",
+          "a": "trzęsienie",
+          "inne": [],
+          "exp": [
+            "Trzęsienie ziemi bierze się ze skokowego ruchu płyt.",
+            "Częsty błąd: Wpisanie „erupcja” — to wybuch wulkanu, a nie drgania."
+          ],
+          "zrodlo": "str. 58; „To najważniejsze!” pkt 4"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Co to jest litosfera i z czego się składa?",
+          "a": "To sztywna, skalna skorupa na zewnątrz Ziemi, gruba na kilkadziesiąt kilometrów, podzielona na olbrzymie kawałki — płyty litosfery.",
+          "blad": "Pomylenie litosfery z magmą — płynna i gorąca jest magma pod litosferą, a sama litosfera jest twarda.",
+          "zrodlo": "str. 55, „Czym są płyty litosfery?”; „To najważniejsze!” pkt 1 (str. 59)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego płyty litosfery się przemieszczają i jak szybko to robią?",
+          "a": "Pod nimi płynie strumieniami magma, a płyty na niej pływają i dają się nieść. Przesuwają się bardzo wolno, o kilka centymetrów rocznie.",
+          "blad": "Przekonanie, że płyty pcha woda oceanów albo że przesuwają się o metry w ciągu dnia.",
+          "zrodlo": "str. 56, pierwszy akapit"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Czym różni się magma od lawy?",
+          "a": "To ta sama roztopiona skała, ale w innym miejscu: pod litosferą nazywa się magmą, a po wydostaniu się na powierzchnię — lawą.",
+          "blad": "Zamiana nazw, czyli nazywanie lawą tego, co płynie głęboko pod ziemią.",
+          "zrodlo": "str. 56, drugi akapit"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego na Islandii są wulkany i trzęsienia ziemi?",
+          "a": "Bo wyspę przecina granica dwóch oddalających się płyt, północnoamerykańskiej i eurazjatyckiej. Szczeliną między nimi wydostaje się magma, a płyty przesuwają się skokami, więc ziemia drży.",
+          "blad": "Twierdzenie, że płyty pod Islandią zderzają się ze sobą — tam się rozchodzą.",
+          "zrodlo": "str. 56, pole „Położenie Islandii na granicy płyt litosfery”; ćw. 2 i „To najważniejsze!” pkt 2 (str. 59); „Podsumowanie” pkt 4 (str. 89)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego Islandia jest wyjątkowa i z jakiej skały jest głównie zbudowana?",
+          "a": "Strefy oddalania się płyt leżą zwykle na dnie oceanów, a Islandia to kawałek takiego pasa z dna Atlantyku, który wystaje nad wodę. Buduje ją głównie zastygła lawa, czyli czarny bazalt.",
+          "blad": "Odpowiedź, że wyspę tworzą głównie lodowce — one tylko leżą na jej powierzchni.",
+          "zrodlo": "str. 57, „Dlaczego Islandia jest wyjątkową wyspą?” i podpis pod zdjęciem bazaltu"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Co to jest czynny wulkan i skąd na Islandii biorą się gejzery?",
+          "a": "Czynny wulkan to taki, który wybuchał w ostatnich kilkuset latach, na przykład Hekla. Gejzery powstają, bo magma leży płytko i nagrzewa wodę pod ziemią.",
+          "blad": "Myślenie, że czynny jest tylko wulkan, który wybucha akurat teraz.",
+          "zrodlo": "str. 58, tekst pod zdjęciami"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Na styku których płyt litosfery leży Etna?",
+          "a": "Na styku płyty afrykańskiej i płyty eurazjatyckiej — granica między nimi biegnie przez Morze Śródziemne.",
+          "blad": "Podanie płyty północnoamerykańskiej, która dotyczy Islandii, a nie Włoch.",
+          "zrodlo": "ćw. 1 (str. 59), mapy na str. 55 i 59"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Co się dzieje, gdy płyty na siebie napierają, a co, gdy się od siebie oddalają?",
+          "a": "Przy zderzeniu jedna płyta zwykle wsuwa się pod drugą i rosną łańcuchy gór, jak Andy. Przy oddalaniu otwiera się szczelina, którą wypływa magma.",
+          "blad": "Odwrócenie skutków: przypisanie powstawania gór rozsuwaniu się płyt.",
+          "zrodlo": "str. 56, drugi akapit"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Jak powstaje stożek wulkaniczny?",
+          "a": "Wulkan przy kolejnych wybuchach wyrzuca lawę, pyły i okruchy skał, a z tego materiału po wielu erupcjach rośnie góra.",
+          "blad": "Uznanie, że stożek i erupcja to to samo — erupcja to wybuch, a stożek to góra, która z wybuchów powstaje.",
+          "zrodlo": "str. 57, „Wulkany i gejzery Islandii”, drugi akapit; zdjęcie Hekli str. 58"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego trzęsienie ziemi przypomina przesuwanie ciężkiego, pełnego regału?",
+          "a": "Bo płyty długo stoją, a potem nagle przeskakują — jak regał, który trudno ruszyć, ale gdy drgnie, szarpnięcie zrzuca wszystko z półek.",
+          "blad": "Wyobrażenie, że płyty przesuwają się równo i bez przerwy — wtedy ziemia by nie drżała.",
+          "zrodlo": "str. 58, „Dlaczego na Islandii trzęsie się ziemia?”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego w 2010 roku na kilka dni wstrzymano loty nad Europą?",
+          "a": "Wybuch Eyjafjallajökull wypuścił ogromną chmurę pyłu, która rozeszła się prawie nad całą Europą, a pył mógł wpadać do silników samolotów i je psuć.",
+          "blad": "Wskazanie trzęsienia ziemi jako przyczyny — samoloty zatrzymał pył z wybuchu wulkanu.",
+          "zrodlo": "str. 57, „A to ciekawe...”"
+        }
+      ]
+    }
+  ]
+}

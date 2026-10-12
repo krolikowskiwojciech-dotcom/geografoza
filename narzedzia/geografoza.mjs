@@ -25,7 +25,7 @@ const LEKCJE = path.join(ICLOUD, 'lekcje-audio/KLASA 6/Geografia');
 const ILUSTRACJE = path.join(ICLOUD, 'uczsiesprytniej/ilustracje');
 const PROFILE = [{ id: 'julek', imie: 'Julek', klasa: 6, znak: 'J' }];
 const KOLORY = ['lila', 'mietowy', 'zolty', 'brzoskwinia', 'niebieski', 'rozowy', 'krem'];
-const IKONY = ['globus', 'kompas', 'mapa', 'pinezka', 'gory', 'slonce', 'ksiezyc', 'planeta', 'zegar', 'fala', 'drzewo', 'wulkan'];
+const IKONY = ['globus', 'kompas', 'mapa', 'pinezka', 'gory', 'slonce', 'ksiezyc', 'planeta', 'zegar', 'fala', 'drzewo', 'wulkan', 'termometr', 'ludzie', 'walizka', 'miasto'];
 const RODZAJE = ['wybor', 'pf', 'wpisz', 'kolejnosc', 'pary', 'otwarte'];
 
 // ---------- kontrola zestawu ----------
@@ -144,7 +144,8 @@ function zaslon(def, termin) {
 const IKONA_TEMATU = [[/współrzęd|siatk|południk|równoleżn/i, 'globus'], [/kierun|kompas|orient/i, 'kompas'], [/układ|planet|słoneczn|księżyc/i, 'planeta'],
   [/\bmap|skal/i, 'mapa'], [/obrot|kręci|wokół osi|dob|dzień i noc|czas|stref/i, 'zegar'], [/obieg|pory roku|oświetl/i, 'slonce'],
   [/gór|wyżyn|himalaj/i, 'gory'], [/ocean|morz|rzek|jezior|wod/i, 'fala'], [/las|krajobraz|sawann|tajg|tundr|step/i, 'drzewo'],
-  [/wulkan|trzęsien|wnętrz/i, 'wulkan'], [/kontynent|ląd|położeni/i, 'pinezka']];
+  [/wulkan|trzęsien|wnętrz/i, 'wulkan'], [/klimat|pogod|temperatur/i, 'termometr'], [/ludnoś|społecz|zaludn/i, 'ludzie'],
+  [/migrac|emigr|imigr/i, 'walizka'], [/miast|metropol/i, 'miasto'], [/państw|unia|granic|polityczn/i, 'mapa'], [/kontynent|ląd|położeni/i, 'pinezka']];
 const czasNagrania = (plik) => { try { const m = execFileSync('afinfo', [plik], { encoding: 'utf8' }).match(/estimated duration: ([\d.]+)/); return m ? Math.round(Number(m[1]) / 60) : null; } catch { return null; } };
 const shaBloba = (buf) => crypto.createHash('sha1').update(`blob ${buf.length}\0`).update(buf).digest('hex');
 
