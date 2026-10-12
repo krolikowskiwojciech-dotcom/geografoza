@@ -56,8 +56,9 @@ Reszta jak w Lingozie:
 - Karty 3D z `--brzeg`, akcent geografii: biały globus z siatką, kompas i góry na kartach, siatka kartograficzna w tle ćwiczeń.
 - Gwiazdki stonowane na kartach, kolorowe tylko w wynikach (`.gwiazdki-wynik`).
 - Żadnych `confirm()`/`alert()` — tylko `okno()`.
-- Maskotka: `obrazy/maskotka-<poza>.png` (czesc, ok, brawo, mysli) — jeszcze jej nie ma; dopóki pliku brak, element znika.
-  Gdy Wojtek przyśle arkusz z ChatGPT, potnij go jak w Lingozie (`narzedzia/tnij_arkusz.py` stamtąd).
+- Maskotka: żółwik-podróżnik ze skorupą jak globus, `obrazy/maskotka-<poza>.png` (czesc, ok, brawo, mysli) — dopóki pliku brak, element znika.
+  Prompty na maskotkę, ikony działów i lekcji (ChatGPT) oraz ilustracje do ściąg (Gemini): `ILUSTRACJE.md` (źródło `narzedzia/prompty.json`).
+  Arkusze tnie `narzedzia/tnij_arkusz.py` z Lingozy.
 - Zmiany wizualne sprawdzaj renderem na 127.0.0.1 przed pushem.
 
 ## Kod
