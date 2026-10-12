@@ -1,0 +1,568 @@
+{
+  "id": "geo-dz2-l01-ziemia-w-ukladzie-slonecznym",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Ziemia wśród planet Układu Słonecznego",
+  "dzial": "II",
+  "dzialTytul": "Jak porusza się Ziemia",
+  "lekcja": 1,
+  "strony": "22–26",
+  "dodano": "2026-09-09",
+  "termin": null,
+  "ikona": "planeta",
+  "kolor": "zolty",
+  "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz2-l01-ziemia-w-ukladzie-slonecznym-krotkie.mp3",
+      "minuty": 8
+    }
+  ],
+  "sciaga": [
+    "Ludzie długo sądzili, że Ziemia stoi w środku wszechświata, a Słońce, gwiazdy i planety krążą wokół niej.",
+    "Dziś wiemy, że to złudzenie: ciała niebieskie tylko z pozoru wędrują po niebie. Taką wędrówkę nazywamy ruchem pozornym.",
+    "Przekonanie ludzi zmienił polski uczony Mikołaj Kopernik. Wykazał, że ruch wykonuje nasza planeta razem z pozostałymi, a Słońce stoi w środku. Dzisiejszy obraz Układu Słonecznego wyrósł właśnie z jego teorii.",
+    "Układ Słoneczny to Słońce i wszystkie ciała niebieskie, które wokół niego krążą.",
+    "Słońce jest gwiazdą, czyli świeci własnym światłem powstającym w reakcjach termojądrowych. To wielka rozżarzona kula z gazów.",
+    "Dla nas Słońce jest wyjątkowe z dwóch powodów: leży najbliżej Ziemi, około stu pięćdziesięciu milionów kilometrów stąd, i daje nam światło oraz ciepło. Dzięki niemu istnieje tu życie.",
+    "Wokół Słońca krąży osiem planet, wszystkie znacznie od niego mniejsze i chłodniejsze.",
+    "Najważniejsza różnica: gwiazda świeci własnym światłem, a planeta tylko odbija światło, które do niej dociera.",
+    "Każda planeta obiega Słońce po własnym torze. Taki tor nazywamy orbitą.",
+    "Cztery planety bliższe Słońcu są skaliste: Merkury, Wenus, Ziemia i Mars. Cztery dalsze to olbrzymy z gazu: Jowisz, Saturn, Uran i Neptun.",
+    "Im bliżej Słońca biegnie orbita, tym krócej trwa obieg. Merkury okrąża Słońce w osiemdziesiąt osiem dni, Ziemia w nieco ponad trzysta sześćdziesiąt pięć dni, a Neptun dopiero w sto sześćdziesiąt pięć lat.",
+    "Merkury nie ma atmosfery ani księżyców. Wenus jest wielkości Ziemi, jej atmosferę tworzy głównie dwutlenek węgla i też nie ma księżyców.",
+    "Ziemia jest największą z planet skalistych, ma atmosferę bogatą w tlen i jednego satelitę. Mars jest od niej dwa razy mniejszy, ma bardzo rozrzedzoną atmosferę i dwa księżyce.",
+    "Jowisz to największa planeta układu, zbudowana z wodoru i helu, z siedemdziesięcioma dziewięcioma znanymi księżycami. Saturn jest drugi co do wielkości i ma pierścienie z brył lodu oraz sześćdziesiąt dwa księżyce.",
+    "Uran, oprócz wodoru i helu, zawiera metan i ma dwadzieścia siedem księżyców. Neptun leży najdalej od Słońca i znamy czternaście jego księżyców.",
+    "W Układzie Słonecznym krąży też pięć planet karłowatych. Są mniejsze od planet, ale poruszają się po orbitach tak samo. Największa z nich to Pluton, uznany za karłowatą w dwa tysiące szóstym roku.",
+    "Wokół większości planet krążą naturalne satelity, czyli księżyce. Ziemia ma tylko jeden — Księżyc.",
+    "Okrążenie Ziemi zajmuje Księżycowi dwadzieścia siedem dni i siedem godzin. Dokładnie tyle samo trwa jego obrót wokół własnej osi, dlatego z Ziemi zawsze widzimy tę samą jego półkulę.",
+    "Słońce oświetla Księżyc cały czas tak samo. Zmienia się tylko to, jaki fragment tarczy widzimy z Ziemi — to są fazy Księżyca. Cała widoczna tarcza to pełnia, brak tarczy to nów.",
+    "Wokół Słońca krążą też tysiące planetoid o średnicach od kilku do kilkunastu kilometrów. Gdy się zderzają, powstają okruchy skalne.",
+    "Okruch, który wpadnie w ziemską atmosferę i się w niej pali, to meteor. Jeśli nie spłonie do końca i spadnie na powierzchnię Ziemi, nazywamy go meteorytem.",
+    "Kometa ma jądro ze skał i lodu oraz warkocz z gazu i pyłu. Najbardziej znana jest kometa Halleya, która przelatuje przez Układ Słoneczny średnio co siedemdziesiąt sześć lat — ostatnio w tysiąc dziewięćset osiemdziesiątym szóstym roku."
+  ],
+  "definicje": {
+    "ciała niebieskie": "Wszystkie obiekty, które widzimy w kosmosie: gwiazdy, planety, księżyce, planetoidy i komety.",
+    "ruch pozorny": "Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+    "Mikołaj Kopernik": "Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego.",
+    "Układ Słoneczny": "Słońce i wszystkie ciała niebieskie, które wokół niego krążą.",
+    "Słońce": "Gwiazda, wokół której krąży osiem planet i pozostałe ciała Układu Słonecznego. Rozżarzona kula z gazów, najbliższa nam ze wszystkich gwiazd — daje Ziemi światło i ciepło.",
+    "gwiazda": "Ciało niebieskie świecące własnym światłem, które powstaje w reakcjach termojądrowych. Najbliższą nam gwiazdą jest Słońce.",
+    "planeta": "Duże ciało niebieskie krążące wokół gwiazdy. Samo nie świeci — widać je dzięki odbitemu światłu.",
+    "orbita": "Tor, po którym ciało niebieskie obiega Słońce albo inne ciało.",
+    "planety skaliste": "Cztery planety najbliższe Słońcu: Merkury, Wenus, Ziemia i Mars. Mają twardą powierzchnię.",
+    "planety olbrzymy": "Cztery planety dalsze od Słońca: Jowisz, Saturn, Uran i Neptun. Zbudowane są głównie z gazów.",
+    "planety karłowate": "Ciała mniejsze od planet, ale tak jak one krążące po orbitach wokół Słońca. Jest ich pięć, największa to Pluton.",
+    "naturalny satelita": "Ciało niebieskie krążące wokół planety. Inaczej księżyc.",
+    "Księżyc": "Jedyny naturalny satelita Ziemi. Jedno okrążenie zajmuje mu dwadzieścia siedem dni i siedem godzin.",
+    "fazy Księżyca": "Widoczne z Ziemi zmiany oświetlenia tarczy Księżyca w kolejnych dniach miesiąca.",
+    "pełnia": "Faza, w której z Ziemi widać całą oświetloną tarczę Księżyca.",
+    "nów": "Faza, w której tarczy Księżyca nie widać z Ziemi wcale.",
+    "planetoidy": "Niewielkie ciała krążące wokół Słońca, o średnicach od kilku do kilkunastu kilometrów.",
+    "meteor": "Jasna smuga na niebie: okruch skalny, który wpadł w atmosferę Ziemi i się w niej pali.",
+    "meteoryt": "Okruch, który nie spalił się do końca w atmosferze i spadł na powierzchnię Ziemi.",
+    "kometa": "Ciało niebieskie ze skalno-lodowym jądrem oraz chmurą gazu i pyłu tworzącą warkocz. Najbardziej znana jest kometa Halleya."
+  },
+  "obrazy": [
+    {
+      "plik": "obrazy/lekcje/geo3-skala.jpg",
+      "po": 7,
+      "podpis": "Osiem planet w tej samej skali. Jowisz i Saturn to olbrzymy, Merkury jest najmniejszy. Zdjęcia: NASA/JPL."
+    },
+    {
+      "plik": "obrazy/lekcje/geo3-gwiazda-planeta.jpg",
+      "po": 8,
+      "podpis": "Słońce świeci własnym światłem, Ziemię widać dzięki światłu odbitemu."
+    },
+    {
+      "plik": "obrazy/lekcje/geo3-orbity.jpg",
+      "po": 10,
+      "podpis": "Każda planeta ma własną orbitę. Cztery bliższe Słońcu są skaliste, cztery dalsze to olbrzymy, a między nimi krąży pas planetoid."
+    },
+    {
+      "plik": "obrazy/lekcje/geo3-mechanizm-faz.jpg",
+      "po": 19,
+      "podpis": "Skąd biorą się fazy: Słońce oświetla zawsze tę samą połowę Księżyca, ale z Ziemi widzimy za każdym razem inną jej część."
+    },
+    {
+      "plik": "obrazy/lekcje/geo3-fazy.jpg",
+      "po": 19,
+      "podpis": "Kolejne fazy Księżyca w ciągu miesiąca. Cała widoczna tarcza to pełnia, brak tarczy — nów."
+    },
+    {
+      "plik": "obrazy/lekcje/geo3-male-ciala.jpg",
+      "po": 21,
+      "podpis": "Planetoida, meteor, meteoryt i kometa — cztery różne rzeczy, które łatwo pomylić."
+    }
+  ],
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Wszystkie obiekty, które widzimy w kosmosie: gwiazdy, planety, księżyce, planetoidy i komety.",
+          "a": "ciała niebieskie",
+          "choices": [
+            "ciała niebieskie",
+            "orbita",
+            "Słońce"
+          ],
+          "exp": [
+            "orbita to coś innego: Tor, po którym ciało niebieskie obiega Słońce albo inne ciało.",
+            "Słońce to coś innego: Gwiazda, wokół której krąży osiem planet i pozostałe ciała Układu Słonecznego. Rozżarzona kula z gazów, najbliższa nam ze wszystkich gwiazd — daje Ziemi światło i ciepło."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+          "a": "ruch pozorny",
+          "choices": [
+            "ruch pozorny",
+            "Mikołaj Kopernik",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "Mikołaj Kopernik to coś innego: Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego.",
+          "a": "Mikołaj Kopernik",
+          "choices": [
+            "Mikołaj Kopernik",
+            "nów",
+            "kometa"
+          ],
+          "exp": [
+            "nów to coś innego: Faza, w której tarczy Księżyca nie widać z Ziemi wcale.",
+            "kometa to coś innego: Ciało niebieskie ze skalno-lodowym jądrem oraz chmurą gazu i pyłu tworzącą warkocz. Najbardziej znana jest kometa Halleya."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Słońce i wszystkie ciała niebieskie, które wokół niego krążą.",
+          "a": "Układ Słoneczny",
+          "choices": [
+            "Układ Słoneczny",
+            "ruch pozorny",
+            "Słońce"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "Słońce to coś innego: Gwiazda, wokół której krąży osiem planet i pozostałe ciała Układu Słonecznego. Rozżarzona kula z gazów, najbliższa nam ze wszystkich gwiazd — daje Ziemi światło i ciepło."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Gwiazda, wokół której krąży osiem planet i pozostałe ciała Układu Słonecznego. Rozżarzona kula z gazów, najbliższa nam ze wszystkich gwiazd — daje Ziemi światło i ciepło.",
+          "a": "Słońce",
+          "choices": [
+            "Słońce",
+            "ruch pozorny",
+            "Księżyc"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "Księżyc to coś innego: Jedyny naturalny satelita Ziemi. Jedno okrążenie zajmuje mu dwadzieścia siedem dni i siedem godzin."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Ciało niebieskie świecące własnym światłem, które powstaje w reakcjach termojądrowych. Najbliższą nam … jest Słońce.",
+          "a": "gwiazda",
+          "choices": [
+            "gwiazda",
+            "ruch pozorny",
+            "planety karłowate"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "planety karłowate to coś innego: Ciała mniejsze od planet, ale tak jak one krążące po orbitach wokół Słońca. Jest ich pięć, największa to Pluton."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Duże ciało niebieskie krążące wokół gwiazdy. Samo nie świeci — widać je dzięki odbitemu światłu.",
+          "a": "planeta",
+          "choices": [
+            "planeta",
+            "naturalny satelita",
+            "planety olbrzymy"
+          ],
+          "exp": [
+            "naturalny satelita to coś innego: Ciało niebieskie krążące wokół planety. Inaczej księżyc.",
+            "planety olbrzymy to coś innego: Cztery planety dalsze od Słońca: Jowisz, Saturn, Uran i Neptun. Zbudowane są głównie z gazów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Tor, po którym ciało niebieskie obiega Słońce albo inne ciało.",
+          "a": "orbita",
+          "choices": [
+            "orbita",
+            "planety karłowate",
+            "Mikołaj Kopernik"
+          ],
+          "exp": [
+            "planety karłowate to coś innego: Ciała mniejsze od planet, ale tak jak one krążące po orbitach wokół Słońca. Jest ich pięć, największa to Pluton.",
+            "Mikołaj Kopernik to coś innego: Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Cztery … najbliższe Słońcu: Merkury, Wenus, Ziemia i Mars. Mają twardą powierzchnię.",
+          "a": "planety skaliste",
+          "choices": [
+            "planety skaliste",
+            "planeta",
+            "planety olbrzymy"
+          ],
+          "exp": [
+            "planeta to coś innego: Duże ciało niebieskie krążące wokół gwiazdy. Samo nie świeci — widać je dzięki odbitemu światłu.",
+            "planety olbrzymy to coś innego: Cztery planety dalsze od Słońca: Jowisz, Saturn, Uran i Neptun. Zbudowane są głównie z gazów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Cztery … dalsze od Słońca: Jowisz, Saturn, Uran i Neptun. Zbudowane są głównie z gazów.",
+          "a": "planety olbrzymy",
+          "choices": [
+            "planety olbrzymy",
+            "ruch pozorny",
+            "Mikołaj Kopernik"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "Mikołaj Kopernik to coś innego: Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Ciała mniejsze od …, ale tak jak one krążące po orbitach wokół Słońca. Jest ich pięć, największa to Pluton.",
+          "a": "planety karłowate",
+          "choices": [
+            "planety karłowate",
+            "ruch pozorny",
+            "planety olbrzymy"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "planety olbrzymy to coś innego: Cztery planety dalsze od Słońca: Jowisz, Saturn, Uran i Neptun. Zbudowane są głównie z gazów."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Ciało niebieskie krążące wokół planety. Inaczej księżyc.",
+          "a": "naturalny satelita",
+          "choices": [
+            "naturalny satelita",
+            "Słońce",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "Słońce to coś innego: Gwiazda, wokół której krąży osiem planet i pozostałe ciała Układu Słonecznego. Rozżarzona kula z gazów, najbliższa nam ze wszystkich gwiazd — daje Ziemi światło i ciepło.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Jedyny naturalny satelita Ziemi. Jedno okrążenie zajmuje mu dwadzieścia siedem dni i siedem godzin.",
+          "a": "Księżyc",
+          "choices": [
+            "Księżyc",
+            "naturalny satelita",
+            "nów"
+          ],
+          "exp": [
+            "naturalny satelita to coś innego: Ciało niebieskie krążące wokół planety. Inaczej księżyc.",
+            "nów to coś innego: Faza, w której tarczy Księżyca nie widać z Ziemi wcale."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Widoczne z Ziemi zmiany oświetlenia tarczy … w kolejnych dniach miesiąca.",
+          "a": "fazy Księżyca",
+          "choices": [
+            "fazy Księżyca",
+            "pełnia",
+            "Księżyc"
+          ],
+          "exp": [
+            "pełnia to coś innego: Faza, w której z Ziemi widać całą oświetloną tarczę Księżyca.",
+            "Księżyc to coś innego: Jedyny naturalny satelita Ziemi. Jedno okrążenie zajmuje mu dwadzieścia siedem dni i siedem godzin."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Faza, w której z Ziemi widać całą oświetloną tarczę Księżyca.",
+          "a": "pełnia",
+          "choices": [
+            "pełnia",
+            "Mikołaj Kopernik",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "Mikołaj Kopernik to coś innego: Polski uczony, który wykazał, że w środku stoi Słońce, a nasza planeta razem z pozostałymi wokół niego krąży. Od jego teorii zaczyna się dzisiejszy obraz Układu Słonecznego.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Faza, w której tarczy Księżyca nie widać z Ziemi wcale.",
+          "a": "nów",
+          "choices": [
+            "nów",
+            "ruch pozorny",
+            "pełnia"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "pełnia to coś innego: Faza, w której z Ziemi widać całą oświetloną tarczę Księżyca."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Niewielkie ciała krążące wokół Słońca, o średnicach od kilku do kilkunastu kilometrów.",
+          "a": "planetoidy",
+          "choices": [
+            "planetoidy",
+            "ruch pozorny",
+            "naturalny satelita"
+          ],
+          "exp": [
+            "ruch pozorny to coś innego: Wędrówka ciał niebieskich po niebie, którą widzimy z Ziemi, choć naprawdę to nasza planeta się porusza.",
+            "naturalny satelita to coś innego: Ciało niebieskie krążące wokół planety. Inaczej księżyc."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Jasna smuga na niebie: okruch skalny, który wpadł w atmosferę Ziemi i się w niej pali.",
+          "a": "meteor",
+          "choices": [
+            "meteor",
+            "kometa",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "kometa to coś innego: Ciało niebieskie ze skalno-lodowym jądrem oraz chmurą gazu i pyłu tworzącą warkocz. Najbardziej znana jest kometa Halleya.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Okruch, który nie spalił się do końca w atmosferze i spadł na powierzchnię Ziemi.",
+          "a": "meteoryt",
+          "choices": [
+            "meteoryt",
+            "meteor",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "meteor to coś innego: Jasna smuga na niebie: okruch skalny, który wpadł w atmosferę Ziemi i się w niej pali.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Ciało niebieskie ze skalno-lodowym jądrem oraz chmurą gazu i pyłu tworzącą warkocz. Najbardziej znana jest … Halleya.",
+          "a": "kometa",
+          "choices": [
+            "kometa",
+            "planetoidy",
+            "Układ Słoneczny"
+          ],
+          "exp": [
+            "planetoidy to coś innego: Niewielkie ciała krążące wokół Słońca, o średnicach od kilku do kilkunastu kilometrów.",
+            "Układ Słoneczny to coś innego: Słońce i wszystkie ciała niebieskie, które wokół niego krążą."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Które planety należą do skalistych?",
+          "a": "Merkury, Wenus, Ziemia i Mars",
+          "choices": [
+            "Merkury, Wenus, Ziemia i Mars",
+            "Jowisz, Saturn, Uran i Neptun",
+            "Merkury, Wenus, Jowisz i Mars"
+          ],
+          "exp": [
+            "To cztery planety najbliższe Słońcu, mają twardą powierzchnię.",
+            "Częsty błąd: wskazanie olbrzymów z gazu, bo są większe i bardziej znane"
+          ],
+          "zrodlo": "str. 23"
+        },
+        {
+          "kind": "wybor",
+          "e": "Czym jest orbita?",
+          "a": "torem, po którym planeta obiega Słońce",
+          "choices": [
+            "torem, po którym planeta obiega Słońce",
+            "odległością planety od Słońca",
+            "czasem jednego obrotu planety"
+          ],
+          "exp": [
+            "Orbita to droga, po jakiej ciało niebieskie krąży wokół Słońca.",
+            "Częsty błąd: mylenie orbity z odległością albo z czasem obiegu"
+          ],
+          "zrodlo": "str. 23"
+        },
+        {
+          "kind": "wybor",
+          "e": "Ile planet karłowatych jest w Układzie Słonecznym?",
+          "a": "pięć",
+          "choices": [
+            "pięć",
+            "osiem",
+            "jedna"
+          ],
+          "exp": [
+            "Jest ich pięć, a największą z nich jest Pluton.",
+            "Częsty błąd: podanie ósemki, czyli liczby zwykłych planet"
+          ],
+          "zrodlo": "str. 23"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Planety świecą własnym światłem.",
+          "a": false,
+          "exp": [
+            "Planety tylko odbijają światło Słońca. Własnym światłem świecą gwiazdy.",
+            "Częsty błąd: pomylenie planety z gwiazdą, bo obie widać na niebie jako jasne punkciki"
+          ],
+          "zrodlo": "str. 23"
+        },
+        {
+          "kind": "pf",
+          "e": "Pluton jest dziś zaliczany do planet karłowatych.",
+          "a": true,
+          "exp": [
+            "Tak. Naukowcy przenieśli go do planet karłowatych w dwa tysiące szóstym roku.",
+            "Częsty błąd: trzymanie się starej wiedzy, że Pluton to dziewiąta planeta"
+          ],
+          "zrodlo": "str. 23, podpis"
+        },
+        {
+          "kind": "pf",
+          "e": "Pierścienie Saturna są zbudowane z brył lodu.",
+          "a": true,
+          "exp": [
+            "Tak, to charakterystyczne pierścienie widoczne wokół tej planety.",
+            "Częsty błąd: uznanie, że pierścienie to zwarta obręcz ze skały"
+          ],
+          "zrodlo": "str. 25"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Tor, po którym planeta obiega Słońce, nazywamy ___.",
+          "a": "orbitą",
+          "inne": [
+            "orbita"
+          ],
+          "exp": [
+            "Każda planeta ma własną orbitę.",
+            "Częsty błąd: wpisanie słowa „oś”, które dotyczy obrotu, a nie obiegu"
+          ],
+          "zrodlo": "str. 23"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Gdy z Ziemi widać całą tarczę Księżyca, mamy ___.",
+          "a": "pełnię",
+          "inne": [
+            "pełnia"
+          ],
+          "exp": [
+            "Odwrotna sytuacja, gdy tarczy nie widać wcale, to nów.",
+            "Częsty błąd: wpisanie nowiu, czyli fazy przeciwnej"
+          ],
+          "zrodlo": "str. 23, podpis"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Okruch skalny, który spadł na powierzchnię Ziemi, to ___.",
+          "a": "meteoryt",
+          "inne": [],
+          "exp": [
+            "Dopóki pali się w atmosferze, jest meteorem.",
+            "Częsty błąd: wpisanie meteoru, który jeszcze leci przez atmosferę"
+          ],
+          "zrodlo": "str. 26"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego mówimy, że ruch Słońca po niebie jest pozorny?",
+          "a": "Bo to nie Słońce krąży wokół nas — to Ziemia się porusza, a nam z jej powierzchni wygląda to na wędrówkę Słońca.",
+          "blad": "uznanie, że Słońce naprawdę obiega Ziemię, bo tak to wygląda z ziemi",
+          "zrodlo": "str. 22, wstęp"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Czym różni się gwiazda od planety? Odpowiedz na przykładzie Słońca i Ziemi.",
+          "a": "Słońce jest gwiazdą i świeci własnym światłem z reakcji termojądrowych, a Ziemia jest planetą i tylko odbija światło Słońca. Planeta jest też od gwiazdy dużo chłodniejsza i mniejsza.",
+          "blad": "powiedzenie, że planety też świecą, tylko słabiej",
+          "zrodlo": "str. 22–23"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego z Ziemi widzimy zawsze tę samą półkulę Księżyca?",
+          "a": "Bo okrążenie Ziemi i pełny obrót wokół własnej osi zajmują Księżycowi tyle samo czasu — dwadzieścia siedem dni i siedem godzin.",
+          "blad": "tłumaczenie tego tym, że Księżyc w ogóle się nie obraca",
+          "zrodlo": "str. 23, „Naturalne satelity planet”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Od czego zależy, jak długo planeta okrąża Słońce?",
+          "a": "Od odległości: im bliżej Słońca biegnie orbita, tym krótszy jest czas obiegu. Merkury potrzebuje osiemdziesięciu ośmiu dni, a Neptun stu sześćdziesięciu pięciu lat.",
+          "blad": "wiązanie czasu obiegu z wielkością planety zamiast z odległością od Słońca",
+          "zrodlo": "str. 24"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Czym różni się meteor od meteorytu?",
+          "a": "Meteor to okruch, który pali się w atmosferze i widzimy go jako smugę na niebie. Meteoryt to ten, który nie spłonął do końca i spadł na powierzchnię Ziemi.",
+          "blad": "mylenie obu nazw albo nazywanie meteorytem każdej smugi na niebie",
+          "zrodlo": "str. 26, „Małe ciała niebieskie”"
+        }
+      ]
+    }
+  ]
+}

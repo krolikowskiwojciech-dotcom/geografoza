@@ -1,0 +1,513 @@
+{
+  "id": "geo-dz2-l02-ruch-obrotowy-ziemi",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Jak Ziemia kręci się wokół osi",
+  "dzial": "II",
+  "dzialTytul": "Jak porusza się Ziemia",
+  "lekcja": 2,
+  "strony": "27–33",
+  "dodano": "2026-09-09",
+  "termin": null,
+  "ikona": "zegar",
+  "kolor": "brzoskwinia",
+  "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz2-l02-ruch-obrotowy-ziemi-krotkie.mp3",
+      "minuty": 13
+    }
+  ],
+  "sciaga": [
+    "Gwiazdy i Słońce tylko z pozoru wędrują po niebie. Naprawdę to Ziemia kręci się wokół swojej osi i zabiera nas ze sobą.",
+    "Oś ziemska to wyobrażona linia przez środek Ziemi i oba bieguny. Obrót wokół niej to ruch obrotowy.",
+    "Kierunek obrotu: od zachodu ku wschodowi. Cały obrót o 360° zajmuje 24 godziny — tyle trwa doba.",
+    "360° podzielone przez 24 godziny daje 15°. Tyle Ziemia obraca się w godzinę; w 12 godzin obraca się o 180°.",
+    "Na nocnym niebie w miejscu stoi tylko Gwiazda Polarna. Reszta gwiazd zatacza wokół niej łuki — to skutek obrotu Ziemi.",
+    "Trzy następstwa ruchu obrotowego: dzień i noc, pozorny ruch Słońca i gwiazd oraz różnica czasu na Ziemi.",
+    "Ziemia jest kulą, więc Słońce oświetla ją tylko z jednej strony. Tam jest dzień, po przeciwnej stronie noc. Obrót przenosi kolejne obszary z cienia w światło.",
+    "Rano nasz obszar wjeżdża w strefę dnia — to wschód Słońca. Słońce pojawia się na horyzoncie, czyli linii oddzielającej ziemię od nieba.",
+    "Tuż po wschodzie Słońce jest nisko, promienie padają pod małym kątem, a cienie są bardzo długie.",
+    "Około 12.00 Słońce góruje — jest najwyżej. To południe słoneczne. Potem schodzi coraz niżej, aż do zachodu, gdy chowa się za horyzont.",
+    "Im wyżej Słońce nad horyzontem, tym większy kąt padania promieni i tym krótszy cień.",
+    "W ciągu roku zmienia się miejsce wschodu i zachodu na horyzoncie oraz wysokość górowania — kąt padania promieni mierzony w południe słoneczne.",
+    "Zimą Słońce góruje nisko, a wschód i zachód leżą blisko siebie. Latem góruje najwyżej, a wschód i zachód są od siebie daleko.",
+    "Gnomon to pionowy kij lub słupek. Najkrótszy cień rzuca w południe słoneczne — z niego odczytuje się wysokość górowania.",
+    "W Warszawie Słońce góruje na początku zimy pod kątem 14°30′, na początku wiosny i jesieni 38°, a na początku lata 61°30′.",
+    "Miejsca leżące na wschód lub na zachód od siebie są w tej samej chwili w innych momentach doby. Każde ma inny czas słoneczny, zwany też miejscowym.",
+    "Wspólny czas słoneczny łączy tylko te miejscowości, które leżą jedna nad drugą na tym samym południku.",
+    "Żeby uniknąć zamieszania, Ziemię podzielono na 24 strefy czasowe co 15° długości geograficznej; w kolejnych strefach czas różni się o godzinę.",
+    "Na lądach granice stref biegną wzdłuż granic państw, żeby cały kraj miał tę samą godzinę. Szczecin ma tę samą godzinę co Warszawa, tak samo Norwegia, Włochy i Nigeria.",
+    "W podróży na wschód przesuwamy zegarek do przodu (dodajemy czas), na zachód cofamy (odejmujemy).",
+    "Gdy w Warszawie jest 16.00, w Nowym Jorku jest 10.00, a w Tokio 24.00. Warszawa wita Nowy Rok 6 godzin przed Nowym Jorkiem i 8 godzin po Tokio.",
+    "Wzdłuż południka 180° biegnie umowna linia zmiany daty; omija wyspy jednego państwa. Płynąc ze wschodu na zachód, przeskakujemy na następny dzień (z niedzieli na poniedziałek); z zachodu na wschód cofamy się o dzień."
+  ],
+  "definicje": {
+    "ruch obrotowy": "Wirowanie Ziemi wokół osi, tak jak karuzela wokół swojej. Kierunek: od zachodu ku wschodowi; jeden obrót to doba.",
+    "oś ziemska": "Wyobrażona linia, która przechodzi przez środek Ziemi i oba bieguny. Wokół niej Ziemia się obraca.",
+    "doba": "Czas jednego pełnego obrotu Ziemi — 24 godziny. Na każdą godzinę przypada 15° obrotu.",
+    "dzień i noc": "Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca.",
+    "pozorna wędrówka Słońca": "Złudzenie, że Słońce przesuwa się po niebie. Naprawdę to Ziemia obraca się razem z nami.",
+    "wschód Słońca": "Chwila, w której nasz obszar wjeżdża w strefę dnia i Słońce pojawia się na horyzoncie.",
+    "horyzont": "Wyobrażona linia, która na płaskim terenie oddziela ziemię od nieba.",
+    "górowanie Słońca": "Moment, w którym Słońce jest najwyżej nad horyzontem. Cienie są wtedy najkrótsze.",
+    "południe słoneczne": "Godzina górowania Słońca, mniej więcej dwunasta. Od niej Słońce schodzi coraz niżej.",
+    "zachód Słońca": "Chwila, w której Słońce chowa się za horyzontem, a nasz obszar wjeżdża w strefę nocy.",
+    "wysokość górowania": "Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku.",
+    "gnomon": "Pionowo ustawiony kij, pręt albo słupek. Po długości jego cienia w południe odczytuje się wysokość górowania.",
+    "Gwiazda Polarna": "Jedyna gwiazda, która na nocnym niebie stoi w miejscu. Pozostałe zdają się krążyć wokół niej.",
+    "czas słoneczny": "Inaczej czas miejscowy. Mają go wspólny tylko miejscowości leżące na tym samym południku.",
+    "strefy czasowe": "Dwadzieścia cztery pasy co 15° długości geograficznej; w każdym kolejnym czas różni się o godzinę. Na lądach ich granice biegną wzdłuż granic państw.",
+    "linia zmiany daty": "Umowna linia przy południku 180°. Płynąc przez nią ze wschodu na zachód dodajemy dzień, z zachodu na wschód odejmujemy."
+  },
+  "obrazy": [
+    {
+      "plik": "obrazy/lekcje/geo4-obrot.svg",
+      "po": 4,
+      "podpis": "Ziemia obraca się wokół osi z zachodu na wschód. Cały obrót o 360° trwa dobę, więc w godzinę obraca się o 15°, a w 12 godzin o 180°."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-dzien-noc.svg",
+      "po": 7,
+      "podpis": "Słońce oświetla tylko połowę kuli. Po jasnej stronie jest dzień, po ciemnej noc, a obrót przesuwa kolejne miejsca przez granicę światła i cienia."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-wedrowka.svg",
+      "po": 10,
+      "podpis": "Pozorna droga Słońca po niebie: wschód na wschodzie, górowanie na południu około 12.00, zachód na zachodzie."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-cien.svg",
+      "po": 11,
+      "podpis": "Ten sam gnomon o różnych porach dnia: im wyżej Słońce, tym większy kąt padania promieni i tym krótszy cień."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-pory-roku.svg",
+      "po": 15,
+      "podpis": "Trzy drogi Słońca nad Warszawą: latem wysoko i szeroko, zimą nisko i krótko. Kąty to wysokość górowania na początku pór roku."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-strefy.svg",
+      "po": 21,
+      "podpis": "Ta sama chwila, trzy zegary: na wschód od Warszawy czas jest późniejszy, na zachód wcześniejszy. Sąsiednie strefy dzieli godzina."
+    },
+    {
+      "plik": "obrazy/lekcje/geo4-data.svg",
+      "po": 22,
+      "podpis": "Linia zmiany daty biegnie wzdłuż południka 180°: przekraczając ją ze wschodu na zachód, dodajemy dzień, w drugą stronę odejmujemy."
+    }
+  ],
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Wirowanie Ziemi wokół osi, tak jak karuzela wokół swojej. Kierunek: od zachodu ku wschodowi; jeden obrót to doba.",
+          "a": "ruch obrotowy",
+          "choices": [
+            "ruch obrotowy",
+            "gnomon",
+            "wysokość górowania"
+          ],
+          "exp": [
+            "gnomon to coś innego: Pionowo ustawiony kij, pręt albo słupek. Po długości jego cienia w południe odczytuje się wysokość górowania.",
+            "wysokość górowania to coś innego: Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Wyobrażona linia, która przechodzi przez środek … i oba bieguny. Wokół niej … się obraca.",
+          "a": "oś ziemska",
+          "choices": [
+            "oś ziemska",
+            "wysokość górowania",
+            "horyzont"
+          ],
+          "exp": [
+            "wysokość górowania to coś innego: Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku.",
+            "horyzont to coś innego: Wyobrażona linia, która na płaskim terenie oddziela ziemię od nieba."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Czas jednego pełnego obrotu Ziemi — 24 godziny. Na każdą godzinę przypada 15° obrotu.",
+          "a": "doba",
+          "choices": [
+            "doba",
+            "dzień i noc",
+            "Gwiazda Polarna"
+          ],
+          "exp": [
+            "dzień i noc to coś innego: Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca.",
+            "Gwiazda Polarna to coś innego: Jedyna gwiazda, która na nocnym niebie stoi w miejscu. Pozostałe zdają się krążyć wokół niej."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Na połowie kuli oświetlonej przez Słońce jest …, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca.",
+          "a": "dzień i noc",
+          "choices": [
+            "dzień i noc",
+            "gnomon",
+            "wysokość górowania"
+          ],
+          "exp": [
+            "gnomon to coś innego: Pionowo ustawiony kij, pręt albo słupek. Po długości jego cienia w południe odczytuje się wysokość górowania.",
+            "wysokość górowania to coś innego: Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Złudzenie, że … przesuwa się po niebie. Naprawdę to Ziemia obraca się razem z nami.",
+          "a": "pozorna wędrówka Słońca",
+          "choices": [
+            "pozorna wędrówka Słońca",
+            "oś ziemska",
+            "Gwiazda Polarna"
+          ],
+          "exp": [
+            "oś ziemska to coś innego: Wyobrażona linia, która przechodzi przez środek Ziemi i oba bieguny. Wokół niej Ziemia się obraca.",
+            "Gwiazda Polarna to coś innego: Jedyna gwiazda, która na nocnym niebie stoi w miejscu. Pozostałe zdają się krążyć wokół niej."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Chwila, w której nasz obszar wjeżdża w strefę dnia i … pojawia się na horyzoncie.",
+          "a": "wschód Słońca",
+          "choices": [
+            "wschód Słońca",
+            "zachód Słońca",
+            "doba"
+          ],
+          "exp": [
+            "zachód Słońca to coś innego: Chwila, w której Słońce chowa się za horyzontem, a nasz obszar wjeżdża w strefę nocy.",
+            "doba to coś innego: Czas jednego pełnego obrotu Ziemi — 24 godziny. Na każdą godzinę przypada 15° obrotu."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Wyobrażona linia, która na płaskim terenie oddziela ziemię od nieba.",
+          "a": "horyzont",
+          "choices": [
+            "horyzont",
+            "Gwiazda Polarna",
+            "czas słoneczny"
+          ],
+          "exp": [
+            "Gwiazda Polarna to coś innego: Jedyna gwiazda, która na nocnym niebie stoi w miejscu. Pozostałe zdają się krążyć wokół niej.",
+            "czas słoneczny to coś innego: Inaczej czas miejscowy. Mają go wspólny tylko miejscowości leżące na tym samym południku."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Moment, w którym … jest najwyżej nad horyzontem. Cienie są wtedy najkrótsze.",
+          "a": "górowanie Słońca",
+          "choices": [
+            "górowanie Słońca",
+            "oś ziemska",
+            "wschód Słońca"
+          ],
+          "exp": [
+            "oś ziemska to coś innego: Wyobrażona linia, która przechodzi przez środek Ziemi i oba bieguny. Wokół niej Ziemia się obraca.",
+            "wschód Słońca to coś innego: Chwila, w której nasz obszar wjeżdża w strefę dnia i Słońce pojawia się na horyzoncie."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Godzina górowania Słońca, mniej więcej dwunasta. Od niej Słońce schodzi coraz niżej.",
+          "a": "południe słoneczne",
+          "choices": [
+            "południe słoneczne",
+            "wschód Słońca",
+            "czas słoneczny"
+          ],
+          "exp": [
+            "wschód Słońca to coś innego: Chwila, w której nasz obszar wjeżdża w strefę dnia i Słońce pojawia się na horyzoncie.",
+            "czas słoneczny to coś innego: Inaczej czas miejscowy. Mają go wspólny tylko miejscowości leżące na tym samym południku."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Chwila, w której … chowa się za horyzontem, a nasz obszar wjeżdża w strefę nocy.",
+          "a": "zachód Słońca",
+          "choices": [
+            "zachód Słońca",
+            "oś ziemska",
+            "horyzont"
+          ],
+          "exp": [
+            "oś ziemska to coś innego: Wyobrażona linia, która przechodzi przez środek Ziemi i oba bieguny. Wokół niej Ziemia się obraca.",
+            "horyzont to coś innego: Wyobrażona linia, która na płaskim terenie oddziela ziemię od nieba."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku.",
+          "a": "wysokość górowania",
+          "choices": [
+            "wysokość górowania",
+            "oś ziemska",
+            "doba"
+          ],
+          "exp": [
+            "oś ziemska to coś innego: Wyobrażona linia, która przechodzi przez środek Ziemi i oba bieguny. Wokół niej Ziemia się obraca.",
+            "doba to coś innego: Czas jednego pełnego obrotu Ziemi — 24 godziny. Na każdą godzinę przypada 15° obrotu."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Pionowo ustawiony kij, pręt albo słupek. Po długości jego cienia w południe odczytuje się wysokość górowania.",
+          "a": "gnomon",
+          "choices": [
+            "gnomon",
+            "czas słoneczny",
+            "wschód Słońca"
+          ],
+          "exp": [
+            "czas słoneczny to coś innego: Inaczej czas miejscowy. Mają go wspólny tylko miejscowości leżące na tym samym południku.",
+            "wschód Słońca to coś innego: Chwila, w której nasz obszar wjeżdża w strefę dnia i Słońce pojawia się na horyzoncie."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Jedyna …, która na nocnym niebie stoi w miejscu. Pozostałe zdają się krążyć wokół niej.",
+          "a": "Gwiazda Polarna",
+          "choices": [
+            "Gwiazda Polarna",
+            "linia zmiany daty",
+            "dzień i noc"
+          ],
+          "exp": [
+            "linia zmiany daty to coś innego: Umowna linia przy południku 180°. Płynąc przez nią ze wschodu na zachód dodajemy dzień, z zachodu na wschód odejmujemy.",
+            "dzień i noc to coś innego: Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Inaczej … miejscowy. Mają go wspólny tylko miejscowości leżące na tym samym południku.",
+          "a": "czas słoneczny",
+          "choices": [
+            "czas słoneczny",
+            "wysokość górowania",
+            "dzień i noc"
+          ],
+          "exp": [
+            "wysokość górowania to coś innego: Kąt, pod jakim promienie padają na ziemię w południe słoneczne. Zmienia się z porą roku.",
+            "dzień i noc to coś innego: Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Dwadzieścia cztery pasy co 15° długości geograficznej; w każdym kolejnym … różni się o godzinę. Na lądach ich granice biegną wzdłuż granic państw.",
+          "a": "strefy czasowe",
+          "choices": [
+            "strefy czasowe",
+            "horyzont",
+            "dzień i noc"
+          ],
+          "exp": [
+            "horyzont to coś innego: Wyobrażona linia, która na płaskim terenie oddziela ziemię od nieba.",
+            "dzień i noc to coś innego: Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Umowna … przy południku 180°. Płynąc przez nią ze wschodu na zachód dodajemy dzień, z zachodu na wschód odejmujemy.",
+          "a": "linia zmiany daty",
+          "choices": [
+            "linia zmiany daty",
+            "wschód Słońca",
+            "dzień i noc"
+          ],
+          "exp": [
+            "wschód Słońca to coś innego: Chwila, w której nasz obszar wjeżdża w strefę dnia i Słońce pojawia się na horyzoncie.",
+            "dzień i noc to coś innego: Na połowie kuli oświetlonej przez Słońce jest dzień, na drugiej połowie noc. Zmieniają się, bo Ziemia się obraca."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "W którą stronę obraca się Ziemia?",
+          "a": "z zachodu na wschód",
+          "choices": [
+            "z zachodu na wschód",
+            "ze wschodu na zachód",
+            "z północy na południe"
+          ],
+          "exp": [
+            "Dlatego dzień zaczyna się najpierw na wschodzie.",
+            "Częsty błąd: odwrócenie kierunku, bo Słońce „idzie” od wschodu na zachód"
+          ],
+          "zrodlo": "str. 27"
+        },
+        {
+          "kind": "wybor",
+          "e": "Kiedy Słońce góruje najwyżej w Warszawie?",
+          "a": "na początku lata",
+          "choices": [
+            "na początku lata",
+            "na początku wiosny",
+            "na początku zimy"
+          ],
+          "exp": [
+            "Na początku lata wysokość górowania wynosi 61°30′, zimą tylko 14°30′.",
+            "Częsty błąd: wybór zimy, bo kojarzy się z krótkim dniem, ale to najniższe górowanie"
+          ],
+          "zrodlo": "str. 30"
+        },
+        {
+          "kind": "wybor",
+          "e": "Lecisz z Warszawy do Tokio. Co robisz z zegarkiem?",
+          "a": "przesuwam do przodu, bo lecę na wschód",
+          "choices": [
+            "przesuwam do przodu, bo lecę na wschód",
+            "cofam, bo lecę na zachód",
+            "nic, bo Tokio ma tę samą strefę"
+          ],
+          "exp": [
+            "Tokio leży na wschód od Polski, więc czas dodajemy.",
+            "Częsty błąd: cofnięcie zegarka — pomylenie kierunków wschód i zachód"
+          ],
+          "zrodlo": "str. 32"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Tę samą godzinę czasu słonecznego mają miejscowości leżące na jednym równoleżniku.",
+          "a": false,
+          "exp": [
+            "Ten sam czas słoneczny łączy miejscowości na jednym południku, nie równoleżniku.",
+            "Częsty błąd: pomylenie południka z równoleżnikiem"
+          ],
+          "zrodlo": "str. 31"
+        },
+        {
+          "kind": "pf",
+          "e": "Na początku wiosny i na początku jesieni Słońce góruje w Warszawie na tej samej wysokości.",
+          "a": true,
+          "exp": [
+            "W obu przypadkach wysokość górowania to 38°.",
+            "Częsty błąd: uznanie, że jesienią Słońce jest już niżej niż wiosną"
+          ],
+          "zrodlo": "str. 30"
+        },
+        {
+          "kind": "pf",
+          "e": "Statek płynący z Tokio do Los Angeles po przekroczeniu linii zmiany daty przeskakuje na dzień następny.",
+          "a": false,
+          "exp": [
+            "Z zachodu na wschód pasażerowie cofają datę o dzień — z poniedziałku robi się niedziela.",
+            "Częsty błąd: pomylenie kierunków: dzień następny obowiązuje przy podróży ze wschodu na zachód"
+          ],
+          "zrodlo": "str. 33"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Pełny obrót Ziemi wokół osi trwa 24 godziny, czyli jedną ___.",
+          "a": "dobę",
+          "inne": [
+            "doba"
+          ],
+          "exp": [
+            "Doba to czas jednego obrotu.",
+            "Częsty błąd: wpisanie „rok”, który dotyczy obiegu Słońca"
+          ],
+          "zrodlo": "str. 27"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Pionowo ustawiony kij lub słupek, po którego cieniu odczytuje się wysokość Słońca, to ___.",
+          "a": "gnomon",
+          "inne": [],
+          "exp": [
+            "Najkrótszy cień gnomonu jest w południe słoneczne.",
+            "Częsty błąd: wpisanie „zegar słoneczny” — gnomon to tylko sam pręt"
+          ],
+          "zrodlo": "str. 30"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Kulę ziemską podzielono na ___ strefy czasowe.",
+          "a": "24",
+          "inne": [
+            "dwadzieścia cztery"
+          ],
+          "exp": [
+            "Tyle, ile godzin ma doba — po jednej strefie na każde 15°.",
+            "Częsty błąd: wpisanie 12 albo 360"
+          ],
+          "zrodlo": "str. 31"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Wymień trzy następstwa ruchu obrotowego Ziemi.",
+          "a": "Dzień i noc, pozorny ruch Słońca i gwiazd po niebie oraz różnica czasu na Ziemi.",
+          "blad": "podanie pór roku — te wynikają z innego ruchu Ziemi, nie z obrotu",
+          "zrodlo": "str. 28, 33"
+        },
+        {
+          "kind": "otwarte",
+          "e": "O ile stopni Ziemia obraca się w ciągu godziny i skąd bierze się ta liczba?",
+          "a": "O 15°, bo pełny obrót o 360° trwa 24 godziny, a 360 : 24 = 15.",
+          "blad": "odpowiedź 360° albo 24° bez podzielenia",
+          "zrodlo": "str. 27"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego w Zamościu Słońce wschodzi wcześniej niż we Wrocławiu?",
+          "a": "Ziemia obraca się z zachodu na wschód, a Zamość leży dalej na wschód, więc wcześniej wjeżdża w strefę dnia.",
+          "blad": "odwrócenie kierunku obrotu (ze wschodu na zachód)",
+          "zrodlo": "str. 27–28, ćwiczenie 2"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Jak zmienia się kąt padania promieni słonecznych od wschodu do zachodu Słońca?",
+          "a": "Po wschodzie jest mały, do południa słonecznego rośnie, a potem maleje aż do zachodu.",
+          "blad": "twierdzenie, że kąt rośnie przez cały dzień",
+          "zrodlo": "str. 28–29, ćwiczenie 3"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Wyjaśnij, dlaczego cień gnomonu jest krótki, gdy Słońce stoi wysoko, a długi, gdy stoi nisko.",
+          "a": "Im wyżej Słońce, tym większy kąt padania promieni i tym krótszy cień; najkrótszy jest w południe słoneczne.",
+          "blad": "pomylenie kierunku zależności — wysokie Słońce i długi cień",
+          "zrodlo": "str. 29–30, ćwiczenie 4"
+        }
+      ]
+    }
+  ]
+}

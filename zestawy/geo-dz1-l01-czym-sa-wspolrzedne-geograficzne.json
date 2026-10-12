@@ -1,0 +1,512 @@
+{
+  "id": "geo-dz1-l01-czym-sa-wspolrzedne-geograficzne",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Jak działają współrzędne geograficzne",
+  "dzial": "I",
+  "dzialTytul": "Współrzędne na mapie i globusie",
+  "lekcja": 1,
+  "strony": "6–11",
+  "dodano": "2026-09-04",
+  "termin": null,
+  "ikona": "globus",
+  "kolor": "lila",
+  "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz1-l01-czym-sa-wspolrzedne-geograficzne.mp3",
+      "minuty": 9
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz1-l01-czym-sa-wspolrzedne-geograficzne-krotkie.mp3",
+      "minuty": 6
+    }
+  ],
+  "sciaga": [
+    "Południki i równoleżniki krzyżują się pod kątem prostym i razem tworzą siatkę geograficzną — wyobraź sobie kratkę z zeszytu naciągniętą na piłkę. Takich linii można poprowadzić nieskończenie wiele, na globusie widać tylko niektóre.",
+    "Południki biegną z północy na południe, od bieguna do bieguna, i każdy ma dokładnie tę samą długość.",
+    "Równoleżniki biegną ze wschodu na zachód i różnią się długością. Najdłuższy z nich to równik, około 40 tys. km, o wartości 0°.",
+    "Równik oddziela półkulę północną od południowej. Półkulę wschodnią i zachodnią wyznaczają dopiero dwa południki naraz: zerowy i 180° — sam południk zerowy to za mało.",
+    "Południk zerowy przechodzi przez Królewskie Obserwatorium Astronomiczne w Greenwich (czytaj: grinicz) w Londynie. Wartość 0° przyznano mu w 1884 r., gdy kraje zawarły w tej sprawie międzynarodowe porozumienie.",
+    "Współrzędne geograficzne miejsca składają się z dwóch części: szerokości i długości. To po prostu wartość równoleżnika i wartość południka, które krzyżują się w tym miejscu, a każdy punkt ma własną, niepowtarzalną parę — jak adres domu.",
+    "Zapisujemy je w miarach kątowych: stopniach (°), minutach (′) i sekundach (″). Zachodzi tu zależność 1° = 60′ oraz 1′ = 60″, dokładnie jak na zegarze, tylko że mierzymy kąt, a nie czas.",
+    "Nie mierzymy współrzędnych linijką ani w kilometrach — to zawsze kąty, więc pasuje do nich raczej kątomierz.",
+    "Litery przy liczbach mówią o półkuli: N to angielskie north (północ), S to south (południe), E to east (wschód), W to west (zachód).",
+    "Przy szerokości może stać wyłącznie N albo S, przy długości wyłącznie E albo W. Czytamy zawsze w tej samej kolejności: najpierw szerokość, potem długość.",
+    "Kraków ma 50°N, 20°E. Liczba 50 to wartość równoleżnika i N wskazuje półkulę północną; liczba 20 to wartość południka, a E wskazuje półkulę wschodnią.",
+    "Szerokość geograficzna to kąt, którego jedno ramię leży w płaszczyźnie równika, a drugim jest promień Ziemi poprowadzony do wybranego miejsca na powierzchni.",
+    "W przykładzie z punktem A o współrzędnych 40°N, 60°W ten kąt ma 40°. Punkt A leży po północnej stronie równika, a więc na półkuli północnej, i właśnie stamtąd bierze się litera N.",
+    "Szerokość startuje od 0° na równiku i dochodzi do 90° na biegunie — rośnie ku północy na półkuli północnej i ku południowi na południowej. Każdej jej wartości odpowiada jakiś równoleżnik na mapie albo globusie.",
+    "Długość geograficzna to kąt między dwiema półpłaszczyznami: jedną wyznacza południk zerowy, drugą południk przechodzący przez wybrane miejsce. Równika w tej definicji w ogóle nie ma.",
+    "W tym samym przykładzie kąt długości dla punktu A wynosi 60°. A leży na zachód od południka zerowego, czyli na półkuli zachodniej, i dlatego dopisujemy W.",
+    "Długość mieści się w przedziale od 0° do 180°, tak samo na wschodzie, jak i na zachodzie. Wartości rosną w obie strony aż do południka 180°, a każdej z nich odpowiada jakiś południk na mapie.",
+    "Najczęstsze pomyłki: mylenie zakresów (90° to maksimum szerokości, 180° długości), wstawianie równika do definicji długości, twierdzenie, że szerokość to odległość w kilometrach, oraz odczytywanie E jako zachodu.",
+    "Sydney (czytaj: sidnej) ma współrzędne 33°52′S, 151°12′E. Kąt liczony od płaszczyzny równika wynosi tam 33°52′, a kąt między półpłaszczyznami południków 151°12′ — obie liczby to po prostu odczytane definicje.",
+    "Systemy nawigacji satelitarnej pozwalają wyznaczyć współrzędne dowolnego punktu na Ziemi; najpopularniejszy z nich to GPS. Odbiornik liczy je z sygnałów wysyłanych przez satelity krążące wokół Ziemi i bywa osobnym urządzeniem albo siedzi w tablecie, smartfonie czy smartwatchu.",
+    "Nawigacji satelitarnej używamy najczęściej do wyznaczania trasy — pieszo, rowerem lub samochodem. Nadajniki GPS pozwalają też śledzić wędrówki zwierząt zagrożonych wyginięciem, choćby żółwi morskich.",
+    "Współrzędne odczytasz również w aplikacjach z mapami, na przykład w Mapach Google. Działa to w dwie strony: wpisujesz współrzędne i dostajesz miejsce na mapie albo wskazujesz punkt i dostajesz jego współrzędne."
+  ],
+  "definicje": {
+    "współrzędne geograficzne": "Para wartości, która wskazuje jedno konkretne miejsce na Ziemi: szerokość i długość geograficzna. Każdy punkt ma swoją niepowtarzalną parę, trochę jak adres domu.",
+    "siatka geograficzna": "Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+    "południk": "Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na południe. Wszystkie południki są tak samo długie, a ich wartości to długość geograficzna.",
+    "równoleżnik": "Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. Równoleżniki mają różne długości, a ich wartości to szerokość geograficzna.",
+    "równik": "Najdłuższy z równoleżników, około 40 tysięcy kilometrów. Ma wartość 0° i rozdziela półkulę północną od południowej.",
+    "południk zerowy": "Południk o wartości 0°, punkt startowy do liczenia długości geograficznej. Biegnie przez Królewskie Obserwatorium Astronomiczne w Greenwich (czytaj: grinicz) w Londynie.",
+    "szerokość geograficzna": "Kąt, o jaki promień Ziemi biegnący do danego miejsca odchyla się od płaszczyzny równika. Liczy się od równika (0°) i rośnie aż do biegunów (90°), zawsze z literą N albo S.",
+    "długość geograficzna": "Kąt, o jaki południk danego miejsca odchyla się od południka zerowego. Od 0° do 180°, zawsze z literą E albo W.",
+    "płaszczyzna równika": "Płaska powierzchnia tnąca kulę ziemską dokładnie wzdłuż równika, jakby wsunięty w nią talerz. Od niej odmierzamy szerokość geograficzną.",
+    "półpłaszczyzna południka": "Połowa płaszczyzny wychodząca z osi Ziemi i sięgająca do jednego południka. Długość geograficzna to kąt pomiędzy dwiema takimi półpłaszczyznami.",
+    "miary kątowe": "Stopnie (°), minuty (′) i sekundy (″) — w nich zapisujemy współrzędne. Jeden stopień to 60 minut, jedna minuta to 60 sekund.",
+    "półkula": "Połowa kuli ziemskiej. Równik wyznacza półkulę północną i południową, a południki 0° i 180° — wschodnią i zachodnią.",
+    "biegun": "Miejsce, w którym schodzą się wszystkie południki: północny albo południowy. Szerokość geograficzna osiąga tam swoją największą wartość, czyli 90°.",
+    "GPS": "Najpopularniejszy system nawigacji satelitarnej. Odbiornik GPS oblicza współrzędne miejsca, w którym jesteś, z sygnałów satelitów krążących wokół Ziemi."
+  },
+  "obrazy": [
+    {
+      "plik": "obrazy/lekcje/sciaga-geo-dz1-l01-czym-sa-wspolrzedne-geograficzne.svg",
+      "po": 0,
+      "podpis": "Rysunek do zapamiętania: litery kierunków, jak rosną stopnie, skąd minuty."
+    }
+  ],
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Para wartości, która wskazuje jedno konkretne miejsce na Ziemi: szerokość i długość …. Każdy punkt ma swoją niepowtarzalną parę, trochę jak adres domu.",
+          "a": "współrzędne geograficzne",
+          "choices": [
+            "współrzędne geograficzne",
+            "półpłaszczyzna południka",
+            "równoleżnik"
+          ],
+          "exp": [
+            "półpłaszczyzna południka to coś innego: Połowa płaszczyzny wychodząca z osi Ziemi i sięgająca do jednego południka. Długość geograficzna to kąt pomiędzy dwiema takimi półpłaszczyznami.",
+            "równoleżnik to coś innego: Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. Równoleżniki mają różne długości, a ich wartości to szerokość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej … da się podać położenie każdego miejsca na Ziemi.",
+          "a": "siatka geograficzna",
+          "choices": [
+            "siatka geograficzna",
+            "południk",
+            "półkula"
+          ],
+          "exp": [
+            "południk to coś innego: Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na południe. Wszystkie południki są tak samo długie, a ich wartości to długość geograficzna.",
+            "półkula to coś innego: Połowa kuli ziemskiej. Równik wyznacza półkulę północną i południową, a południki 0° i 180° — wschodnią i zachodnią."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na …. Wszystkie … są tak samo długie, a ich wartości to długość geograficzna.",
+          "a": "południk",
+          "choices": [
+            "południk",
+            "długość geograficzna",
+            "półkula"
+          ],
+          "exp": [
+            "długość geograficzna to coś innego: Kąt, o jaki południk danego miejsca odchyla się od południka zerowego. Od 0° do 180°, zawsze z literą E albo W.",
+            "półkula to coś innego: Połowa kuli ziemskiej. Równik wyznacza półkulę północną i południową, a południki 0° i 180° — wschodnią i zachodnią."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. … mają różne długości, a ich wartości to szerokość geograficzna.",
+          "a": "równoleżnik",
+          "choices": [
+            "równoleżnik",
+            "siatka geograficzna",
+            "miary kątowe"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "miary kątowe to coś innego: Stopnie (°), minuty (′) i sekundy (″) — w nich zapisujemy współrzędne. Jeden stopień to 60 minut, jedna minuta to 60 sekund."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Najdłuższy z …, około 40 tysięcy kilometrów. Ma wartość 0° i rozdziela półkulę północną od południowej.",
+          "a": "równik",
+          "choices": [
+            "równik",
+            "GPS",
+            "miary kątowe"
+          ],
+          "exp": [
+            "GPS to coś innego: Najpopularniejszy system nawigacji satelitarnej. Odbiornik GPS oblicza współrzędne miejsca, w którym jesteś, z sygnałów satelitów krążących wokół Ziemi.",
+            "miary kątowe to coś innego: Stopnie (°), minuty (′) i sekundy (″) — w nich zapisujemy współrzędne. Jeden stopień to 60 minut, jedna minuta to 60 sekund."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "… o wartości 0°, punkt startowy do liczenia długości geograficznej. Biegnie przez Królewskie Obserwatorium Astronomiczne w Greenwich (czytaj: grinicz) w Londynie.",
+          "a": "południk zerowy",
+          "choices": [
+            "południk zerowy",
+            "siatka geograficzna",
+            "płaszczyzna równika"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "płaszczyzna równika to coś innego: Płaska powierzchnia tnąca kulę ziemską dokładnie wzdłuż równika, jakby wsunięty w nią talerz. Od niej odmierzamy szerokość geograficzną."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Kąt, o jaki promień Ziemi biegnący do danego miejsca odchyla się od płaszczyzny równika. Liczy się od równika (0°) i rośnie aż do biegunów (90°), zawsze z literą N albo S.",
+          "a": "szerokość geograficzna",
+          "choices": [
+            "szerokość geograficzna",
+            "siatka geograficzna",
+            "biegun"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "biegun to coś innego: Miejsce, w którym schodzą się wszystkie południki: północny albo południowy. Szerokość geograficzna osiąga tam swoją największą wartość, czyli 90°."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Kąt, o jaki południk danego miejsca odchyla się od południka zerowego. Od 0° do 180°, zawsze z literą E albo W.",
+          "a": "długość geograficzna",
+          "choices": [
+            "długość geograficzna",
+            "GPS",
+            "równoleżnik"
+          ],
+          "exp": [
+            "GPS to coś innego: Najpopularniejszy system nawigacji satelitarnej. Odbiornik GPS oblicza współrzędne miejsca, w którym jesteś, z sygnałów satelitów krążących wokół Ziemi.",
+            "równoleżnik to coś innego: Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. Równoleżniki mają różne długości, a ich wartości to szerokość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Płaska powierzchnia tnąca kulę ziemską dokładnie wzdłuż …, jakby wsunięty w nią talerz. Od niej odmierzamy szerokość geograficzną.",
+          "a": "płaszczyzna równika",
+          "choices": [
+            "płaszczyzna równika",
+            "siatka geograficzna",
+            "południk"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "południk to coś innego: Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na południe. Wszystkie południki są tak samo długie, a ich wartości to długość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Połowa płaszczyzny wychodząca z osi Ziemi i sięgająca do jednego …. Długość geograficzna to kąt pomiędzy dwiema takimi ….",
+          "a": "półpłaszczyzna południka",
+          "choices": [
+            "półpłaszczyzna południka",
+            "siatka geograficzna",
+            "szerokość geograficzna"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "szerokość geograficzna to coś innego: Kąt, o jaki promień Ziemi biegnący do danego miejsca odchyla się od płaszczyzny równika. Liczy się od równika (0°) i rośnie aż do biegunów (90°), zawsze z literą N albo S."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Stopnie (°), minuty (′) i sekundy (″) — w nich zapisujemy współrzędne. Jeden stopień to 60 minut, jedna minuta to 60 sekund.",
+          "a": "miary kątowe",
+          "choices": [
+            "miary kątowe",
+            "siatka geograficzna",
+            "południk"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "południk to coś innego: Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na południe. Wszystkie południki są tak samo długie, a ich wartości to długość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Połowa kuli ziemskiej. Równik wyznacza … północną i południową, a południki 0° i 180° — wschodnią i zachodnią.",
+          "a": "półkula",
+          "choices": [
+            "półkula",
+            "GPS",
+            "równoleżnik"
+          ],
+          "exp": [
+            "GPS to coś innego: Najpopularniejszy system nawigacji satelitarnej. Odbiornik GPS oblicza współrzędne miejsca, w którym jesteś, z sygnałów satelitów krążących wokół Ziemi.",
+            "równoleżnik to coś innego: Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. Równoleżniki mają różne długości, a ich wartości to szerokość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Miejsce, w którym schodzą się wszystkie południki: północny albo południowy. Szerokość geograficzna osiąga tam swoją największą wartość, czyli 90°.",
+          "a": "biegun",
+          "choices": [
+            "biegun",
+            "południk",
+            "równoleżnik"
+          ],
+          "exp": [
+            "południk to coś innego: Linia na globusie biegnąca od bieguna do bieguna, czyli z północy na południe. Wszystkie południki są tak samo długie, a ich wartości to długość geograficzna.",
+            "równoleżnik to coś innego: Linia okrążająca Ziemię ze wschodu na zachód, równolegle do równika. Równoleżniki mają różne długości, a ich wartości to szerokość geograficzna."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Najpopularniejszy system nawigacji satelitarnej. Odbiornik GPS oblicza współrzędne miejsca, w którym jesteś, z sygnałów satelitów krążących wokół Ziemi.",
+          "a": "GPS",
+          "choices": [
+            "GPS",
+            "siatka geograficzna",
+            "miary kątowe"
+          ],
+          "exp": [
+            "siatka geograficzna to coś innego: Południki i równoleżniki krzyżujące się pod kątem prostym. Dzięki tej siatce da się podać położenie każdego miejsca na Ziemi.",
+            "miary kątowe to coś innego: Stopnie (°), minuty (′) i sekundy (″) — w nich zapisujemy współrzędne. Jeden stopień to 60 minut, jedna minuta to 60 sekund."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Które linie na globusie są wszystkie tak samo długie?",
+          "a": "południki",
+          "choices": [
+            "równoleżniki",
+            "południki",
+            "i jedne, i drugie"
+          ],
+          "exp": [
+            "Południki biegną od bieguna do bieguna i każdy ma tę samą długość. Równoleżniki są różne — najdłuższy jest równik.",
+            "Częsty błąd: Uczniowie często mylą te dwie nazwy: równoleżniki są „równoległe” do równika, ale nie są sobie równe."
+          ],
+          "zrodlo": "s. 6, sekcja „Południki i równoleżniki”"
+        },
+        {
+          "kind": "wybor",
+          "e": "Miejsce leży na południe od równika. Jaką literę dopisujesz do jego szerokości geograficznej?",
+          "a": "S",
+          "choices": [
+            "N",
+            "S",
+            "W"
+          ],
+          "exp": [
+            "S od angielskiego south — półkula południowa. N to północ, a W dotyczy długości, nie szerokości.",
+            "Częsty błąd: W i E nigdy nie stoją przy szerokości; S i N nigdy przy długości."
+          ],
+          "zrodlo": "s. 7, żółte pole „Jak odczytać współrzędne geograficzne?”"
+        },
+        {
+          "kind": "wybor",
+          "e": "Ile minut kątowych ma jeden stopień?",
+          "a": "60",
+          "choices": [
+            "100",
+            "60",
+            "30"
+          ],
+          "exp": [
+            "Stopień dzieli się na 60 minut, a minuta na 60 sekund — jak godzina na zegarze.",
+            "Częsty błąd: To nie system dziesiętny: połowa stopnia to 30′, nie 50′."
+          ],
+          "zrodlo": "s. 7, ramka „Miary kątowe”"
+        },
+        {
+          "kind": "wybor",
+          "e": "W jakim mieście leży obserwatorium, przez które przechodzi południk zerowy?",
+          "a": "Londyn",
+          "choices": [
+            "Paryż",
+            "Londyn",
+            "Rzym"
+          ],
+          "exp": [
+            "W Londynie — chodzi o Królewskie Obserwatorium Astronomiczne w dzielnicy Greenwich. Wartość 0° nadano temu południkowi w 1884 r.",
+            "Częsty błąd: Mylenie Greenwich z nazwą miasta; Greenwich leży w Londynie."
+          ],
+          "zrodlo": "str. 6, ramka „A to ciekawe...” z sową (prawy margines)"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Długość geograficzna może wynosić 150°.",
+          "a": true,
+          "exp": [
+            "Tak — długość sięga od 0° aż do 180°, na wschód i na zachód. To szerokość kończy się na 90°.",
+            "Częsty błąd: Zakres 0–90° dotyczy tylko szerokości (równik–biegun)."
+          ],
+          "zrodlo": "s. 9, podtytuł „Długość geograficzna”"
+        },
+        {
+          "kind": "pf",
+          "e": "Równik dzieli Ziemię na półkulę wschodnią i zachodnią.",
+          "a": false,
+          "exp": [
+            "Nie — równik oddziela półkulę północną od południowej. Na wschodnią i zachodnią dzielą Ziemię południki 0° i 180°.",
+            "Częsty błąd: Pozioma linia (równik) = podział góra/dół; pionowe linie (południki 0° i 180°) = podział lewo/prawo."
+          ],
+          "zrodlo": "s. 6, ilustracje z półkulami"
+        },
+        {
+          "kind": "pf",
+          "e": "Szerokość geograficzna to odległość od równika podana w kilometrach.",
+          "a": false,
+          "exp": [
+            "Nie — szerokość jest kątem, a nie odległością. Zapisujemy ją w stopniach, minutach i sekundach, nie w kilometrach.",
+            "Częsty błąd: Mylenie miary kątowej z odległością; kilometry służą do mierzenia dróg, a nie współrzędnych."
+          ],
+          "zrodlo": "str. 11, „To najważniejsze!” pkt 1 i 3"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Najdłuższy równoleżnik, około 40 tys. km, to ___.",
+          "a": "równik",
+          "inne": [],
+          "exp": [
+            "Równik ma wartość 0° i dzieli Ziemię na półkulę północną i południową.",
+            "Częsty błąd: Południki mają wszystkie tę samą długość, więc żaden nie jest „najdłuższy”."
+          ],
+          "zrodlo": "s. 6"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Jeden stopień kątowy to ___ minut.",
+          "a": "60",
+          "inne": [
+            "sześćdziesiąt",
+            "szescdziesiat"
+          ],
+          "exp": [
+            "1° = 60′, a 1′ = 60″ — jak na zegarze.",
+            "Częsty błąd: Nie 100 — miary kątowe nie są dziesiętne."
+          ],
+          "zrodlo": "s. 7, ramka „Miary kątowe”"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Południk 0° i południk ___ dzielą Ziemię na półkulę wschodnią i zachodnią.",
+          "a": "180",
+          "inne": [
+            "180°",
+            "sto osiemdziesiąt"
+          ],
+          "exp": [
+            "Te dwa południki razem tworzą pełne koło i tną kulę na pół: E i W.",
+            "Częsty błąd: 90° to zakres szerokości (bieguny), nie południk dzielący półkule."
+          ],
+          "zrodlo": "s. 6"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Odbiornik GPS wyznacza współrzędne na podstawie sygnałów wysyłanych przez ___ krążące wokół Ziemi.",
+          "a": "satelity",
+          "inne": [
+            "satelitów",
+            "satelitow",
+            "sztuczne satelity"
+          ],
+          "exp": [
+            "Satelity — to ich sygnały pozwalają odbiornikowi obliczyć współrzędne miejsca, w którym stoisz.",
+            "Częsty błąd: Odpowiedź, że GPS korzysta z zapisanej w pamięci mapy albo z internetu."
+          ],
+          "zrodlo": "str. 10, sekcja „Do czego służą systemy nawigacji satelitarnej?”"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Które linie na globusie mają taką samą długość, a które różną?",
+          "a": "Południki są wszystkie jednakowej długości, natomiast równoleżniki różnią się długością, a najdłuższym z nich jest równik.",
+          "blad": "Odwrócenie ról, czyli uznanie, że to równoleżniki są równe, bo nazwa brzmi podobnie.",
+          "zrodlo": "str. 6, drugi akapit pod śródtytułem „Południki i równoleżniki”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Co dzieli kulę ziemską na półkulę wschodnią i zachodnią, a co na północną i południową?",
+          "a": "Na półkulę wschodnią i zachodnią dzielą Ziemię dwa południki, zerowy i 180°, a na północną i południową dzieli ją równik.",
+          "blad": "Podanie samego południka zerowego bez południka 180°, a jedna linia nie wyznaczy połowy kuli.",
+          "zrodlo": "str. 6, podpisy pod dwoma globusami na dole strony; „Sprawdź się!” zad. 1 B i E (str. 19)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Co to jest szerokość geograficzna i jakie wartości może przyjmować?",
+          "a": "To kąt, o jaki promień Ziemi biegnący do danego punktu jest odchylony od płaszczyzny równika; na równiku wynosi 0°, a na biegunach dochodzi do 90°.",
+          "blad": "Podanie zakresu do 180°, czyli pomylenie z długością geograficzną.",
+          "zrodlo": "str. 8, definicja pod podtytułem „Szerokość geograficzna”; „To najważniejsze!” pkt 1 (str. 11); „Podsumowanie” pkt 3 i 6 (str. 18)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Czym różni się definicja długości geograficznej od definicji szerokości?",
+          "a": "Długość to kąt między półpłaszczyzną południka zerowego a półpłaszczyzną południka danego punktu; liczymy ją od południka zerowego, nie od równika, i sięga 180°.",
+          "blad": "Wstawienie równika do definicji długości, w której występują wyłącznie południki.",
+          "zrodlo": "str. 9, definicja pod podtytułem „Długość geograficzna”; „To najważniejsze!” pkt 2 (str. 11); „Podsumowanie” pkt 4 i 7 (str. 18)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "W jakich jednostkach podajemy współrzędne geograficzne i ile minut ma jeden stopień?",
+          "a": "W miarach kątowych, czyli stopniach, minutach i sekundach; jeden stopień ma 60 minut, a jedna minuta 60 sekund.",
+          "blad": "Odpowiedź, że stopień ma 100 minut.",
+          "zrodlo": "str. 7, zielona ramka „Miary kątowe”; „To najważniejsze!” pkt 3 (str. 11)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Kraków ma współrzędne 50°N, 20°E. Co oznacza każda liczba i każda litera?",
+          "a": "50 to szerokość, czyli wartość równoleżnika, a N wskazuje półkulę północną; 20 to długość, czyli wartość południka, a E wskazuje półkulę wschodnią.",
+          "blad": "Uznanie, że E oznacza półkulę zachodnią, tymczasem E pochodzi od angielskiego east, czyli wschód.",
+          "zrodlo": "str. 7, żółte pole „Jak odczytać współrzędne geograficzne?” i globus z opisami"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego odbiornik GPS potrafi podać współrzędne miejsca, w którym stoisz?",
+          "a": "Odbiornik GPS odbiera sygnały wysyłane przez satelity krążące wokół Ziemi i na ich podstawie wyznacza współrzędne.",
+          "blad": "Odpowiedź, że GPS ma zapisaną mapę i z niej odczytuje położenie; kluczowe są sygnały z satelitów.",
+          "zrodlo": "str. 10, pierwszy akapit pod śródtytułem „Do czego służą systemy nawigacji satelitarnej?”; „Podsumowanie” pkt 11 (str. 18)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Współrzędne Sydney to 33°52′S, 151°12′E. Ile stopni ma kąt liczony od płaszczyzny równika, a ile kąt między półpłaszczyznami południków?",
+          "a": "Kąt od płaszczyzny równika to szerokość, czyli 33°52′. Kąt między półpłaszczyznami południków to długość, czyli 151°12′.",
+          "blad": "Zamiana obu liczb miejscami; kąt liczony od równika to zawsze szerokość, a ta nie może przekroczyć 90°.",
+          "zrodlo": "str. 9, pytajnik na dole żółtego pola „Współrzędne geograficzne”"
+        }
+      ]
+    }
+  ]
+}

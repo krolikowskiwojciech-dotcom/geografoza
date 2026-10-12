@@ -1,0 +1,500 @@
+{
+  "id": "geo-dz1-l02-wspolrzedne-geograficzne-cwiczenia",
+  "zrodlo": "lekcje-audio",
+  "dla": [
+    "julek"
+  ],
+  "tytul": "Współrzędne geograficzne w praktyce",
+  "dzial": "I",
+  "dzialTytul": "Współrzędne na mapie i globusie",
+  "lekcja": 2,
+  "strony": "12–17",
+  "dodano": "2026-09-04",
+  "termin": null,
+  "ikona": "globus",
+  "kolor": "mietowy",
+  "ocena": true,
+  "nagrania": [
+    {
+      "tytul": "Lekcja z podręcznikiem",
+      "opis": "Słuchaj i patrz do książki",
+      "prywatne": "nagrania/geo-dz1-l02-wspolrzedne-geograficzne-cwiczenia.mp3",
+      "minuty": 9
+    },
+    {
+      "tytul": "Krótka powtórka",
+      "opis": "Najważniejsze z lekcji, bez książki",
+      "plik": "nagrania/geo-dz1-l02-wspolrzedne-geograficzne-cwiczenia-krotkie.mp3",
+      "minuty": 6
+    }
+  ],
+  "sciaga": [
+    "Ćwiczysz tu trzy umiejętności: odczytanie współrzędnych obiektu z mapy, odnalezienie obiektu, gdy liczby już znasz, oraz obliczenie rozciągłości obszaru.",
+    "Współrzędne zapisujesz zawsze parą: najpierw szerokość z literą N albo S, potem długość z literą E albo W. Miarą są stopnie, minuty i sekundy.",
+    "Krok 1: sprawdź, co ile stopni poprowadzono linie. Bywa co 30° (mapa świata), co 5° (mapa Europy), co 2° (mapa Francji) albo co 1° (mapa drogowa).",
+    "Krok 2: znajdź punkt, wskaż przechodzące przez niego dwie linie i odczytaj obie liczby. Liczby przy równoleżnikach stoją przy krawędzi mapy, przy południkach — wzdłuż równika.",
+    "Krok 3: ustal półkule. Na północ od równika dopisujesz N, na południe S; na wschód od południka 0° dopisujesz E, na zachód W.",
+    "Krok 4: zapisz wynik razem z literami. Najczęstsza strata punktów to wpisanie samych liczb, bez N, S, E czy W. Na mapie świata o siatce co 30° punkt A ma współrzędne 60°N, 30°E.",
+    "Kierunek wzrostu liczb zdradza półkulę: gdy wartości równoleżników rosną ku górze mapy, patrzysz na fragment półkuli północnej. Przy południkach liczby rosną w obie strony od 0° — w lewo zachód, w prawo wschód.",
+    "Hamburg leży na linii, której nie narysowano: mniej więcej w dwóch trzecich drogi powyżej równoleżnika 50°, przy siatce co 5°. Dorysowana w wyobraźni linia ma wartość 53°, a południk 10° leży na wschód od zerowego, więc wychodzi 53°N, 10°E.",
+    "Minuty przydają się, gdy punkt wypada między liniami. Stopień dzielisz na 60 minut, więc połowa stopnia to 30′, a jedna trzecia — 20′.",
+    "Jeżewo na mapie drogowej z siatką co 1° wypada mniej więcej w połowie między 53° a 54° oraz w połowie między 18° a 19°. Leży na północ od 53° i na wschód od 18°, więc minuty dodajesz: 53°30′N, 18°30′E.",
+    "Uwaga na klasyczny błąd: zapis 53°50′ albo „53 i pół stopnia”. Stopień ma 60 minut, nie 100, więc poprawnie jest 53°30′.",
+    "Szukanie w drugą stronę działa tak samo, tylko od końca: odszukujesz równoleżnik i południk o podanych wartościach, a szukany obiekt stoi tam, gdzie te dwie linie się krzyżują. Litery podpowiadają, w którą stronę iść: N kieruje na półkulę północną, a W każe szukać na lewo od południka 0°.",
+    "Gdy szukanej linii nie ma na mapie, wyznacz ją między sąsiednimi. Dla 46°N i 1°W przy siatce co 2° bierzesz południki 0° i 2°W, a 1°W kreślisz w wyobraźni pośrodku — na przecięciu leży miasto Rochefort we Francji.",
+    "Sam równoleżnik nie wystarczy, bo to okrąg biegnący dookoła Ziemi i leżą na nim tysiące miejsc. Dopiero druga linia zamienia go w jeden punkt.",
+    "Każdy obszar — państwo czy kontynent — ma cztery skrajne punkty. Znając ich współrzędne, policzysz rozciągłość, którą podaje się w stopniach i minutach, a nie w kilometrach.",
+    "Rozciągłość południkowa: różnica szerokości geograficznej punktu najbardziej północnego i najbardziej południowego. Na mapie odpowiada jej pionowa strzałka z góry na dół.",
+    "Rozciągłość równoleżnikowa: różnica długości geograficznej punktu najbardziej wschodniego i najbardziej zachodniego. Na mapie odpowiada jej strzałka pozioma.",
+    "Nazwa mówi, wzdłuż czego mierzysz, a nie którą liczbę bierzesz. Południkowa korzysta z szerokości, równoleżnikowa z długości — to najczęściej mylona para w całym dziale.",
+    "Reguła działań: punkty na różnych półkulach — wartości dodajesz, punkty na tej samej półkuli — odejmujesz. Jak na termometrze: od −3 do +5 jest 8 kresek, a od +2 do +5 tylko 3.",
+    "Skrajne punkty Europy bez wysp: północ — przylądek Nordkyn 71°08′N, południe — przylądek Marroqui 35°58′N, zachód — przylądek Roca 9°30′W, wschód — ujście rzeki Bajdaraty 68°14′E.",
+    "Rachunek dla Europy: 71°08′ − 35°58′ = 35°10′ (obie litery N, więc odejmujesz) oraz 9°30′ + 68°14′ = 77°44′ (W i E, czyli różne półkule, więc dodajesz). Przy odejmowaniu 08′ minus 58′ pożyczasz stopień, czyli 60 minut: z 71°08′ robi się 70°68′, dalej 68 − 58 = 10′, a 70 − 35 = 35°.",
+    "Ciekawostka do zapamiętania: najdalej na północ wysuniętym miejscem Polski jest plaża w Jastrzębiej Górze."
+  ],
+  "definicje": {
+    "siatka kartograficzna": "Układ linii równoleżników i południków narysowanych na mapie. To po nich odczytujesz współrzędne, więc każdą pracę z mapą zaczynasz od przyjrzenia się właśnie im.",
+    "gęstość siatki": "Informacja, co ile stopni poprowadzono linie: bywa co 1°, co 2°, co 5°, a na mapie świata nawet co 30°. Kto tego nie sprawdzi, odczyta złe liczby, choć pokaże właściwe miejsce.",
+    "odczyt współrzędnych": "Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+    "równoleżnik": "Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy.",
+    "południk": "Pionowa linia siatki. Jej liczba to długość geograficzna, opisana zwykle przy równiku; wartości rosną w obie strony od południka 0°.",
+    "półkula": "Połowa Ziemi odcięta równikiem (północna i południowa) albo południkiem 0° (wschodnia i zachodnia). Poznasz ją po literze przy liczbie: N, S, E lub W.",
+    "minuty kątowe": "Drobniejsza część stopnia: jeden stopień to 60 minut, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′.",
+    "przecięcie równoleżnika i południka": "Jedyne miejsce na mapie, które ma podaną parę współrzędnych. Sama pozioma linia to okrąg wokół Ziemi, dopiero druga linia wskazuje konkretny punkt.",
+    "skrajne punkty": "Cztery miejsca obszaru wysunięte najbardziej na północ, południe, wschód i zachód. Z ich współrzędnych wylicza się rozciągłość państwa albo kontynentu.",
+    "rozciągłość południkowa": "Różnica szerokości geograficznej dwóch punktów: tego najbardziej na północ i tego najbardziej na południe. Mierzysz ją wzdłuż południków, czyli z góry na dół mapy.",
+    "rozciągłość równoleżnikowa": "Różnica długości geograficznej między punktem leżącym najdalej na wschód a tym najdalej na zachód. Mierzysz ją wzdłuż równoleżników, czyli w poprzek mapy.",
+    "Nordkyn": "Przylądek, od którego Europa zaczyna się na północy: 71°08′N. Razem z przylądkiem Marroqui (35°58′N) daje rozciągłość południkową 35°10′.",
+    "Roca": "Przylądek zamykający Europę od zachodu: 9°30′W. Z ujściem rzeki Bajdaraty (68°14′E) daje rozciągłość równoleżnikową 77°44′.",
+    "Rochefort": "Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć."
+  },
+  "bloki": [
+    {
+      "id": "pojecia",
+      "tytul": "Pojęcia z lekcji",
+      "polecenie": "Które pojęcie pasuje do opisu?",
+      "ile": 8,
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Układ linii równoleżników i południków narysowanych na mapie. To po nich odczytujesz współrzędne, więc każdą pracę z mapą zaczynasz od przyjrzenia się właśnie im.",
+          "a": "siatka kartograficzna",
+          "choices": [
+            "siatka kartograficzna",
+            "odczyt współrzędnych",
+            "rozciągłość równoleżnikowa"
+          ],
+          "exp": [
+            "odczyt współrzędnych to coś innego: Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+            "rozciągłość równoleżnikowa to coś innego: Różnica długości geograficznej między punktem leżącym najdalej na wschód a tym najdalej na zachód. Mierzysz ją wzdłuż równoleżników, czyli w poprzek mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Informacja, co ile stopni poprowadzono linie: bywa co 1°, co 2°, co 5°, a na mapie świata nawet co 30°. Kto tego nie sprawdzi, odczyta złe liczby, choć pokaże właściwe miejsce.",
+          "a": "gęstość siatki",
+          "choices": [
+            "gęstość siatki",
+            "odczyt współrzędnych",
+            "równoleżnik"
+          ],
+          "exp": [
+            "odczyt współrzędnych to coś innego: Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+            "równoleżnik to coś innego: Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+          "a": "odczyt współrzędnych",
+          "choices": [
+            "odczyt współrzędnych",
+            "rozciągłość południkowa",
+            "minuty kątowe"
+          ],
+          "exp": [
+            "rozciągłość południkowa to coś innego: Różnica szerokości geograficznej dwóch punktów: tego najbardziej na północ i tego najbardziej na południe. Mierzysz ją wzdłuż południków, czyli z góry na dół mapy.",
+            "minuty kątowe to coś innego: Drobniejsza część stopnia: jeden stopień to 60 minut, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy.",
+          "a": "równoleżnik",
+          "choices": [
+            "równoleżnik",
+            "gęstość siatki",
+            "rozciągłość równoleżnikowa"
+          ],
+          "exp": [
+            "gęstość siatki to coś innego: Informacja, co ile stopni poprowadzono linie: bywa co 1°, co 2°, co 5°, a na mapie świata nawet co 30°. Kto tego nie sprawdzi, odczyta złe liczby, choć pokaże właściwe miejsce.",
+            "rozciągłość równoleżnikowa to coś innego: Różnica długości geograficznej między punktem leżącym najdalej na wschód a tym najdalej na zachód. Mierzysz ją wzdłuż równoleżników, czyli w poprzek mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Pionowa linia siatki. Jej liczba to długość geograficzna, opisana zwykle przy równiku; wartości rosną w obie strony od … 0°.",
+          "a": "południk",
+          "choices": [
+            "południk",
+            "półkula",
+            "Nordkyn"
+          ],
+          "exp": [
+            "półkula to coś innego: Połowa Ziemi odcięta równikiem (północna i południowa) albo południkiem 0° (wschodnia i zachodnia). Poznasz ją po literze przy liczbie: N, S, E lub W.",
+            "Nordkyn to coś innego: Przylądek, od którego Europa zaczyna się na północy: 71°08′N. Razem z przylądkiem Marroqui (35°58′N) daje rozciągłość południkową 35°10′."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Połowa Ziemi odcięta równikiem (północna i południowa) albo południkiem 0° (wschodnia i zachodnia). Poznasz ją po literze przy liczbie: N, S, E lub W.",
+          "a": "półkula",
+          "choices": [
+            "półkula",
+            "Rochefort",
+            "równoleżnik"
+          ],
+          "exp": [
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć.",
+            "równoleżnik to coś innego: Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Drobniejsza część stopnia: jeden stopień to 60 …, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′.",
+          "a": "minuty kątowe",
+          "choices": [
+            "minuty kątowe",
+            "gęstość siatki",
+            "Rochefort"
+          ],
+          "exp": [
+            "gęstość siatki to coś innego: Informacja, co ile stopni poprowadzono linie: bywa co 1°, co 2°, co 5°, a na mapie świata nawet co 30°. Kto tego nie sprawdzi, odczyta złe liczby, choć pokaże właściwe miejsce.",
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Jedyne miejsce na mapie, które ma podaną parę współrzędnych. Sama pozioma linia to okrąg wokół Ziemi, dopiero druga linia wskazuje konkretny punkt.",
+          "a": "przecięcie równoleżnika i południka",
+          "choices": [
+            "przecięcie równoleżnika i południka",
+            "gęstość siatki",
+            "Rochefort"
+          ],
+          "exp": [
+            "gęstość siatki to coś innego: Informacja, co ile stopni poprowadzono linie: bywa co 1°, co 2°, co 5°, a na mapie świata nawet co 30°. Kto tego nie sprawdzi, odczyta złe liczby, choć pokaże właściwe miejsce.",
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Cztery miejsca obszaru wysunięte najbardziej na północ, południe, wschód i zachód. Z ich współrzędnych wylicza się rozciągłość państwa albo kontynentu.",
+          "a": "skrajne punkty",
+          "choices": [
+            "skrajne punkty",
+            "rozciągłość południkowa",
+            "równoleżnik"
+          ],
+          "exp": [
+            "rozciągłość południkowa to coś innego: Różnica szerokości geograficznej dwóch punktów: tego najbardziej na północ i tego najbardziej na południe. Mierzysz ją wzdłuż południków, czyli z góry na dół mapy.",
+            "równoleżnik to coś innego: Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Różnica szerokości geograficznej dwóch punktów: tego najbardziej na północ i tego najbardziej na południe. Mierzysz ją wzdłuż …, czyli z góry na dół mapy.",
+          "a": "rozciągłość południkowa",
+          "choices": [
+            "rozciągłość południkowa",
+            "Rochefort",
+            "równoleżnik"
+          ],
+          "exp": [
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć.",
+            "równoleżnik to coś innego: Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Różnica długości geograficznej między punktem leżącym najdalej na wschód a tym najdalej na zachód. Mierzysz ją wzdłuż …, czyli w poprzek mapy.",
+          "a": "rozciągłość równoleżnikowa",
+          "choices": [
+            "rozciągłość równoleżnikowa",
+            "Rochefort",
+            "równoleżnik"
+          ],
+          "exp": [
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć.",
+            "równoleżnik to coś innego: Pozioma linia siatki, okrąg biegnący dookoła Ziemi. Jej liczba to szerokość geograficzna, a opisy tych liczb znajdziesz przy krawędzi mapy."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Przylądek, od którego Europa zaczyna się na północy: 71°08′N. Razem z przylądkiem Marroqui (35°58′N) daje rozciągłość południkową 35°10′.",
+          "a": "Nordkyn",
+          "choices": [
+            "Nordkyn",
+            "odczyt współrzędnych",
+            "minuty kątowe"
+          ],
+          "exp": [
+            "odczyt współrzędnych to coś innego: Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+            "minuty kątowe to coś innego: Drobniejsza część stopnia: jeden stopień to 60 minut, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Przylądek zamykający Europę od zachodu: 9°30′W. Z ujściem rzeki Bajdaraty (68°14′E) daje rozciągłość równoleżnikową 77°44′.",
+          "a": "Roca",
+          "choices": [
+            "Roca",
+            "minuty kątowe",
+            "Rochefort"
+          ],
+          "exp": [
+            "minuty kątowe to coś innego: Drobniejsza część stopnia: jeden stopień to 60 minut, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′.",
+            "Rochefort to coś innego: Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć."
+          ]
+        },
+        {
+          "kind": "wybor",
+          "e": "Francuskie miasto o współrzędnych 46°N, 1°W, leżące niedaleko Zatoki Biskajskiej. Służy jako przykład odszukiwania miejsca, gdy liczby są znane, a mapy trzeba dopiero użyć.",
+          "a": "Rochefort",
+          "choices": [
+            "Rochefort",
+            "odczyt współrzędnych",
+            "minuty kątowe"
+          ],
+          "exp": [
+            "odczyt współrzędnych to coś innego: Zamiana położenia punktu na mapie na parę liczb z literami. Idziesz stałą drogą: gęstość siatki, dwie linie przez punkt, półkule, zapis.",
+            "minuty kątowe to coś innego: Drobniejsza część stopnia: jeden stopień to 60 minut, zapisywanych znakiem ′. Połowa stopnia to więc 30′, a nie 50′."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wybor",
+      "tytul": "Test wyboru",
+      "polecenie": "Wybierz poprawną odpowiedź.",
+      "zadania": [
+        {
+          "kind": "wybor",
+          "e": "Co robisz jako pierwsze, gdy odczytujesz współrzędne z mapy?",
+          "a": "sprawdzam, co ile stopni narysowano siatkę",
+          "choices": [
+            "ustalam półkule",
+            "sprawdzam, co ile stopni narysowano siatkę",
+            "zapisuję wynik z literami"
+          ],
+          "exp": [
+            "Najpierw gęstość siatki — bez tego nie wiesz, co oznacza każda linia. Półkule i zapis są na końcu.",
+            "Częsty błąd: Krok „ustal półkule” jest trzeci, nie pierwszy."
+          ],
+          "zrodlo": "s. 12, samouczek „Nic trudnego!”"
+        },
+        {
+          "kind": "wybor",
+          "e": "Gdzie na mapie znajdziesz wartości południków?",
+          "a": "wzdłuż równika",
+          "choices": [
+            "na obrzeżu mapy, z boku",
+            "wzdłuż równika",
+            "w legendzie mapy"
+          ],
+          "exp": [
+            "Południki są opisane wzdłuż równika (u dołu lub na linii równika). Z boku, na obrzeżu, stoją wartości równoleżników.",
+            "Częsty błąd: Z boku = równoleżniki, wzdłuż równika = południki — łatwo zamienić."
+          ],
+          "zrodlo": "s. 12, krok 2 samouczka"
+        },
+        {
+          "kind": "wybor",
+          "e": "Miasto leży dokładnie w połowie między równoleżnikami 53°N i 54°N. Jaka jest jego szerokość?",
+          "a": "53°30′N",
+          "choices": [
+            "53°50′N",
+            "53°30′N",
+            "53°05′N"
+          ],
+          "exp": [
+            "Połowa stopnia to 30 minut, bo 1° = 60′. Dodajesz 30′ do 53°.",
+            "Częsty błąd: 53°50′ wyszłoby, gdyby stopień miał 100 minut — a ma 60."
+          ],
+          "zrodlo": "s. 14, krok 3 samouczka (Jeżewo)"
+        },
+        {
+          "kind": "wybor",
+          "e": "W czym podaje się rozciągłość południkową i równoleżnikową obszaru?",
+          "a": "w stopniach i minutach",
+          "choices": [
+            "w kilometrach",
+            "w stopniach i minutach",
+            "w metrach nad poziomem morza"
+          ],
+          "exp": [
+            "Obie rozciągłości wyraża się w miarach kątowych, czyli w stopniach i minutach. Kilometry to zupełnie inna miara, liczona ze skali mapy.",
+            "Częsty błąd: Odpowiedź „w kilometrach” — rozciągłość opisuje kąt, a nie odległość zmierzoną linijką."
+          ],
+          "zrodlo": "str. 16, wstęp sekcji „Rozciągłość południkowa i rozciągłość równoleżnikowa”"
+        }
+      ]
+    },
+    {
+      "id": "prawda-falsz",
+      "tytul": "Prawda czy fałsz",
+      "polecenie": "Czy to zdanie jest prawdziwe?",
+      "zadania": [
+        {
+          "kind": "pf",
+          "e": "Gdy oba skrajne punkty obszaru leżą na tej samej półkuli, ich wartości dodajemy.",
+          "a": false,
+          "exp": [
+            "Nie — na tej samej półkuli odejmujemy (większa minus mniejsza). Dodajemy dopiero wtedy, gdy punkty są na różnych półkulach, bo między nimi jest równik albo południk 0°.",
+            "Częsty błąd: Reguła: ta sama półkula → odejmij, różne półkule → dodaj."
+          ],
+          "zrodlo": "s. 16, pola z definicjami rozciągłości"
+        },
+        {
+          "kind": "pf",
+          "e": "Rozciągłość równoleżnikową liczymy z długości geograficznej dwóch skrajnych punktów: wschodniego i zachodniego.",
+          "a": true,
+          "exp": [
+            "Tak — równoleżnikowa idzie wzdłuż równoleżników, czyli ze wschodu na zachód, więc bierze długość geograficzną. Południkowa bierze szerokość punktów północnego i południowego.",
+            "Częsty błąd: Nazwa mówi, wzdłuż czego mierzysz (równoleżnik), a nie którą współrzędną bierzesz."
+          ],
+          "zrodlo": "s. 16, pole „Rozciągłość równoleżnikowa”"
+        }
+      ]
+    },
+    {
+      "id": "uzupelnij",
+      "tytul": "Uzupełnij",
+      "polecenie": "Wpisz brakujące pojęcie.",
+      "zadania": [
+        {
+          "kind": "wpisz",
+          "e": "Wartości południków są opisane na mapie wzdłuż ___.",
+          "a": "równika",
+          "inne": [],
+          "exp": [
+            "Południki podpisujemy wzdłuż równika (na dole albo na jego linii); równoleżniki — z boku, na obrzeżu mapy.",
+            "Częsty błąd: „Z boku” to równoleżniki."
+          ],
+          "zrodlo": "s. 12, krok 2"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Rozciągłość ___ to różnica szerokości geograficznej między skrajnym punktem północnym a południowym.",
+          "a": "południkowa",
+          "inne": [
+            "poludnikowa"
+          ],
+          "exp": [
+            "Południkowa — bo mierzysz ją wzdłuż południków, z północy na południe.",
+            "Częsty błąd: Równoleżnikowa bierze długość (W–E), nie szerokość."
+          ],
+          "zrodlo": "s. 16"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Gdy skrajne punkty leżą na różnych półkulach, ich wartości ___ (dodajemy czy odejmujemy?).",
+          "a": "dodajemy",
+          "inne": [
+            "dodaje się",
+            "sumujemy"
+          ],
+          "exp": [
+            "Między nimi jest równik albo południk 0°, więc odległości po obu stronach się sumują.",
+            "Częsty błąd: Odejmujemy tylko wtedy, gdy oba punkty są na tej samej półkuli."
+          ],
+          "zrodlo": "s. 16"
+        },
+        {
+          "kind": "wpisz",
+          "e": "Najdalej na północ wysuniętym punktem Polski jest plaża w ___.",
+          "a": "Jastrzębiej Górze",
+          "inne": [
+            "Jastrzębia Góra",
+            "Jastrzebiej Gorze"
+          ],
+          "exp": [
+            "Chodzi o plażę w Jastrzębiej Górze nad Bałtykiem — to od niej liczy się rozciągłość południkową Polski.",
+            "Częsty błąd: Wskazanie Helu albo Świnoujścia — to inne krańce kraju."
+          ],
+          "zrodlo": "str. 16, podpis pod zdjęciem plaży i klifu"
+        }
+      ]
+    },
+    {
+      "id": "pytania",
+      "tytul": "Pytania z podręcznika",
+      "polecenie": "Odpowiedz w myślach albo na głos, potem sprawdź.",
+      "zadania": [
+        {
+          "kind": "otwarte",
+          "e": "Jakie cztery kroki wykonujesz, żeby wyznaczyć współrzędne punktu na mapie?",
+          "a": "Najpierw sprawdzam, co ile stopni narysowano siatkę, potem znajduję równoleżnik i południk biegnące przez punkt i odczytuję ich wartości, następnie ustalam półkule i litery, a na końcu zapisuję współrzędne.",
+          "blad": "Pominięcie sprawdzenia gęstości siatki, przez co przy siatce co 2° lub co 5° wartości są odczytywane błędnie.",
+          "zrodlo": "str. 12, samouczek „Nic trudnego!” o punkcie A; „To najważniejsze!” pkt 1 (str. 17)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Gdzie na mapie opisane są wartości równoleżników, a gdzie wartości południków?",
+          "a": "Wartości równoleżników stoją na obrzeżu mapy, a wartości południków są wpisane wzdłuż równika.",
+          "blad": "Szukanie obu wartości na brzegu mapy i pomylenie, która liczba należy do której linii.",
+          "zrodlo": "str. 12, krok 2 samouczka"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Miejscowość leży w połowie odległości między równoleżnikami 53°N i 54°N. Jaka jest jej szerokość i dlaczego?",
+          "a": "53°30'N, ponieważ stopień ma 60 minut, więc połowa stopnia to 30 minut, a minuty dodajemy do 53°, bo punkt leży na północ od tego równoleżnika.",
+          "blad": "Zapis 53°50'N wynikający z liczenia stopnia jako 100 minut.",
+          "zrodlo": "str. 14, krok 3 samouczka o Jeżewie; str. 7, ramka „Miary kątowe”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Znasz współrzędne 46°N, 1°W, a siatka na mapie jest co 2°. Jak znajdziesz miasto?",
+          "a": "Odszukuję równoleżnik 46°N, potem południki 0° i 2°W, a południk 1°W wyobrażam sobie pośrodku między nimi; miasto leży na przecięciu tego południka z równoleżnikiem.",
+          "blad": "Odczytanie miasta przy południku 0°, bo południka 1°W nie ma narysowanego na mapie.",
+          "zrodlo": "str. 15, samouczek „Nic trudnego!”; „To najważniejsze!” pkt 2 (str. 17)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Porównaj rozciągłość południkową i równoleżnikową. Której współrzędnej dotyczy każda z nich?",
+          "a": "Rozciągłość południkowa to różnica szerokości geograficznej między skrajnym punktem północnym a południowym, a rozciągłość równoleżnikowa to różnica długości geograficznej między skrajnym punktem wschodnim a zachodnim.",
+          "blad": "Przypisanie rozciągłości południkowej do długości geograficznej, bo w nazwie pojawia się słowo południk.",
+          "zrodlo": "str. 16, beżowe pole „ROZCIĄGŁOŚĆ POŁUDNIKOWA” i fioletowe pole „ROZCIĄGŁOŚĆ RÓWNOLEŻNIKOWA”; „Podsumowanie” pkt 10 (str. 18)"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Kiedy przy obliczaniu rozciągłości dodajemy wartości, a kiedy odejmujemy?",
+          "a": "Dodajemy, gdy skrajne punkty leżą na różnych półkulach, a odejmujemy, gdy leżą na tej samej półkuli.",
+          "blad": "Odejmowanie zawsze, także gdy jeden punkt ma literę W, a drugi E.",
+          "zrodlo": "str. 16, podpunkty „Jak się ją oblicza?” w obu polach"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Dlaczego rozciągłość równoleżnikową Europy liczymy dodawaniem, a południkową odejmowaniem?",
+          "a": "Przylądek Roca (9°30'W) i ujście Bajdaraty (68°14'E) leżą na różnych półkulach, więc długości dodajemy i wychodzi 77°44'; Nordkyn (71°08'N) i Marroqui (35°58'N) leżą na tej samej półkuli, więc szerokości odejmujemy i wychodzi 35°10'.",
+          "blad": "Dodanie szerokości Nordkyn i Marroqui, bo punkty są daleko od siebie; o działaniu decydują półkule, nie odległość.",
+          "zrodlo": "str. 17, samouczek „Jak obliczyć rozciągłość południkową i rozciągłość równoleżnikową Europy?”"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Na mapie Europy z siatką co 5° miasto leży mniej więcej w dwóch trzecich drogi powyżej równoleżnika 50°, a na południku 10° na prawo od zerowego. Jakie ma współrzędne?",
+          "a": "53°N, 10°E. Linię przez to miasto trzeba dorysować w wyobraźni między 50° a 55°, a litera E bierze się stąd, że południk 10° leży na wschód od zerowego. Tak wyznacza się położenie Hamburga.",
+          "blad": "Przypisanie miastu równoleżnika 50°, bo tylko ta linia jest narysowana.",
+          "zrodlo": "str. 13, samouczek „Nic trudnego!” o Hamburgu, kroki 3–5"
+        },
+        {
+          "kind": "otwarte",
+          "e": "Jak wykonać odejmowanie 71°08′ − 35°58′?",
+          "a": "Ośmiu minut nie odejmiesz od pięćdziesięciu ośmiu, więc pożyczasz jeden stopień, czyli 60 minut: 71°08′ zapisujesz jako 70°68′. Potem 68′ − 58′ = 10′, a 70° − 35° = 35°, czyli wynik to 35°10′.",
+          "blad": "Odjęcie minut „na odwrót” (58 − 8 = 50) i wynik 35°50′.",
+          "zrodlo": "str. 17, krok 1 samouczka o Europie; przypomnienie 1° = 60′"
+        }
+      ]
+    }
+  ]
+}

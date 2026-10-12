@@ -1,0 +1,92 @@
+{
+  "profile": [
+    {
+      "id": "julek",
+      "imie": "Julek",
+      "klasa": 6,
+      "znak": "J"
+    }
+  ],
+  "zestawy": [
+    {
+      "id": "geo-dz2-l01-ziemia-w-ukladzie-slonecznym",
+      "tytul": "Ziemia wśród planet Układu Słonecznego",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-09-09",
+      "dzial": "II",
+      "dzialTytul": "Jak porusza się Ziemia",
+      "lekcja": 1,
+      "strony": "22–26",
+      "ikona": "planeta",
+      "kolor": "zolty",
+      "bloki": 5,
+      "zadan": 22,
+      "nagrania": 1,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz2-l02-ruch-obrotowy-ziemi",
+      "tytul": "Jak Ziemia kręci się wokół osi",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-09-09",
+      "dzial": "II",
+      "dzialTytul": "Jak porusza się Ziemia",
+      "lekcja": 2,
+      "strony": "27–33",
+      "ikona": "zegar",
+      "kolor": "brzoskwinia",
+      "bloki": 5,
+      "zadan": 22,
+      "nagrania": 1,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz1-l01-czym-sa-wspolrzedne-geograficzne",
+      "tytul": "Jak działają współrzędne geograficzne",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-09-04",
+      "dzial": "I",
+      "dzialTytul": "Współrzędne na mapie i globusie",
+      "lekcja": 1,
+      "strony": "6–11",
+      "ikona": "globus",
+      "kolor": "lila",
+      "bloki": 5,
+      "zadan": 27,
+      "nagrania": 2,
+      "sciaga": true
+    },
+    {
+      "id": "geo-dz1-l02-wspolrzedne-geograficzne-cwiczenia",
+      "tytul": "Współrzędne geograficzne w praktyce",
+      "opis": "",
+      "dla": [
+        "julek"
+      ],
+      "termin": null,
+      "dodano": "2026-09-04",
+      "dzial": "I",
+      "dzialTytul": "Współrzędne na mapie i globusie",
+      "lekcja": 2,
+      "strony": "12–17",
+      "ikona": "globus",
+      "kolor": "mietowy",
+      "bloki": 5,
+      "zadan": 27,
+      "nagrania": 2,
+      "sciaga": true
+    }
+  ]
+}
