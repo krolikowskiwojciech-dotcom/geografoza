@@ -1,5 +1,6 @@
 // Stan w przeglądarce i synchronizacja prób z prywatnym repo geografoza-dane (jak w Lingozie: GitHub API + token).
-// Pod *.ogarnijmaterial.pl zamiast tokenu: pośrednik /api/gh z ciasteczkiem sesji (js/konto.js).
+// Pod *.ogarnijmaterial.pl zamiast tokenu: serwer ogarnijmaterial.pl (/api/gh, ciasteczko sesji, dane w Cloudflare KV,
+// odpowiedzi w kształcie API GitHuba — js/konto.js).
 // Każde dziecko ma plik profile/<id>.json = { id, proby: [...], u }. Próby się tylko dopisują, więc scalanie
 // dwóch kopii to suma bez powtórzeń (po id próby).
 
@@ -16,8 +17,9 @@ const API = 'https://api.github.com';
 const BRAK_REPO_TOKEN = 'Token nie widzi repozytorium geografoza-dane. W ustawieniach tokenu na GitHubie: Repository access → Only select repositories → dodaj geografoza-dane.';
 const BRAK_ZAPISU_TOKEN = 'Token widzi repozytorium, ale nie może w nim zapisywać. W ustawieniach tokenu: Permissions → Repositories → Contents → Read and write.';
 
-const BRAK_REPO = OGARNIJ ? 'Serwer ogarnijmaterial.pl nie widzi repozytorium geografoza-dane. Napisz do taty.' : BRAK_REPO_TOKEN;
-const BRAK_ZAPISU = OGARNIJ ? 'Serwer ogarnijmaterial.pl nie może zapisać wyników w geografoza-dane. Napisz do taty.' : BRAK_ZAPISU_TOKEN;
+const BRAK_REPO = OGARNIJ ? 'Serwer ogarnijmaterial.pl nie wpuszcza do wyników Julka. Otwórz ogarnijmaterial.pl i wybierz Julka.' : BRAK_REPO_TOKEN;
+const BRAK_ZAPISU = OGARNIJ ? 'Serwer ogarnijmaterial.pl nie przyjął wyników. Spróbuj za chwilę albo napisz do taty.' : BRAK_ZAPISU_TOKEN;
+const ZRODLO = OGARNIJ ? 'Serwer' : 'GitHub'; // w komunikatach błędów
 
 export const profil = () => LS.get('gz.profil');
 export const ustawProfil = (id) => (id ? LS.set('gz.profil', id) : LS.del('gz.profil'));
@@ -85,7 +87,7 @@ export async function synchronizuj(id) {
       if (repo.status === 404 || repo.status === 403) throw new Error(BRAK_REPO);
     }
     const r = await gh(plik);
-    if (!r.ok && r.status !== 404) throw new Error(r.status === 403 ? BRAK_REPO : `GitHub: błąd ${r.status}`);
+    if (!r.ok && r.status !== 404) throw new Error(r.status === 403 ? BRAK_REPO : `${ZRODLO}: błąd ${r.status}`);
     const j = r.ok ? await r.json() : null;
     const zdalne = j ? JSON.parse(dec(j.content || '') || 'null') : null;
     const razem = scal(zdalne?.proby, proby(id));
@@ -95,7 +97,7 @@ export async function synchronizuj(id) {
     if (j?.sha) body.sha = j.sha;
     const w = await gh(plik, { method: 'PUT', body: JSON.stringify(body) });
     if (w.status === 409 || w.status === 422) continue;
-    if (!w.ok) throw new Error(w.status === 403 || w.status === 404 ? BRAK_ZAPISU : `GitHub: błąd ${w.status} przy zapisie`);
+    if (!w.ok) throw new Error(w.status === 403 || w.status === 404 ? BRAK_ZAPISU : `${ZRODLO}: błąd ${w.status} przy zapisie`);
     return { stan: 'ok' };
   }
   throw new Error('Nie udało się zapisać wyników (konflikt). Spróbuj za chwilę.');
@@ -117,11 +119,16 @@ export async function nagraniePrywatne(sciezka, wersja) {
   if (!polaczone()) throw new Error(TEST ? 'Tryb testowy: pełne nagrania się nie pobierają.' : 'Pełne nagranie jest prywatne. Wklej token w Ustawieniach, żeby je odtworzyć.');
   const r = await gh(`/repos/${REPO_DANYCH}/contents/${sciezka.split('/').map(encodeURIComponent).join('/')}`, { headers: { Accept: 'application/vnd.github.raw' } });
   if (r.status === 404 || r.status === 403) throw new Error(OGARNIJ ? 'Nie widzę tego nagrania w prywatnym repozytorium. Napisz do taty.' : 'Nie widzę tego nagrania w prywatnym repozytorium. Sprawdź token w Ustawieniach.');
-  if (!r.ok) throw new Error(`GitHub: błąd ${r.status} przy pobieraniu nagrania`);
+  if (!r.ok) throw new Error(`${ZRODLO}: błąd ${r.status} przy pobieraniu nagrania`);
   const blob = new Blob([await r.arrayBuffer()], { type: 'audio/mpeg' });
   try { (await caches.open(CACHE_NAGRAN)).put(klucz, new Response(blob, { headers: { 'Content-Type': 'audio/mpeg' } })); } catch { /* pełna pamięć */ }
   return blob;
 }
+// ogarnijmaterial.pl: adres pliku do odtwarzania strumieniowo (<audio src>, Range, ciasteczko leci samo) — bez czekania
+// na pobranie całości; w teście lokalnym i na github.io — null (tam nagranie pobiera się tokenem do pamięci)
+export const adresNagrania = (sciezka) => (OGARNIJ && !TEST
+  ? `${POSREDNIK}/repos/${REPO_DANYCH}/contents/${sciezka.split('/').map(encodeURIComponent).join('/')}?raw=1` : null);
+
 export async function maNagranie(sciezka, wersja) {
   try { return !!(await (await caches.open(CACHE_NAGRAN)).match(kluczNagrania(sciezka, wersja))); } catch { return false; }
 }

@@ -3,7 +3,7 @@
 // najwyżej chwilę; bez sieci albo przy wolnej sieci — z pamięci. Krótkie nagrania (nagrania/*.mp3) idą prosto z sieci,
 // bo odtwarzacz prosi o kawałki pliku; pełne nagrania z prywatnego repo trzyma osobna pamięć „geografoza-nagrania”
 // (js/store.js), której ten plik nie czyści. Zapytania do api.github.com i ogarnijmaterial.pl (inne źródło) — bez SW.
-const CACHE = 'geografoza-v6';
+const CACHE = 'geografoza-v7';
 const SHELL = ['./', 'index.html', 'styles.css', 'manifest.webmanifest', 'js/app.js', 'js/dom.js', 'js/gra.js', 'js/sprawdz.js',
   'js/store.js', 'js/konto.js', 'js/dzwieki.js', 'zestawy/indeks.json', 'zestawy/spis.json', 'ikony/ikona-180.png', 'ikony/ikona-192.png',
   'fonts/Jost.ttf', 'fonts/LibreBaskerville.ttf',

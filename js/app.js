@@ -234,6 +234,7 @@ function odtwarzaczNagrania(z, n) {
   const czas = h('small', { class: 'nagr-czas' }, n.minuty ? `ok. ${n.minuty} min` : '');
   const stan = h('small', { class: 'nagr-stan', role: 'status' });
   const klucz = kluczMiejsca(z, n);
+  let zapisaneNaTelefonie = false; // pełne nagranie już w pamięci telefonu → grane z niej (także bez sieci)
   const ja = {}; // ten odtwarzacz; glosnik należy do niego, gdy odtwarzacz === ja
   const moj = () => odtwarzacz === ja;
 
@@ -264,13 +265,25 @@ function odtwarzaczNagrania(z, n) {
   }
   ja.zapisz = () => { if (moj() && glosnik.src !== CISZA && glosnik.currentTime > 1) S.LS.set(klucz, glosnik.currentTime); };
   const blad = (e) => {
-    stan.textContent = e?.name === 'NotAllowedError' ? 'Telefon zablokował dźwięk. Stuknij jeszcze raz.' : (e?.message || 'Nie udało się odtworzyć nagrania.');
+    stan.textContent = e?.name === 'NotAllowedError' ? 'Telefon zablokował dźwięk. Stuknij jeszcze raz.'
+      : e?.name === 'NotSupportedError' ? 'Nie udało się wczytać nagrania z serwera. Sprawdź internet albo otwórz ogarnijmaterial.pl jeszcze raz.'
+        : (e?.message || 'Nie udało się odtworzyć nagrania.');
     ustawIkone();
   };
   btn.onclick = () => {
     if (moj() && glosnik.src !== CISZA) { if (glosnik.paused) glosnik.play().catch(blad); else glosnik.pause(); return; }
     przejmij();
     if (!n.prywatne) { podepnij(n.plik); glosnik.play().catch(blad); return; } // bez czekania — wciąż w dotknięciu
+    const strumien = S.adresNagrania(n.prywatne);
+    if (strumien && !zapisaneNaTelefonie) {
+      // ogarnijmaterial.pl: gra od razu z serwera, a po starcie w tle zapisuje się na telefonie (następnym razem bez sieci)
+      podepnij(strumien);
+      glosnik.addEventListener('playing', () => {
+        S.nagraniePrywatne(n.prywatne, n.wersja).then(() => { zapisaneNaTelefonie = true; if (!stan.textContent) stan.textContent = 'zapisane na telefonie'; }).catch(() => {});
+      }, { once: true, signal: ja.sluchacze.signal });
+      glosnik.play().catch(blad);
+      return;
+    }
     odblokujGlosnik(); // jeszcze w dotknięciu, zanim zacznie się kilkusekundowe pobieranie
     stan.textContent = 'Pobieram nagranie…';
     btn.disabled = true;
@@ -284,7 +297,7 @@ function odtwarzaczNagrania(z, n) {
   };
   cofnij.onclick = () => { if (moj()) glosnik.currentTime = Math.max(0, glosnik.currentTime - 15); };
   suwak.oninput = () => { if (moj() && glosnik.duration) glosnik.currentTime = (suwak.value / 1000) * glosnik.duration; };
-  if (n.prywatne) S.maNagranie(n.prywatne, n.wersja).then((jest) => { if (jest) stan.textContent = 'zapisane na telefonie'; });
+  if (n.prywatne) S.maNagranie(n.prywatne, n.wersja).then((jest) => { if (jest) { zapisaneNaTelefonie = true; stan.textContent = 'zapisane na telefonie'; } });
 
   return h('div', { class: 'nagranie' },
     h('div', { class: 'nagr-gora' }, btn,

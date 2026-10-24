@@ -1,6 +1,7 @@
 // Konto rodziny na ogarnijmaterial.pl (Wojtek 2026-10-24). Aplikacja działa też pod geografia.ogarnijmaterial.pl:
 // tam nie ma wyboru profilu ani tokenu — strona główna trzyma ciasteczko sesji na całą domenę, /api/ja mówi, kto patrzy,
-// a wyniki i pełne nagrania idą przez pośrednika /api/gh (bez nagłówka Authorization). Na github.io wszystko po staremu.
+// a wyniki i pełne nagrania idą przez /api/gh (bez nagłówka Authorization; dane w Cloudflare KV, odpowiedzi w kształcie
+// API GitHuba, plik surowo pod ...contents/<ścieżka>?raw=1 z obsługą Range). Na github.io wszystko po staremu.
 //
 // Test lokalny (TYLKO 127.0.0.1 / localhost): ?ogarnij=julian | aniela | wojtek | magda | 401
 // udaje odpowiedź /api/ja i niczego nie wysyła — ani do ogarnijmaterial.pl, ani do prawdziwych danych.

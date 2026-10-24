@@ -6,8 +6,10 @@ Zawsze po polsku. Aplikacja webowa na iPhone'a (dodana do ekranu początkowego),
 - **Adres:** https://krolikowskiwojciech-dotcom.github.io/geografoza/ (GitHub Pages z gałęzi `main`, repo publiczne)
   oraz https://geografia.ogarnijmaterial.pl (Cloudflare Pages, ten sam push).
 - **ogarnijmaterial.pl** (`js/konto.js`): przy starcie `/api/ja` z ciasteczkiem — `julian` → działa jako profil `julek`, inna osoba →
-  komunikat „to przedmiot Julka”, 401 → przekierowanie na stronę główną. Wyniki i pełne nagrania przez pośrednika
-  `https://ogarnijmaterial.pl/api/gh/...` (`credentials: 'include'`, bez tokenu); wklejanie tokenu ukryte. Na starcie „Przedmioty”
+  komunikat „to przedmiot Julka”, 401 → przekierowanie na stronę główną. Wyniki i pełne nagrania przez
+  `https://ogarnijmaterial.pl/api/gh/...` (`credentials: 'include'`, bez tokenu; serwer trzyma je w Cloudflare KV, nie w GitHubie,
+  odpowiada jak API GitHuba). Pełne nagrania grają strumieniowo `<audio src=…?raw=1>` i w tle zapisują się na telefonie;
+  wklejanie tokenu ukryte. Uwaga: wyniki z ogarnijmaterial.pl i z github.io (token) to dwa osobne magazyny. Na starcie „Przedmioty”
   (lewy górny róg) i znaczek osoby → `#konta` (prawy górny róg). Test lokalny: `?ogarnij=julian|aniela|401` (tylko 127.0.0.1/localhost,
   nic nie wysyła).
 - **Powrót:** zawsze pigułka „Wróć” w lewym górnym rogu (`wroc()` w `js/dom.js`); w ćwiczeniu z odpowiedziami najpierw `okno()`.
