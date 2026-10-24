@@ -1,4 +1,4 @@
-// Dźwięki według spisu w ~/Projekty/geografoza/DZWIEKI.md (te same pliki co w Geografozie). Każdy ma głośność i listę plików: najpierw własny dźwięk,
+// Dźwięki według spisu w ~/Projekty/biologoza/DZWIEKI.md (te same pliki co w Biologozie). Każdy ma głośność i listę plików: najpierw własny dźwięk,
 // potem zapas z „Ucz się sprytniej” (dopóki nowego pliku nie ma); bez zapasu = cisza.
 // Brak pliku albo blokada odtwarzania nie psuje gry.
 import { dzwiek } from './store.js';

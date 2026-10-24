@@ -1,7 +1,9 @@
-// Ekrany Geografozy: lista lekcji (działami), lekcja (nagrania, ćwiczenia, ściąga), ćwiczenie, ustawienia.
+// Ekrany Geografii (repo „geografoza”): lista lekcji (działami), lekcja (nagrania, ćwiczenia, ściąga), ćwiczenie, ustawienia.
 // Adresy: #/ (start), #/z/<id> (lekcja), #/z/<id>/sciaga, #/ustawienia.
+// Pod *.ogarnijmaterial.pl osoba przychodzi z konta rodziny (js/konto.js), a na starcie jest „Przedmioty” i znaczek osoby.
 
-import { h, okno, odm, ik, maskotka, kolor, IKONY_GEO, obrazDzialu, obrazLekcji, ilustracja } from './dom.js';
+import { h, okno, odm, ik, wroc, kolor, IKONY_GEO, obrazDzialu, obrazLekcji, ilustracja } from './dom.js';
+import { OGARNIJ, TEST, STRONA, KONTA, PROFIL_JULKA, sprawdzKonto, kto, imie, inicjal } from './konto.js';
 import { uruchom } from './gra.js';
 import * as S from './store.js';
 import { graj, przygotujDzwieki } from './dzwieki.js';
@@ -35,8 +37,19 @@ const kolorZestawu = (z, i) => (z.kolor ? 'kolor-' + z.kolor : kolor(i));
 const babel = (nazwa, klasa = 'kp-emoji') => h('span', { class: klasa + ' babel-geo', 'aria-hidden': 'true' }, ik(nazwa));
 const etykietaTerminu = (dni, iso) => (dni === 0 ? 'kartkówka dziś!' : dni === 1 ? 'kartkówka jutro' : `kartkówka ${dataPL(iso)}`);
 
+// znaczek osoby w prawym górnym rogu (tylko ogarnijmaterial.pl): inicjał, prowadzi do wyboru osoby
+const znaczekOsoby = (id) => h('a', { class: 'znaczek-osoby serif', href: KONTA, 'aria-label': 'Zmień osobę' }, inicjal(id));
+const pasekGory = (...dzieci) => h('nav', { class: 'pasek-gora' }, ...dzieci);
+
 function naglowek() {
   const p = profilInfo();
+  if (OGARNIJ) {
+    return h('header', { class: 'naglowek om' },
+      wroc({ tekst: 'Przedmioty', href: STRONA, etykieta: 'Przedmioty — wróć do listy przedmiotów' }),
+      h('div', { class: 'naglowek-txt' }, h('b', {}, p.imie), h('small', { class: 'maly' }, `geografia · klasa ${p.klasa}`)),
+      h('a', { class: 'ikona-btn', href: '#/ustawienia', 'aria-label': 'Ustawienia' }, ik('zebatka')),
+      znaczekOsoby(kto()?.id || 'julian'));
+  }
   return h('header', { class: 'naglowek' },
     h('a', { class: 'avatar serif', href: '#/ustawienia', 'aria-label': 'Ustawienia' }, p.znak),
     h('div', { class: 'naglowek-txt' }, h('b', {}, p.imie), h('small', { class: 'maly' }, `geografia · klasa ${p.klasa}`)),
@@ -47,8 +60,7 @@ function naglowek() {
 function ekranWyboru() {
   app.replaceChildren(
     h('main', { class: 'ekran profile-wybor' },
-      h('div', { class: 'logo serif' }, 'Geo', h('em', {}, 'grafoza')),
-      maskotka('czesc', 'maskotka-powitanie'),
+      h('div', { class: 'logo serif' }, 'Geografia'),
       h('h1', { class: 'serif' }, 'Kto dziś się ', h('em', {}, 'uczy'), '?'),
       h('div', { class: 'profile-siatka' }, indeks.profile.map((p, i) => h('button', {
         class: `profil-kafel ${kolor(i)}`, type: 'button',
@@ -130,9 +142,7 @@ function ekranListy() {
   app.replaceChildren(
     h('main', { class: 'ekran' },
       naglowek(),
-      h('div', { class: 'tytul-wiersz' },
-        h('h1', { class: 'tytul serif' }, 'Czego dziś się ', h('em', {}, 'uczymy'), '?'),
-        maskotka('czesc', 'maskotka-glowna')),
+      h('h1', { class: 'tytul serif' }, 'Czego dziś się ', h('em', {}, 'uczymy'), '?'),
       pilne.length ? [h('div', { class: 'sekcja' }, 'Przed kartkówką'), h('div', { class: 'lista-pakietow' }, pilne.map(karta))] : null,
       h('div', { class: 'dzialy' }, dzialy.map(blokDzialu)),
       inne.length ? [h('div', { class: 'sekcja' }, 'Inne zestawy'), h('div', { class: 'lista-pakietow' }, inne.map(karta))] : null));
@@ -149,8 +159,8 @@ async function ekranZestawu(id) {
   const zadan = z.bloki.reduce((n, b) => n + (b.ile || b.zadania?.length || 0), 0);
   app.replaceChildren(
     h('main', { class: 'ekran' },
+      pasekGory(wroc({ href: '#/', etykieta: 'Wróć do listy lekcji' })),
       h('section', { class: `naglowek-dzialu ${kolorZestawu(z, nr)}` },
-        h('a', { class: 'wstecz', href: '#/', 'aria-label': 'Wróć' }, ik('wstecz')),
         obrazLekcji(z.dzial, z.lekcja, z.typ) ? ilustracja(obrazLekcji(z.dzial, z.lekcja, z.typ), 'nagl-obraz') : babel(ikonaZestawu(z, nr), 'kp-emoji nagl-znak'),
         h('span', { class: 'kat-etykieta' }, z.termin && dni >= 0 ? etykietaTerminu(dni, z.termin)
           : [z.dzial ? `Dział ${z.dzial}` : 'Zestaw', z.lekcja ? ` · lekcja ${z.lekcja}` : '', z.strony ? ` · s. ${z.strony}` : ''].join('')),
@@ -293,8 +303,8 @@ async function ekranSciagi(id) {
   const obraz = (o) => h('figure', { class: 'sciaga-obraz' }, h('img', { src: o.plik, alt: o.podpis || '', loading: 'lazy' }), o.podpis ? h('figcaption', {}, o.podpis) : null);
   app.replaceChildren(
     h('main', { class: 'ekran' },
+      pasekGory(wroc({ href: '#/z/' + encodeURIComponent(z.id), etykieta: 'Wróć do lekcji' })),
       h('section', { class: `naglowek-dzialu niski ${kolorZestawu(z, nr)}` },
-        h('a', { class: 'wstecz', href: '#/z/' + encodeURIComponent(z.id), 'aria-label': 'Wróć' }, ik('wstecz')),
         h('span', { class: 'kat-etykieta' }, 'Ściąga'),
         h('h1', { class: 'serif' }, z.tytul)),
       (obrazyPo[0] || []).map(obraz), // rysunek ściągi („po”: 0) — przed pierwszym punktem
@@ -327,18 +337,18 @@ function ekranUstawien() {
   const stan = h('p', { class: 'maly', role: 'status' });
   app.replaceChildren(
     h('main', { class: 'ekran' },
+      pasekGory(wroc({ href: '#/', etykieta: 'Wróć do listy lekcji' })),
       h('div', { class: 'profil-gora' },
-        h('a', { class: 'ikona-btn', href: '#/', 'aria-label': 'Wróć' }, ik('wstecz')),
         h('span', { class: 'profil-duzy-avatar serif' }, p.znak),
         h('h1', { class: 'serif' }, p.imie)),
       h('section', { class: 'ust' },
         h('div', { class: 'sekcja' }, 'Ten telefon'),
         h('div', { class: 'wiersz' }, h('span', {}, `Uczy się: ${p.imie}, klasa ${p.klasa}`),
-          indeks.profile.length > 1 ? h('button', { class: 'chip', type: 'button', onclick: () => { S.ustawProfil(null); location.hash = '#/'; render(); } }, 'Zmień') : null),
+          !OGARNIJ && indeks.profile.length > 1 ? h('button', { class: 'chip', type: 'button', onclick: () => { S.ustawProfil(null); location.hash = '#/'; render(); } }, 'Zmień') : null),
         h('div', { class: 'wiersz' }, h('span', {}, 'Dźwięki'),
           h('button', { class: 'chip' + (S.dzwiek() ? ' akt' : ''), type: 'button', 'aria-pressed': String(S.dzwiek()), onclick: () => { S.ustawDzwiek(!S.dzwiek()); graj('przelacznik'); render(); } },
             S.dzwiek() ? 'włączone' : 'wyłączone'))),
-      h('section', { class: 'ust' },
+      OGARNIJ ? sekcjaKonta(p, stan) : h('section', { class: 'ust' },
         h('div', { class: 'sekcja' }, 'Wyniki i pełne nagrania'),
         h('p', { class: 'maly' }, 'Wyniki zapisują się w prywatnym repozytorium rodziny, a pełne nagrania do nauki z podręcznikiem stamtąd się pobierają. Wystarczy raz wkleić token GitHub na tym telefonie.'),
         pole,
@@ -356,19 +366,73 @@ function ekranUstawien() {
         stan)));
 }
 
+// ogarnijmaterial.pl: bez tokenu — wyniki i pełne nagrania idą przez konto rodziny
+function sekcjaKonta(p, stan) {
+  return h('section', { class: 'ust' },
+    h('div', { class: 'sekcja' }, 'Wyniki i pełne nagrania'),
+    h('p', { class: 'maly' }, `Konto na ogarnijmaterial.pl: ${imie(kto()?.id || 'julian')}. Wyniki zapisują się same w prywatnym repozytorium rodziny, a pełne nagrania pobierają się bez tokenu.`),
+    h('div', { class: 'przyciski' },
+      h('button', { class: 'btn glowny', type: 'button', onclick: async () => {
+        if (TEST) { stan.textContent = 'Tryb testowy: bez zapisu do danych rodziny.'; return; }
+        stan.textContent = 'Łączę…';
+        try { await S.synchronizuj(p.id); stan.textContent = 'Połączone. Wyniki są zapisane.'; } catch (e) { stan.textContent = e.message; }
+      } }, 'Synchronizuj teraz'),
+      h('a', { class: 'btn jasny', href: KONTA }, 'Zmień osobę')),
+    stan);
+}
+
+// ogarnijmaterial.pl, ale zalogowany ktoś inny niż Julek — spokojna informacja zamiast lekcji
+function ekranInnejOsoby(id) {
+  app.replaceChildren(
+    h('main', { class: 'ekran' },
+      h('header', { class: 'naglowek om' },
+        wroc({ tekst: 'Przedmioty', href: STRONA, etykieta: 'Przedmioty — wróć do listy przedmiotów' }),
+        h('div', { class: 'naglowek-txt' }),
+        znaczekOsoby(id)),
+      h('section', { class: 'cudzy' },
+        ik('globus', 'cudzy-znak'),
+        h('h1', { class: 'serif' }, 'Geografia to przedmiot Julka'),
+        h('p', {}, `Teraz wybrana osoba to ${imie(id)}. Tu są lekcje geografii Julka z klasy 6. Wróć do swoich przedmiotów albo zmień osobę.`),
+        h('div', { class: 'przyciski kolumna' },
+          h('a', { class: 'btn glowny', href: STRONA }, 'Przejdź do przedmiotów'),
+          h('a', { class: 'btn jasny', href: KONTA }, 'Zmień osobę')))));
+}
+
+function ekranBleduKonta(tekst) {
+  app.replaceChildren(
+    h('main', { class: 'ekran' },
+      h('header', { class: 'naglowek om' }, wroc({ tekst: 'Przedmioty', href: STRONA, etykieta: 'Przedmioty — wróć do listy przedmiotów' })),
+      h('section', { class: 'cudzy' },
+        h('h1', { class: 'serif' }, 'Nie udało się wczytać konta'),
+        h('p', {}, tekst),
+        h('div', { class: 'przyciski kolumna' },
+          h('button', { class: 'btn glowny', type: 'button', onclick: () => { konto = null; render(); } }, 'Spróbuj jeszcze raz'),
+          h('a', { class: 'btn jasny', href: STRONA }, 'Przejdź do przedmiotów')))));
+}
+
+let konto = null; // wynik sprawdzKonto() (tylko ogarnijmaterial.pl), raz na otwarcie aplikacji
+
 async function synchro() {
   const p = S.profil();
-  if (!p || !S.token()) return;
+  if (!p || !S.polaczone()) return;
   try { await S.synchronizuj(p); } catch (e) { console.warn('Synchronizacja:', e.message); }
 }
 
 async function render() {
   try {
+    if (OGARNIJ) {
+      if (!konto) konto = await sprawdzKonto();
+      if (konto.stan === 'brak') return app.replaceChildren(h('p', { class: 'ladowanie' }, 'Przechodzę do logowania…'));
+      if (konto.stan === 'blad') return ekranBleduKonta(konto.tekst);
+      if (konto.stan === 'inna') return ekranInnejOsoby(konto.id);
+    }
     if (!indeks) await wczytajIndeks();
+    if (OGARNIJ && S.profil() !== PROFIL_JULKA) S.ustawProfil(PROFIL_JULKA);
     if (!spis) spis = await fetch('zestawy/spis.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : { dzialy: [] })).catch(() => ({ dzialy: [] }));
     if (!profilInfo() && indeks.profile.length === 1) S.ustawProfil(indeks.profile[0].id);
     if (!profilInfo()) return ekranWyboru();
     const hash = location.hash || '#/';
+    document.querySelectorAll('.okno, .okno-tlo').forEach((e) => e.remove()); // okienko z poprzedniego ekranu (np. cofnięcie gestem)
     if (biezacaGra && !hash.startsWith('#/gra')) { biezacaGra.zakoncz(); biezacaGra = null; }
     const sc = hash.match(/^#\/z\/(.+)\/sciaga$/);
     if (sc) { zatrzymajOdtwarzacz(); window.scrollTo(0, 0); return await ekranSciagi(decodeURIComponent(sc[1])); }
@@ -379,7 +443,8 @@ async function render() {
     if (hash.startsWith('#/gra')) return;
     return ekranListy();
   } catch (e) {
-    app.replaceChildren(h('main', { class: 'ekran' }, h('h1', { class: 'serif' }, 'Ups'), h('p', {}, e.message), h('a', { class: 'btn', href: '#/' }, 'Na start')));
+    app.replaceChildren(h('main', { class: 'ekran' }, pasekGory(wroc({ href: '#/', etykieta: 'Wróć na start' })),
+      h('h1', { class: 'serif' }, 'Ups'), h('p', {}, e.message), h('a', { class: 'btn', href: '#/' }, 'Na start')));
   }
 }
 

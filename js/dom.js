@@ -64,15 +64,17 @@ export const obrazLekcji = (dzial, lekcja, typ) => (typ ? `obrazy/ilustracje/${t
   : ARABSKIE[dzial] && lekcja ? `obrazy/ilustracje/dz${ARABSKIE[dzial]}-l${lekcja}.webp` : null);
 export const ilustracja = (src, klasa = '') => (src ? h('img', { class: 'ilustr ' + klasa, src, alt: '', loading: 'lazy', decoding: 'async', onerror: (e) => e.target.remove() }) : null);
 
-// maskotka 3D (obrazy/maskotka-<poza>.png); dopóki pliku nie ma, element po prostu znika
-export const maskotka = (poza, klasa = '') => h('img', { class: 'maskotka ' + klasa, src: `obrazy/maskotka-${poza}.png`, alt: '', onerror: (e) => e.target.remove() });
+// bez maskotki (Wojtek 2026-10-12 i 2026-10-24: grafiki dla 11–13 lat, nie dla przedszkolaków)
+
+// przycisk powrotu — zawsze w lewym górnym rogu: pigułka ze strzałką i słowem („Wróć”, na starcie „Przedmioty”)
+export const wroc = ({ tekst = 'Wróć', href = null, onclick = null, etykieta = null } = {}) =>
+  h(href ? 'a' : 'button', { class: 'wroc', href, type: href ? null : 'button', onclick, 'aria-label': etykieta }, ik('wstecz'), h('span', {}, tekst));
 
 // własne okienko (wysuwane od dołu): okno({ tytul, tresc, przyciski: [{ tekst, wartosc, klasa }] }) → Promise<wartosc>
-export function okno({ tytul, tresc, poza = 'mysli', przyciski = [{ tekst: 'Jasne', wartosc: true, klasa: 'glowny' }] }) {
+export function okno({ tytul, tresc, przyciski = [{ tekst: 'Jasne', wartosc: true, klasa: 'glowny' }] }) {
   return new Promise((ok) => {
     const tlo = h('div', { class: 'okno-tlo', onclick: () => zamknij(null) });
     const pudlo = h('div', { class: 'okno', role: 'dialog', 'aria-modal': 'true', 'aria-label': tytul },
-      maskotka(poza, 'okno-maskotka'),
       h('div', { class: 'okno-tytul serif' }, tytul),
       typeof tresc === 'string' ? h('p', { class: 'okno-tekst' }, tresc) : tresc,
       h('div', { class: 'okno-przyciski' }, przyciski.map((p) => h('button', { class: 'btn ' + (p.klasa || 'jasny'), type: 'button', onclick: () => zamknij(p.wartosc) }, p.tekst))));

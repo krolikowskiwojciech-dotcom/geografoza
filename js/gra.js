@@ -5,7 +5,7 @@
 // Rodzaje zadań: wybor, pf (prawda/fałsz), wpisz (luka „___” albo samo pytanie), kolejnosc, pary,
 // otwarte (pytanie z podręcznika: najpierw odpowiedz w myślach, potem odsłoń i oceń się sam).
 
-import { h, okno, odm, ik, maskotka, kolor, los, obrazLekcji, ilustracja } from './dom.js';
+import { h, okno, odm, ik, wroc, kolor, los, obrazLekcji, ilustracja } from './dom.js';
 import { ocen, wCzesci, opcjeWyboru, pokaz, poprawna, dobraOdpowiedz } from './sprawdz.js';
 import { graj } from './dzwieki.js';
 
@@ -73,8 +73,8 @@ export function uruchom(el, opcje) {
   function ekran({ tytul, tresc, stopka, klasaStopki = '', bezGory = false }) {
     el.className = `lekcja w-kolorze ${kolor(B()?.nr ?? 0)}`;
     el.replaceChildren(...[
-      bezGory ? null : h('div', { class: 'lekcja-gora' },
-        h('button', { class: 'zamknij', type: 'button', 'aria-label': 'Przerwij', onclick: przerwij }, ik('zamknij')),
+      bezGory ? h('div', { class: 'lekcja-gora' }, wroc({ onclick: () => opcje.wyjdz(), etykieta: 'Wróć do lekcji' })) : h('div', { class: 'lekcja-gora' },
+        wroc({ onclick: wrocDoLekcji, etykieta: 'Wróć do lekcji' }),
         h('div', { class: 'postep' }, h('div', { class: 'postep-wew', style: `width:${postep()}%` })),
         h('span', { class: 'licznik' }, `${nrBloku + 1}/${bloki.length}`)),
       tytul ? h('div', { class: 'lekcja-tytul serif' }, tytul) : null,
@@ -88,6 +88,15 @@ export function uruchom(el, opcje) {
     const w = await okno({ tytul: 'Przerwać ćwiczenie?', tresc: 'Wynik zapisze się jako przerwany. Możesz go i tak wysłać.',
       przyciski: [{ tekst: 'Ćwiczę dalej', wartosc: false, klasa: 'jasny' }, { tekst: 'Przerwij', wartosc: true, klasa: 'czerwony' }] });
     if (w) podsumowanie(true);
+  }
+
+  // „Wróć” w lewym górnym rogu: bez odpowiedzi od razu do lekcji; z odpowiedziami najpierw pytanie (ćwiczenie się przerwie,
+  // a zrobione pytania zapiszą się jako wynik przerwany — tak jak po „Przerwij”)
+  async function wrocDoLekcji() {
+    if (!bloki.some((b) => b.wyniki.length)) { sprzataj(); return opcje.wyjdz(); }
+    const w = await okno({ tytul: 'Wrócić do lekcji?', tresc: 'Ćwiczenie się przerwie. Zrobione pytania zapiszą się jako wynik przerwany.',
+      przyciski: [{ tekst: 'Ćwiczę dalej', wartosc: false, klasa: 'jasny' }, { tekst: 'Wróć do lekcji', wartosc: true, klasa: 'czerwony' }] });
+    if (w) podsumowanie(true, true);
   }
 
   // ---------- wstęp do bloku ----------
@@ -337,7 +346,7 @@ export function uruchom(el, opcje) {
     const stopka = stopkaEl();
     stopka.className = 'stopka zle';
     stopka.replaceChildren(
-      h('div', { class: 'stopka-info z-maskotka' }, maskotka('mysli', 'maskotka-stopka'),
+      h('div', { class: 'stopka-info' },
         h('div', {}, h('div', { class: 'stopka-tytul' }, otwarte ? 'Przeczytaj odpowiedź jeszcze raz. To pytanie wróci.' : 'Prawie! Zobacz, jak jest naprawdę.'))),
       h('div', { class: 'przyciski' }, przerwijBtn, dalejBtn));
     requestAnimationFrame(() => pole.querySelector('.poprawka')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
@@ -371,7 +380,6 @@ export function uruchom(el, opcje) {
     const dalejF = () => { nrBloku++; poz = 0; czesc = 0; wstepBloku(); };
     ekran({
       tresc: h('div', { class: 'podsum' },
-        maskotka(g === 3 ? 'brawo' : 'ok', 'maskotka-duza'),
         h('div', { class: 'kat-etykieta' }, `Blok ${nrBloku + 1} z ${bloki.length} gotowy`),
         h('h2', { class: 'serif' }, B().blok.tytul),
         pokazGwiazdki(g, 'duze'),
@@ -384,7 +392,7 @@ export function uruchom(el, opcje) {
   }
 
   // ---------- podsumowanie ----------
-  function podsumowanie(przerwane) {
+  function podsumowanie(przerwane, odRazuWyjdz = false) {
     sprzataj();
     const wszystkie = bloki.flatMap((b) => b.wyniki);
     const dob = wszystkie.filter((x) => x.dobrze).length;
@@ -397,6 +405,7 @@ export function uruchom(el, opcje) {
       bledy: wszystkie.filter((x) => !x.dobrze).map(({ tekst, a, odp }) => ({ d: tekst, a, odp })),
     };
     if (proba.ile) opcje.naKoniec(proba);
+    if (odRazuWyjdz) { sprzataj(); return opcje.wyjdz(); }
     const g = gwiazdki(dob, proba.ile);
     if (!przerwane) graj(g === 3 ? 'bez-bledow' : 'lekcja-gotowa');
     const minuty = Math.max(1, Math.round(proba.czas / 60));
@@ -414,7 +423,6 @@ export function uruchom(el, opcje) {
     ekran({
       bezGory: true,
       tresc: h('div', { class: 'podsum' },
-        maskotka(g === 3 ? 'brawo' : g ? 'ok' : 'mysli', 'maskotka-duza'),
         h('div', { class: 'kat-etykieta' }, przerwane ? 'Przerwane' : 'Zestaw ukończony'),
         h('h2', { class: 'serif' }, zestaw.tytul),
         pokazGwiazdki(g, 'duze gwiazdki-wynik'),
@@ -450,7 +458,7 @@ export function uruchom(el, opcje) {
 export function tekstWyniku(p, profilInfo, minuty) {
   const procent = p.ile ? Math.round((p.dobrze / p.ile) * 100) : 0;
   const linie = [
-    `Geografoza · ${profilInfo?.imie || ''}`,
+    `Geografia · ${profilInfo?.imie || ''}`,
     `${p.tytul}${p.przerwane ? ' (przerwane)' : ''}${p.powtorka ? ' (powtórka pomyłek)' : ''}`,
     `Dobrze za pierwszym razem: ${p.dobrze} z ${p.ile} (${procent}%) · błędów: ${p.ile - p.dobrze}`,
     ...(p.ocena ? [`Ocena (przybliżona skala szkolna): ${p.ocena}`] : []),
@@ -467,7 +475,7 @@ async function wyslij(tekst, btn, status) {
   status.replaceChildren();
   try {
     if (navigator.share) {
-      try { await navigator.share({ title: 'Geografoza — wynik', text: tekst }); graj('wyslano'); status.textContent = 'Wysłane? Super!'; return; }
+      try { await navigator.share({ title: 'Geografia — wynik', text: tekst }); graj('wyslano'); status.textContent = 'Wysłane? Super!'; return; }
       catch (e) { if (e.name === 'AbortError') return; }
     }
     if (navigator.clipboard?.writeText) {

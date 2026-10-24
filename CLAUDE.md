@@ -2,7 +2,15 @@
 
 Zawsze po polsku. Aplikacja webowa na iPhone'a (dodana do ekranu początkowego), siostra Lingozy, Geografozy i Matmozy. Zbudowana na wzór Geografozy (ten sam silnik ćwiczeń, wygląd i import lekcji).
 
-- **Adres:** https://krolikowskiwojciech-dotcom.github.io/geografoza/ (GitHub Pages z gałęzi `main`, repo publiczne).
+- **Nazwa w interfejsie: „Geografia”** (Wojtek 2026-10-24) — repo, pliki, klucze `gz.*`, id i ścieżki danych zostają „geografoza”.
+- **Adres:** https://krolikowskiwojciech-dotcom.github.io/geografoza/ (GitHub Pages z gałęzi `main`, repo publiczne)
+  oraz https://geografia.ogarnijmaterial.pl (Cloudflare Pages, ten sam push).
+- **ogarnijmaterial.pl** (`js/konto.js`): przy starcie `/api/ja` z ciasteczkiem — `julian` → działa jako profil `julek`, inna osoba →
+  komunikat „to przedmiot Julka”, 401 → przekierowanie na stronę główną. Wyniki i pełne nagrania przez pośrednika
+  `https://ogarnijmaterial.pl/api/gh/...` (`credentials: 'include'`, bez tokenu); wklejanie tokenu ukryte. Na starcie „Przedmioty”
+  (lewy górny róg) i znaczek osoby → `#konta` (prawy górny róg). Test lokalny: `?ogarnij=julian|aniela|401` (tylko 127.0.0.1/localhost,
+  nic nie wysyła).
+- **Powrót:** zawsze pigułka „Wróć” w lewym górnym rogu (`wroc()` w `js/dom.js`); w ćwiczeniu z odpowiedziami najpierw `okno()`.
 - **Dane (prywatne repo `krolikowskiwojciech-dotcom/geografoza-dane`):** `profile/<id>.json` = `{ id, proby: [...] }` (wyniki)
   oraz `nagrania/<id>.mp3` — pełne nagrania „do nauki z podręcznikiem”. Telefon pobiera je tokenem wklejonym raz w Ustawieniach.
 - **Profil:** tylko `julek` (Julek, klasa 6, geografia — „Planeta Nowa 6”, Nowa Era). Lista w `narzedzia/geografoza.mjs` (PROFILE).
@@ -57,7 +65,7 @@ Reszta jak w Lingozie:
 - Gwiazdki stonowane na kartach, kolorowe tylko w wynikach (`.gwiazdki-wynik`).
 - Żadnych `confirm()`/`alert()` — tylko `okno()`.
 - **Bez maskotki** (Wojtek 2026-10-12: grafiki dla 11–13 lat — zasada w `~/CLAUDE.md`; styl „atlas geograficzny”: tusz + akwarela, jak atlas przyrodniczy w Biologozie);
-  `maskotka()` nic nie pokazuje, bo plików `obrazy/maskotka-*.png` nie ma. Prompty na ikony działów i lekcji (ChatGPT) oraz ilustracje do ściąg (Gemini): `ILUSTRACJE.md` (źródło `narzedzia/prompty.json`).
+  maskotka usunięta z kodu (2026-10-24). Ikona na ekran telefonu: liniowy globus #1D1C22 na #C0E4F5 (`ikony/ikona-*.png`). Prompty na ikony działów i lekcji (ChatGPT) oraz ilustracje do ściąg (Gemini): `ILUSTRACJE.md` (źródło `narzedzia/prompty.json`).
   Ilustracje leżą w `obrazy/ilustracje/` (`dzial-<n>.webp`, `dz<n>-l<m>.webp`, `podsumowanie.webp`, `test.webp`; brak pliku = numer bez obrazka),
   arkusze źródłowe w `obrazy/zrodla/`. Cięcie: `narzedzia/tnij_arkusz.py` (z Biologozy; venv z Pillow, numpy, scipy w scratchpadzie), potem `cwebp -q 86 -alpha_q 100`.
 - Zmiany wizualne sprawdzaj renderem na 127.0.0.1 przed pushem.
@@ -65,7 +73,8 @@ Reszta jak w Lingozie:
 ## Kod
 
 - `zestawy/spis.json` — spis treści „Planeta Nowa 6” (działy, lekcje, strony); strona główna pokazuje działy z niego, lekcje bez zestawu jako „wkrótce”.
-- `index.html`, `styles.css`, `sw.js` (offline; pełne nagrania w osobnej pamięci `geografoza-nagrania`, której SW nie czyści).
+- `index.html`, `styles.css`, `sw.js` (pliki aplikacji od razu z pamięci i odświeżanie w tle, lekcje `zestawy/*.json` z sieci z limitem 1,5 s;
+  pełne nagrania w osobnej pamięci `geografoza-nagrania`, której SW nie czyści).
 - `js/app.js` (ekrany: lista działami, lekcja z nagraniami i ćwiczeniami, ściąga, ustawienia; odtwarzacz pamięta miejsce),
   `js/gra.js` (przebieg: wybor, pf, wpisz, kolejnosc, pary, otwarte; poprawka po błędzie, podsumowanie, „Wyślij wynik”),
   `js/sprawdz.js` (ocena odpowiedzi — wspólna z narzędziem), `js/store.js` (zapis, synchronizacja, pobieranie prywatnych nagrań),
