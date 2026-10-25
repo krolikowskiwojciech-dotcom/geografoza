@@ -6,7 +6,7 @@
 // otwarte (pytanie z podręcznika: najpierw odpowiedz w myślach, potem odsłoń i oceń się sam).
 
 import { h, okno, odm, ik, wroc, kolor, los, obrazLekcji, ilustracja } from './dom.js';
-import { ocen, wCzesci, opcjeWyboru, pokaz, poprawna, dobraOdpowiedz } from './sprawdz.js';
+import { ocen, wCzesci, opcjeWyboru, pokaz, poprawna, dobraOdpowiedz, normuj } from './sprawdz.js';
 import { graj } from './dzwieki.js';
 
 const BLOKADA_MS = 1200; // po błędzie przyciski chwilę śpią, żeby rozpędzony palec nie przeskoczył wyjaśnienia
@@ -32,6 +32,37 @@ const pokazGwiazdki = (n, klasa = '') => h('span', { class: 'gwiazdki ' + klasa,
 // przybliżona skala szkolna (procent dobrych odpowiedzi → ocena); szkoły mają podobne, nie identyczne progi
 const SKALA = [[95, 6, 'celujący'], [85, 5, 'bardzo dobry'], [70, 4, 'dobry'], [50, 3, 'dostateczny'], [30, 2, 'dopuszczający'], [0, 1, 'niedostateczny']];
 export const ocenaSzkolna = (dob, ile) => { const pr = ile ? (dob / ile) * 100 : 0; const [, o, n] = SKALA.find(([prog]) => pr >= prog); return { o, n, pr: Math.round(pr) }; };
+// ---------- przepisywanie po błędzie (Wojtek 2026-10-25: „dopiero wtedy może przejść dalej, bo inaczej dziecko się nie uczy”) ----------
+// co dziecko ma przepisać: poprawną odpowiedź; przy bardzo długiej (ponad 6 słów) — hasło z danych (pole „haslo”), jeśli jest.
+// Pary i kolejność: tylko to, co było źle. Pytanie otwarte (samoocena) — tylko gdy w danych jest hasło.
+const DLUGA = 6;
+const slowa = (t) => String(t ?? '').trim().split(/\s+/).filter(Boolean).length;
+function celePrzepisania(cz, odp) {
+  const krotko = (pelna) => (slowa(pelna) > DLUGA && cz.haslo ? cz.haslo : pelna);
+  switch (cz.kind) {
+    case 'wybor': case 'pf': return [{ cel: krotko(dobraOdpowiedz(cz)) }];
+    case 'wpisz': return [{ cel: krotko(cz.a), inne: cz.haslo ? [] : cz.inne }];
+    case 'pary': return cz.pary.filter(([l, p]) => odp?.[l] !== p).map(([l, p]) => ({ etykieta: `${l} —`, cel: p }));
+    case 'kolejnosc': return cz.elementy.map((x, i) => ({ etykieta: `${i + 1}.`, cel: x })).filter((c, i) => odp?.[i] !== c.cel);
+    case 'otwarte': return cz.haslo ? [{ cel: cz.haslo }] : [];
+    default: return [];
+  }
+}
+// wielkość liter, spacje i końcowa interpunkcja obojętne; polskie znaki wymagane (bezOgonkow = tylko do podpowiedzi)
+const scisle = (t, bezOgonkow) => {
+  const n = normuj(t).replace(/\s+/g, '');
+  return bezOgonkow ? n.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l') : n;
+};
+const zgodne = (wpis, c, bezOgonkow = false) => !!scisle(wpis) && [c.cel, ...(c.inne || [])].some((x) => scisle(x, bezOgonkow) === scisle(wpis, bezOgonkow));
+// wyjaśnienie: przy wyborze tylko zdanie o tej odpowiedzi, którą dziecko zaznaczyło („X to coś innego: …”), jeśli takie jest
+function wyjasnienie(cz, odp) {
+  const exp = cz.exp || [];
+  if (cz.kind === 'wybor') {
+    const o = exp.filter((l) => normuj(l).startsWith(normuj(odp) + ' to coś innego'));
+    if (o.length) return o;
+  }
+  return exp;
+}
 const POCHWALY = ['Dobrze!', 'Super!', 'Brawo!', 'Tak jest!', 'Świetnie!', 'Pięknie!'];
 
 /**
@@ -83,12 +114,6 @@ export function uruchom(el, opcje) {
     el.querySelector('.cw-pole').scrollTop = 0;
   }
   const stopkaEl = () => el.querySelector('.stopka') || el.appendChild(h('div', { class: 'stopka' }));
-
-  async function przerwij() {
-    const w = await okno({ tytul: 'Przerwać ćwiczenie?', tresc: 'Wynik zapisze się jako przerwany. Możesz go i tak wysłać.',
-      przyciski: [{ tekst: 'Ćwiczę dalej', wartosc: false, klasa: 'jasny' }, { tekst: 'Przerwij', wartosc: true, klasa: 'czerwony' }] });
-    if (w) podsumowanie(true);
-  }
 
   // „Wróć” w lewym górnym rogu: bez odpowiedzi od razu do lekcji; z odpowiedziami najpierw pytanie (ćwiczenie się przerwie,
   // a zrobione pytania zapiszą się jako wynik przerwany — tak jak po „Przerwij”)
@@ -318,6 +343,9 @@ export function uruchom(el, opcje) {
     timer = setTimeout(nastepne, uwaga ? 2200 : 800);
   }
 
+  // zła odpowiedź („wersja C”, Wojtek 2026-10-25): poprawka w samej karcie zadania — przekreślona odpowiedź dziecka,
+  // duża poprawna, wyjaśnienie w żółtym polu i pole „Przepisz poprawnie:”; na dole tylko „Dalej”, zablokowany,
+  // dopóki dziecko nie przepisze poprawnej odpowiedzi (wynik liczy się z pierwszego podejścia, jak dotąd)
   function zle(cz, odp) {
     seria = 0;
     graj(cz.kind === 'otwarte' ? 'jeszcze-nie' : 'zle');
@@ -326,39 +354,74 @@ export function uruchom(el, opcje) {
     const kolejka = B().kolejka;
     kolejka.splice(Math.min(kolejka.length, poz + 1 + los.int(2, 4)), 0, { z, powtorka: true });
 
-    el.querySelector('.zadanie-karta').classList.add('zle');
+    const karta = el.querySelector('.zadanie-karta');
+    karta.classList.add('zle');
     info().replaceChildren();
-    const pole = el.querySelector('.cw-pole');
     const otwarte = cz.kind === 'otwarte';
-    if (!otwarte) {
-      const naPrzyciskach = cz.kind === 'wybor' || cz.kind === 'pf'; // zła i dobra odpowiedź są już zaznaczone na przyciskach
-      pole.append(h('section', { class: 'poprawka' },
-        naPrzyciskach || cz.kind === 'pary' || cz.kind === 'kolejnosc' ? null : h('p', { class: 'twoja' }, 'Twoja odpowiedź: ', h('s', {}, pokaz(cz, odp))),
-        naPrzyciskach ? null : h('div', { class: 'ramka-poprawna' },
-          h('div', { class: 'kat-etykieta' }, 'Poprawna odpowiedź'),
-          cz.kind === 'pary' ? h('ul', { class: 'lista-par' }, cz.pary.map(([l, p]) => h('li', {}, h('b', {}, l), ' — ', p)))
-            : cz.kind === 'kolejnosc' ? h('ol', { class: 'lista-par' }, cz.elementy.map((x) => h('li', {}, x)))
-              : h('div', { class: 'rownanie' }, cz.kind === 'wpisz' && cz.e?.includes('___') ? zLuka(cz.e, cz.a) : poprawna(cz))),
-        cz.exp?.length ? [h('div', { class: 'sekcja' }, 'Wyjaśnienie'), h('ul', { class: 'kroki' }, cz.exp.map((l) => h('li', {}, l)))] : null,
-        cz.zrodlo ? h('p', { class: 'zrodlo' }, ik('ksiazka'), 'Zajrzyj do książki: ', cz.zrodlo) : null,
-        h('p', { class: 'wraca' }, ik('powtorz'), ' To zadanie wróci jeszcze raz w tym bloku.')));
-    }
-    let zablokowaneDalej = true;
-    const dalejBtn = h('button', { class: 'btn czerwony', type: 'button', disabled: true, onclick: () => { if (!zablokowaneDalej) nastepne(); } }, 'Przeczytaj…');
-    const przerwijBtn = h('button', { class: 'btn kreska', type: 'button', disabled: true, onclick: przerwij }, 'Przerwij');
+    // przy wyborze odpowiedź jest już w karcie — przyciski z opcjami tylko by ją spychały w dół
+    if (cz.kind === 'wybor' || cz.kind === 'pf') el.querySelector('.cw-pole > .opcje')?.remove();
+
+    const cele = celePrzepisania(cz, odp);
+    const wskazowka = h('p', { class: 'przepisz-info', 'aria-live': 'polite' });
+    const pola = cele.map((c) => h('input', { class: 'przepisz-pole', type: 'text', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'false',
+      enterkeyhint: 'done', 'aria-label': c.etykieta ? `Przepisz: ${c.etykieta}` : 'Przepisz poprawną odpowiedź',
+      oninput: () => odswiez(), onkeydown: (e) => { if (e.key === 'Enter' && !e.repeat) { e.preventDefault(); enter(); } } }));
+    const pasuje = (i) => zgodne(pola[i].value, cele[i]);
+    let blokada = true;
+    const gotowe = () => pola.every((_, i) => pasuje(i));
+
+    const exp = wyjasnienie(cz, odp);
+    const poprawka = h('section', { class: 'poprawka-c' }, ...[
+      otwarte ? null : h('p', { class: 'twoja-c' }, 'Twoja odpowiedź: ', h('s', {}, pokaz(cz, odp))),
+      otwarte ? null : h('div', { class: 'poprawna-c' + (cz.kind === 'pary' || cz.kind === 'kolejnosc' ? ' lista' : '') },
+        h('span', { class: 'poprawna-znak', 'aria-hidden': 'true' }, ik('ptaszek')),
+        cz.kind === 'pary' ? h('ul', { class: 'lista-par' }, cz.pary.map(([l, p]) => h('li', {}, h('b', {}, l), ' — ', p)))
+          : cz.kind === 'kolejnosc' ? h('ol', { class: 'lista-par' }, cz.elementy.map((x) => h('li', {}, x)))
+            : h('span', { class: 'poprawna-txt' }, poprawna(cz))),
+      // przy pytaniu otwartym wzór ze źródłem jest już wyżej w karcie
+      !otwarte && (exp.length || cz.zrodlo) ? h('div', { class: 'wyjasnienie-c' },
+        exp.map((l) => h('p', {}, l)),
+        cz.zrodlo ? h('p', { class: 'zrodlo' }, ik('ksiazka'), 'Zajrzyj do książki: ', cz.zrodlo) : null) : null,
+      pola.length ? h('div', { class: 'przepisz-c' },
+        h('div', { class: 'przepisz-etykieta' }, 'Przepisz poprawnie:'),
+        cele.map((c, i) => h('label', { class: 'przepisz-wiersz' }, c.etykieta ? h('span', { class: 'przepisz-co' }, c.etykieta) : null, pola[i])),
+        wskazowka) : null,
+      h('p', { class: 'wraca' }, ik('powtorz'), ' To zadanie wróci jeszcze raz w tym bloku.')].filter(Boolean));
+    if (otwarte) karta.querySelector('.odp-miejsce').append(poprawka);
+    else karta.querySelector('.odp-miejsce').replaceChildren(poprawka);
+
+    const dalejBtn = h('button', { class: 'btn czerwony szeroki dalej-c', type: 'button', disabled: true, onclick: () => { if (!blokada && gotowe()) nastepne(); } });
     const stopka = stopkaEl();
     stopka.className = 'stopka zle';
-    stopka.replaceChildren(
-      h('div', { class: 'stopka-info' },
-        h('div', {}, h('div', { class: 'stopka-tytul' }, otwarte ? 'Przeczytaj odpowiedź jeszcze raz. To pytanie wróci.' : 'Prawie! Zobacz, jak jest naprawdę.'))),
-      h('div', { class: 'przyciski' }, przerwijBtn, dalejBtn));
-    requestAnimationFrame(() => pole.querySelector('.poprawka')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
+    stopka.replaceChildren(dalejBtn);
+
+    function odswiez() {
+      pola.forEach((p, i) => { p.classList.toggle('ok', pasuje(i)); });
+      if (wskazowka.textContent && pola.every((p, i) => pasuje(i) || !p.value.trim())) wskazowka.textContent = '';
+      const mozna = !blokada && gotowe();
+      dalejBtn.disabled = !mozna;
+      dalejBtn.classList.toggle('gotowy', gotowe());
+      dalejBtn.replaceChildren(...(gotowe() || !pola.length ? [blokada ? 'Przeczytaj…' : 'Dalej', ik('dalej')] : ['Przepisz, żeby przejść dalej']));
+    }
+    function enter() {
+      const i = pola.findIndex((_, k) => !pasuje(k));
+      if (i < 0) { if (!blokada) nastepne(); return; }
+      const p = pola[i];
+      if (!p.value.trim() || document.activeElement !== p) { p.focus(); if (!p.value.trim()) return; }
+      wskazowka.textContent = zgodne(p.value, cele[i], true) ? 'Prawie — uważaj na polskie litery.' : `Przepisz dokładnie: ${cele[i].cel}`;
+      graj('podpowiedz');
+    }
+    odswiez();
+    requestAnimationFrame(() => (pola[0] || poprawka).scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
+    if (pola.length) setTimeout(() => pola[0].focus({ preventScroll: true }), 350);
     timer = setTimeout(() => {
-      zablokowaneDalej = false;
-      dalejBtn.disabled = false; przerwijBtn.disabled = false;
-      dalejBtn.replaceChildren('Dalej', ik('dalej'));
-      dalejBtn.focus({ preventScroll: true });
-      ustawKlawisze((e) => { if ((e.key === 'Enter' || e.key === ' ') && !e.repeat) { e.preventDefault(); nastepne(); } });
+      blokada = false;
+      odswiez();
+      if (!pola.length) dalejBtn.focus({ preventScroll: true });
+      ustawKlawisze((e) => {
+        if (e.key !== 'Enter' || e.repeat || e.target?.classList?.contains('przepisz-pole')) return;
+        e.preventDefault(); enter();
+      });
     }, otwarte ? 400 : BLOKADA_MS);
     ustawKlawisze(null);
   }
